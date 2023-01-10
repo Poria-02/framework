@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cn-product-biz" />
+        <module name="cn-register" />
+        <module name="cn-common-core" />
+        <module name="cn-common-log" />
+        <module name="cn-common-feign" />
+        <module name="cn-product-api" />
+        <module name="cn-product" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cn-common" target="1.8" />
+      <module name="cn-common-bom" target="1.8" />
+      <module name="cn-common-core" target="1.8" />
+      <module name="cn-common-feign" target="1.8" />
+      <module name="cn-common-log" target="1.8" />
+      <module name="cn-product" target="1.5" />
+      <module name="cn-product-api" target="1.5" />
+      <module name="cn-product-biz" target="1.8" />
+      <module name="cn-property" target="1.8" />
+      <module name="cn-register" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cn-product-biz" options="-parameters" />
+    </option>
+  </component>
+</project>

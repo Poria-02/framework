@@ -6,15 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="cn-common-log" />
+        <module name="cn-common-feign" />
+        <module name="cn-register" />
+        <module name="cn-common-core" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="cn-common" target="1.8" />
-      <module name="cn-common-bom" target="1.8" />
-      <module name="cn-common-feign" target="1.8" />
-      <module name="cn-common-log" target="1.8" />
-      <module name="cn-property" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
