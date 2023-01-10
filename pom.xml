@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <artifactId>Property</artifactId>
+        <groupId>cn.fuling</groupId>
+        <version>Property.V1.0</version>
+    </parent>
+
+    <groupId>cn.fuling</groupId>
+    <artifactId>cn-product</artifactId>
+    <version>Property.V1.0</version>
+    <name>cn-product</name>
+    <packaging>pom</packaging>
+    <description>商品</description>
+
+
+
+    <modules>
+        <module>cn-product-api</module>
+<!--        <module>cn-product-biz</module>-->
+    </modules>
+
+
+</project>
