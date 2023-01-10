@@ -1,4 +1,4 @@
-package cn.fuling.cn.product.biz;
+package cn.fuling.cnproductbiz;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

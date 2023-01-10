@@ -1,4 +1,4 @@
-package cn.fuling.cn.product.biz;
+package cn.fuling.cnproductbiz;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
