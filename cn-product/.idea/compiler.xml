@@ -6,21 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="cn-common-log" />
-        <module name="cn-common-feign" />
-        <module name="cn-register" />
-        <module name="cn-common-core" />
+        <module name="cn-product-biz" />
+        <module name="cn-product-api" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="demo" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="cn-common-bom" options="-parameters" />
-      <module name="cn-register" options="" />
-      <module name="demo" options="-parameters" />
+      <module name="cn-product-biz" options="" />
     </option>
   </component>
 </project>

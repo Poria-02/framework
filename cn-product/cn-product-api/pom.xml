@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
         <parent>
-            <artifactId>cn-product</artifactId>
+            <artifactId>property</artifactId>
             <groupId>cn.fuling</groupId>
             <version>Property.V1.0</version>
         </parent>
