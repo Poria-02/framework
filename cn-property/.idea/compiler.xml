@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cn-common" target="1.8" />
+      <module name="cn-common-bom" target="1.8" />
+      <module name="cn-common-feign" target="1.8" />
+      <module name="cn-common-log" target="1.8" />
+      <module name="cn-property" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cn-common-bom" options="-parameters" />
+      <module name="cn-register" options="" />
+    </option>
+  </component>
+</project>
