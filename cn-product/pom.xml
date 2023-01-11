@@ -8,12 +8,12 @@
         <version>Property.V1.0</version>
     </parent>
 
-    <groupId>cn.shanxincd</groupId>
-    <artifactId>ih-product</artifactId>
-    <version>Ihospital.V1.0</version>
-    <name>ih-product</name>
+    <groupId>cn.fuling</groupId>
+    <artifactId>cn-product</artifactId>
+    <version>Property.V1.0</version>
+    <name>cn-product</name>
     <packaging>pom</packaging>
-    <description>Demo project for Spring Boot</description>
+    <description>商品</description>
 
     <modules>
         <module>cn-product-api</module>
