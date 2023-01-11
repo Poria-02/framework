@@ -1,0 +1,24 @@
+server:
+  port: 8011
+
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  application:
+    name: @artifactId@
+  cloud:
+    nacos:
+      discovery:
+        server-addr: ${NACOS-HOST:cn-register}:${NACOS-PORT:8848}
+      config:
+        server-addr: ${spring.cloud.nacos.discovery.server-addr}
+        file-extension: yml
+        shared-configs:
+          - application-${spring.profiles.active}.${spring.cloud.nacos.config.file-extension}
+  profiles:
+    active: @profiles.active@
+
+
+logging:
+  level:
+    cn.shanxincd.ih.product.dao: debug
