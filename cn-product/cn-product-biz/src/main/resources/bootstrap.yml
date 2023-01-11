@@ -21,4 +21,4 @@ spring:
 
 logging:
   level:
-    cn.shanxincd.ih.product.dao: debug
+    cn.fuling.cn.product.dao: debug
