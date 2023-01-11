@@ -15,7 +15,7 @@
 bin/
 
 ### IntelliJ IDEA ###
-../demo/.idea
+.idea
 *.iws
 *.iml
 *.ipr
@@ -38,7 +38,7 @@ target/
 *.tar.gz
 
 ### logs ####
-/logs/logs/
+/logs/
 *.log
 
 ### temp ignore ###
