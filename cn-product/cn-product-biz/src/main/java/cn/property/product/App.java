@@ -1,4 +1,4 @@
-package cn.fuling.cnproductbiz;
+package cn.property.product;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.SpringApplication;
@@ -13,11 +13,11 @@ import java.net.UnknownHostException;
 //@EnableIhFeignClients
 //@EnableIhResourceServer
 @SpringCloudApplication
-public class FlProductApplication {
+public class App {
 
     public static void main(String[] args) throws UnknownHostException {
 
-        SpringApplication app = new SpringApplication(FlProductApplication.class);
+        SpringApplication app = new SpringApplication(App.class);
         Environment env = app.run(args).getEnvironment();
         log.info(
                 "\n----------------------------------------------------------\n\t"
