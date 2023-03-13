@@ -1,7 +1,7 @@
 package org.springframework.cloud.openfeign;
 
 
-import cn.fuling.cn.common.feign.FLFeignAutoConfiguration;
+import cn.common.feign.FLFeignAutoConfiguration;
 import lombok.Getter;
 import org.springframework.beans.factory.BeanClassLoaderAware;
 import org.springframework.beans.factory.config.BeanDefinitionHolder;
