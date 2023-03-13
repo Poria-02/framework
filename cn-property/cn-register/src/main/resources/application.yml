@@ -6,9 +6,9 @@ server:
 db:
   num: 1
   user: ${MYSQL_USER:root}
-  password: ${MYSQL_PWD:fuling}
+  password: ${MYSQL_PWD:tianwanggaidihu}
   url:
-    0: jdbc:mysql://${MYSQL_HOST:123.60.222.104}:${MYSQL_PORT:3307}/${MYSQL_DB:nacos_config}?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=GMT%2B8&nullCatalogMeansCurrent=true&allowPublicKeyRetrieval=true
+    0: jdbc:mysql://${MYSQL_HOST:192.168.2.36}:${MYSQL_PORT:6033}/${MYSQL_DB:nacos_config}?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=GMT%2B8&nullCatalogMeansCurrent=true&allowPublicKeyRetrieval=true
 
 nacos:
   core:
