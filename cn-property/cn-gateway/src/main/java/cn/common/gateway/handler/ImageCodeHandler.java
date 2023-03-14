@@ -1,7 +1,7 @@
 package cn.common.gateway.handler;
 
-import cn.shanxincd.ih.common.core.constant.CacheConstants;
-import cn.shanxincd.ih.common.core.constant.SecurityConstants;
+import cn.common.core.constant.CacheConstants;
+import cn.common.core.constant.SecurityConstants;
 import com.wf.captcha.ArithmeticCaptcha;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

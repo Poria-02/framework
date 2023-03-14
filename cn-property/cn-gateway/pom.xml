@@ -25,12 +25,12 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-redis-reactive</artifactId>
 		</dependency>
-		<!--动态路由组件-->
-		<!--		<dependency>-->
-		<!--			<groupId>cn.fuling</groupId>-->
-		<!--			<artifactId>cn-common-gateway</artifactId>-->
-		<!--		</dependency>-->
-		<!--注册中心客户端-->
+		<!--		动态路由组件-->
+		<dependency>
+			<groupId>cn.fuling</groupId>
+			<artifactId>cn-common-gateway</artifactId>
+		</dependency>
+		<!--		注册中心客户端-->
 		<dependency>
 			<groupId>com.alibaba.cloud</groupId>
 			<artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>

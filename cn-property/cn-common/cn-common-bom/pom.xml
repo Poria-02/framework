@@ -45,6 +45,13 @@
 				<version>${property.version}}</version>
 			</dependency>
 			<dependency>
+				<groupId>cn.fuling</groupId>
+				<artifactId>cn-common-gateway</artifactId>
+				<version>${property.version}</version>
+			</dependency>
+
+
+			<dependency>
 				<groupId>com.baomidou</groupId>
 				<artifactId>mybatis-plus-extension</artifactId>
 				<version>${mybatis-plus.version}</version>
@@ -68,11 +75,6 @@
 				<groupId>com.alibaba</groupId>
 				<artifactId>druid-spring-boot-starter</artifactId>
 				<version>${druid.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>cn.fuling</groupId>
-				<artifactId>cn-gateway</artifactId>
-				<version>${property.version}}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.alibaba</groupId>
