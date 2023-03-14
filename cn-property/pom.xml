@@ -38,6 +38,17 @@
 		<transmittable-thread-local.version>2.14.2</transmittable-thread-local.version>
 	</properties>
 
+
+	<modules>
+		<module>cn-auth</module>
+		<module>cn-gateway</module>
+		<module>cn-visual</module>
+		<module>cn-modules</module>
+		<module>cn-api</module>
+		<module>cn-common</module>
+		<module>cn-register</module>
+	</modules>
+
 	<!-- 依赖声明 -->
 	<dependencyManagement>
 		<dependencies>
@@ -210,14 +221,7 @@
 		</dependencies>
 	</dependencyManagement>
 
-	<modules>
-		<module>cn-auth</module>
-		<module>cn-gateway</module>
-		<module>cn-visual</module>
-		<module>cn-modules</module>
-		<module>cn-api</module>
-		<module>cn-common</module>
-	</modules>
+
 
 
 	<dependencies>
