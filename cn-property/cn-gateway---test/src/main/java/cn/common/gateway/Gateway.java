@@ -1,14 +1,14 @@
 package cn.common.gateway;
 
 //工具包配置缺少
-//import cn.common.gateway.annotation.EnableIhDynamicRoute;
+import cn.common.gateway.annotation.EnableIhDynamicRoute;
 import org.springframework.boot.SpringApplication;
 import org.springframework.cloud.client.SpringCloudApplication;
 
 /**
  * 网关应用
  */
-//@EnableIhDynamicRoute
+@EnableIhDynamicRoute
 @SpringCloudApplication
 public class Gateway {
 
