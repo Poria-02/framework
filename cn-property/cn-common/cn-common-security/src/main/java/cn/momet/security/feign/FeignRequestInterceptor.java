@@ -2,11 +2,12 @@ package cn.momet.security.feign;
 
 import java.util.Map;
 import javax.servlet.http.HttpServletRequest;
+
+import cn.momet.core.constant.SecurityConstants;
+import cn.momet.core.utils.ServletUtils;
+import cn.momet.core.utils.StringUtils;
+import cn.momet.core.utils.ip.IpUtils;
 import org.springframework.stereotype.Component;
-import com.ruoyi.common.core.constant.SecurityConstants;
-import com.ruoyi.common.core.utils.ServletUtils;
-import com.ruoyi.common.core.utils.StringUtils;
-import com.ruoyi.common.core.utils.ip.IpUtils;
 import feign.RequestInterceptor;
 import feign.RequestTemplate;
 
