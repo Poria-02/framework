@@ -3,7 +3,7 @@
 * Copyright (c) 2021 ruoyi
 */
 
-import Clipboard from 'clipboard'
+import Clipboard from 'ruoyi-ui/src/directive/module/clipboard'
 export default {
   bind(el, binding, vnode) {
     switch (binding.arg) {

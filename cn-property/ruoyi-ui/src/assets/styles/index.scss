@@ -1,9 +1,9 @@
-@import './variables.scss';
-@import './mixin.scss';
-@import './transition.scss';
-@import './element-ui.scss';
-@import './sidebar.scss';
-@import './btn.scss';
+@import 'src/assets/styles/variables';
+@import 'src/assets/styles/mixin';
+@import 'src/assets/styles/transition';
+@import 'src/assets/styles/element-ui';
+@import 'src/assets/styles/sidebar';
+@import 'src/assets/styles/btn';
 
 body {
   height: 100%;
