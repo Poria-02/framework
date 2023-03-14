@@ -101,11 +101,11 @@
 				<scope>import</scope>
 			</dependency>
 
-			<dependency>
-				<groupId>com.github.core-lib</groupId>
-				<artifactId>xjar</artifactId>
-				<version>${xjar.version}</version>
-			</dependency>
+<!--			<dependency>-->
+<!--				<groupId>com.github.core-lib</groupId>-->
+<!--				<artifactId>xjar</artifactId>-->
+<!--				<version>${xjar.version}</version>-->
+<!--			</dependency>-->
 			<dependency>
 				<groupId>com.alibaba.cloud</groupId>
 				<artifactId>spring-cloud-alibaba-dependencies</artifactId>

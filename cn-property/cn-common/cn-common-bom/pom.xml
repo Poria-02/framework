@@ -42,7 +42,7 @@
 			<dependency>
 				<groupId>cn.fuling</groupId>
 				<artifactId>cn-common-feign</artifactId>
-				<version>${property.version}}</version>
+				<version>${property.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>cn.fuling</groupId>
@@ -61,11 +61,11 @@
 				<artifactId>mybatis-plus-boot-starter</artifactId>
 				<version>${mybatis-plus.version}</version>
 			</dependency>
-			<dependency>
-				<groupId>com.baomidou</groupId>
-				<artifactId>dynamic-datasource-spring-boot-starter</artifactId>
-				<version>${dynamic-ds.version}</version>
-			</dependency>
+<!--			<dependency>-->
+<!--				<groupId>com.baomidou</groupId>-->
+<!--				<artifactId>dynamic-datasource-spring-boot-starter</artifactId>-->
+<!--				<version>${dynamic-ds.version}</version>-->
+<!--			</dependency>-->
 			<dependency>
 				<groupId>mysql</groupId>
 				<artifactId>mysql-connector-java</artifactId>
@@ -81,32 +81,32 @@
 				<artifactId>fastjson</artifactId>
 				<version>${fastjson.version}</version>
 			</dependency>
-			<dependency>
-				<groupId>com.github.binarywang</groupId>
-				<artifactId>weixin-java-mp</artifactId>
-				<version>${mp.weixin.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>com.github.binarywang</groupId>
-				<artifactId>weixin-java-common</artifactId>
-				<version>${mp.weixin.version}</version>
-			</dependency>
-			<!--支付相关SDK-->
-			<dependency>
-				<groupId>com.github.javen205</groupId>
-				<artifactId>IJPay-WxPay</artifactId>
-				<version>${ijpay.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>com.github.javen205</groupId>
-				<artifactId>IJPay-AliPay</artifactId>
-				<version>${ijpay.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>com.alipay.sdk</groupId>
-				<artifactId>alipay-sdk-java</artifactId>
-				<version>${aliyun.version}</version>
-			</dependency>
+<!--			<dependency>-->
+<!--				<groupId>com.github.binarywang</groupId>-->
+<!--				<artifactId>weixin-java-mp</artifactId>-->
+<!--				<version>${mp.weixin.version}</version>-->
+<!--			</dependency>-->
+<!--			<dependency>-->
+<!--				<groupId>com.github.binarywang</groupId>-->
+<!--				<artifactId>weixin-java-common</artifactId>-->
+<!--				<version>${mp.weixin.version}</version>-->
+<!--			</dependency>-->
+<!--			&lt;!&ndash;支付相关SDK&ndash;&gt;-->
+<!--			<dependency>-->
+<!--				<groupId>com.github.javen205</groupId>-->
+<!--				<artifactId>IJPay-WxPay</artifactId>-->
+<!--				<version>${ijpay.version}</version>-->
+<!--			</dependency>-->
+<!--			<dependency>-->
+<!--				<groupId>com.github.javen205</groupId>-->
+<!--				<artifactId>IJPay-AliPay</artifactId>-->
+<!--				<version>${ijpay.version}</version>-->
+<!--			</dependency>-->
+<!--			<dependency>-->
+<!--				<groupId>com.alipay.sdk</groupId>-->
+<!--				<artifactId>alipay-sdk-java</artifactId>-->
+<!--				<version>${aliyun.version}</version>-->
+<!--			</dependency>-->
 			<dependency>
 				<groupId>io.swagger</groupId>
 				<artifactId>swagger-models</artifactId>
