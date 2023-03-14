@@ -58,25 +58,27 @@
         
         <!-- RuoYi Common DataSource -->
         <dependency>
-            <groupId>com.ruoyi</groupId>
+            <groupId>cn.momet</groupId>
             <artifactId>ruoyi-common-datasource</artifactId>
-        </dependency>
+			<version>Momet.V1.0</version>
+		</dependency>
         
         <!-- RuoYi Common DataScope -->
         <dependency>
-            <groupId>com.ruoyi</groupId>
+            <groupId>cn.momet</groupId>
             <artifactId>ruoyi-common-datascope</artifactId>
+			<version>Momet.V1.0</version>
         </dependency>
         
         <!-- RuoYi Common Log -->
         <dependency>
-            <groupId>com.ruoyi</groupId>
+            <groupId>cn.momet</groupId>
             <artifactId>ruoyi-common-log</artifactId>
         </dependency>
         
         <!-- RuoYi Common Swagger -->
         <dependency>
-            <groupId>com.ruoyi</groupId>
+            <groupId>cn.momet</groupId>
             <artifactId>ruoyi-common-swagger</artifactId>
         </dependency>
 

@@ -36,6 +36,7 @@
 		<minio.version>8.2.2</minio.version>
 		<poi.version>4.1.2</poi.version>
 		<transmittable-thread-local.version>2.14.2</transmittable-thread-local.version>
+		<mybatis-plus.version>3.5.0</mybatis-plus.version>
 	</properties>
 
 
@@ -157,65 +158,58 @@
 
 			<!-- 核心模块 -->
 			<dependency>
-				<groupId>com.ruoyi</groupId>
+				<groupId>cn.momet</groupId>
 				<artifactId>ruoyi-common-core</artifactId>
-				<version>${ruoyi.version}</version>
+				<version>Momet.V1.0</version>
 			</dependency>
 
 			<!-- 接口模块 -->
 			<dependency>
-				<groupId>com.ruoyi</groupId>
+				<groupId>cn.momet</groupId>
 				<artifactId>ruoyi-common-swagger</artifactId>
-				<version>${ruoyi.version}</version>
+				<version>Momet.V1.0</version>
 			</dependency>
 
 			<!-- 安全模块 -->
 			<dependency>
-				<groupId>com.ruoyi</groupId>
+				<groupId>cn.momet</groupId>
 				<artifactId>ruoyi-common-security</artifactId>
-				<version>${ruoyi.version}</version>
-			</dependency>
-
-			<!-- 权限范围 -->
-			<dependency>
-				<groupId>com.ruoyi</groupId>
-				<artifactId>ruoyi-common-datascope</artifactId>
-				<version>${ruoyi.version}</version>
-			</dependency>
-
-			<!-- 多数据源 -->
-			<dependency>
-				<groupId>com.ruoyi</groupId>
-				<artifactId>ruoyi-common-datasource</artifactId>
-				<version>${ruoyi.version}</version>
+				<version>Momet.V1.0</version>
 			</dependency>
 
 			<!-- 分布式事务 -->
 			<dependency>
-				<groupId>com.ruoyi</groupId>
+				<groupId>cn.momet</groupId>
 				<artifactId>ruoyi-common-seata</artifactId>
-				<version>${ruoyi.version}</version>
+				<version>Momet.V1.0</version>
 			</dependency>
 
 			<!-- 日志记录 -->
 			<dependency>
-				<groupId>com.ruoyi</groupId>
+				<groupId>cn.momet</groupId>
 				<artifactId>ruoyi-common-log</artifactId>
-				<version>${ruoyi.version}</version>
+				<version>Momet.V1.0</version>
 			</dependency>
 
 			<!-- 缓存服务 -->
 			<dependency>
-				<groupId>com.ruoyi</groupId>
+				<groupId>cn.momet</groupId>
 				<artifactId>ruoyi-common-redis</artifactId>
-				<version>${ruoyi.version}</version>
+				<version>Momet.V1.0</version>
 			</dependency>
 
 			<!-- 系统接口 -->
 			<dependency>
-				<groupId>com.ruoyi</groupId>
+				<groupId>cn.momet</groupId>
 				<artifactId>ruoyi-api-system</artifactId>
-				<version>${ruoyi.version}</version>
+				<version>Momet.V1.0</version>
+			</dependency>
+
+			<!--mybatisplus-->
+			<dependency>
+				<groupId>com.baomidou</groupId>
+				<artifactId>mybatis-plus-boot-starter</artifactId>
+				<version>${mybatis-plus.version}</version>
 			</dependency>
 
 		</dependencies>

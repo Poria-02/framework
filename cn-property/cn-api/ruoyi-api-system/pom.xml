@@ -20,7 +20,7 @@
 
 		<!-- RuoYi Common Core-->
 		<dependency>
-			<groupId>com.ruoyi</groupId>
+			<groupId>cn.momet</groupId>
 			<artifactId>ruoyi-common-core</artifactId>
 		</dependency>
 

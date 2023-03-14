@@ -63,13 +63,13 @@
         
         <!-- RuoYi Common Log -->
         <dependency>
-            <groupId>com.ruoyi</groupId>
+            <groupId>cn.momet</groupId>
             <artifactId>ruoyi-common-log</artifactId>
         </dependency>
         
         <!-- RuoYi Common Swagger -->
         <dependency>
-            <groupId>com.ruoyi</groupId>
+            <groupId>cn.momet</groupId>
             <artifactId>ruoyi-common-swagger</artifactId>
         </dependency>
 
