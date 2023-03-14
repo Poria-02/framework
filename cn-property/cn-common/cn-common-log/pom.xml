@@ -15,7 +15,6 @@
         <dependency>
 			<groupId>cn.fuling</groupId>
 			<artifactId>cn-common-core</artifactId>
-			<version>Property.V1.0</version>
         </dependency>
 <!--        <dependency>-->
 <!--            <groupId>cn.shanxincd</groupId>-->
