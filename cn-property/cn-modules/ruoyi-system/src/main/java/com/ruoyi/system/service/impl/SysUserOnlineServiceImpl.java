@@ -1,7 +1,9 @@
 package com.ruoyi.system.service.impl;
 
 import org.springframework.stereotype.Service;
-import com.ruoyi.common.core.utils.StringUtils;
+
+import cn.momet.core.utils.StringUtils;
+
 import cn.momet.system.api.model.LoginUser;
 import com.ruoyi.system.domain.SysUserOnline;
 import com.ruoyi.system.service.ISysUserOnlineService;
