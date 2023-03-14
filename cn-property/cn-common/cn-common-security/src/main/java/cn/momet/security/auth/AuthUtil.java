@@ -2,7 +2,7 @@ package cn.momet.security.auth;
 
 import cn.momet.security.annotation.RequiresPermissions;
 import cn.momet.security.annotation.RequiresRoles;
-import com.ruoyi.system.api.model.LoginUser;
+import cn.momet.system.api.model.LoginUser;
 
 /**
  * Token 权限验证工具类

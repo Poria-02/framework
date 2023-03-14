@@ -1,7 +1,7 @@
 package com.ruoyi.system.service;
 
 import java.util.List;
-import com.ruoyi.system.api.domain.SysOperLog;
+import cn.momet.system.api.domain.SysOperLog;
 
 /**
  * 操作日志 服务层

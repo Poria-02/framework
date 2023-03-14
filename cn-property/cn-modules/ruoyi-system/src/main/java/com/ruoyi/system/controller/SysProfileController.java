@@ -20,10 +20,10 @@ import com.ruoyi.common.log.annotation.Log;
 import com.ruoyi.common.log.enums.BusinessType;
 import com.ruoyi.common.security.service.TokenService;
 import com.ruoyi.common.security.utils.SecurityUtils;
-import com.ruoyi.system.api.RemoteFileService;
-import com.ruoyi.system.api.domain.SysFile;
-import com.ruoyi.system.api.domain.SysUser;
-import com.ruoyi.system.api.model.LoginUser;
+import cn.momet.system.api.RemoteFileService;
+import cn.momet.system.api.domain.SysFile;
+import cn.momet.system.api.domain.SysUser;
+import cn.momet.system.api.model.LoginUser;
 import com.ruoyi.system.service.ISysUserService;
 
 /**

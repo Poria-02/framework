@@ -1,6 +1,13 @@
 package com.ruoyi.system.controller;
 
 import java.util.List;
+
+import cn.momet.core.constant.UserConstants;
+import cn.momet.core.utils.StringUtils;
+import cn.momet.core.web.domain.AjaxResult;
+import cn.momet.log.annotation.Log;
+import cn.momet.log.enums.BusinessType;
+import cn.momet.security.annotation.RequiresPermissions;
 import org.apache.commons.lang3.ArrayUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.annotation.Validated;
@@ -20,8 +27,11 @@ import com.ruoyi.common.log.annotation.Log;
 import com.ruoyi.common.log.enums.BusinessType;
 import com.ruoyi.common.security.annotation.RequiresPermissions;
 import com.ruoyi.common.security.utils.SecurityUtils;
-import com.ruoyi.system.api.domain.SysDept;
+import cn.momet.system.api.domain.SysDept;
 import com.ruoyi.system.service.ISysDeptService;
+
+import static cn.momet.core.web.domain.AjaxResult.error;
+import static cn.momet.core.web.domain.AjaxResult.warn;
 
 /**
  * 部门信息

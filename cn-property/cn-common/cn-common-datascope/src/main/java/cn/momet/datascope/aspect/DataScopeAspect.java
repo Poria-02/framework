@@ -13,9 +13,9 @@ import com.ruoyi.common.core.text.Convert;
 import com.ruoyi.common.core.utils.StringUtils;
 import com.ruoyi.common.core.web.domain.BaseEntity;
 import com.ruoyi.common.security.utils.SecurityUtils;
-import com.ruoyi.system.api.domain.SysRole;
-import com.ruoyi.system.api.domain.SysUser;
-import com.ruoyi.system.api.model.LoginUser;
+import cn.momet.system.api.domain.SysRole;
+import cn.momet.system.api.domain.SysUser;
+import cn.momet.system.api.model.LoginUser;
 
 /**
  * 数据过滤处理

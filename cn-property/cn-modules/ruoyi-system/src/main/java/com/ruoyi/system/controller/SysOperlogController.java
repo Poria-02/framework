@@ -18,7 +18,7 @@ import com.ruoyi.common.log.annotation.Log;
 import com.ruoyi.common.log.enums.BusinessType;
 import com.ruoyi.common.security.annotation.InnerAuth;
 import com.ruoyi.common.security.annotation.RequiresPermissions;
-import com.ruoyi.system.api.domain.SysOperLog;
+import cn.momet.system.api.domain.SysOperLog;
 import com.ruoyi.system.service.ISysOperLogService;
 
 /**

@@ -28,7 +28,7 @@ import cn.momet.log.annotation.Log;
 import cn.momet.log.enums.BusinessStatus;
 import cn.momet.log.service.AsyncLogService;
 import com.ruoyi.common.security.utils.SecurityUtils;
-import com.ruoyi.system.api.domain.SysOperLog;
+import cn.momet.system.api.domain.SysOperLog;
 
 /**
  * 操作日志记录处理

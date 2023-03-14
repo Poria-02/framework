@@ -20,7 +20,7 @@ import com.ruoyi.common.log.annotation.Log;
 import com.ruoyi.common.log.enums.BusinessType;
 import com.ruoyi.common.security.annotation.RequiresPermissions;
 import com.ruoyi.common.security.utils.SecurityUtils;
-import com.ruoyi.system.api.domain.SysDictType;
+import cn.momet.system.api.domain.SysDictType;
 import com.ruoyi.system.service.ISysDictTypeService;
 
 /**

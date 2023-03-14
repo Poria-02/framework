@@ -16,7 +16,7 @@ import com.ruoyi.common.core.utils.StringUtils;
 import com.ruoyi.common.core.utils.ip.IpUtils;
 import com.ruoyi.common.core.utils.uuid.IdUtils;
 import com.ruoyi.common.redis.service.RedisService;
-import com.ruoyi.system.api.model.LoginUser;
+import cn.momet.system.api.model.LoginUser;
 
 /**
  * token验证处理

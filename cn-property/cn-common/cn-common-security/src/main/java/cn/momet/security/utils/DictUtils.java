@@ -7,7 +7,7 @@ import com.ruoyi.common.core.constant.CacheConstants;
 import com.ruoyi.common.core.utils.SpringUtils;
 import com.ruoyi.common.core.utils.StringUtils;
 import com.ruoyi.common.redis.service.RedisService;
-import com.ruoyi.system.api.domain.SysDictData;
+import cn.momet.system.api.domain.SysDictData;
 
 /**
  * 字典工具类

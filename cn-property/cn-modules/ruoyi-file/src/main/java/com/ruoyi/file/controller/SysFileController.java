@@ -9,7 +9,7 @@ import org.springframework.web.multipart.MultipartFile;
 import com.ruoyi.common.core.domain.R;
 import com.ruoyi.common.core.utils.file.FileUtils;
 import com.ruoyi.file.service.ISysFileService;
-import com.ruoyi.system.api.domain.SysFile;
+import cn.momet.system.api.domain.SysFile;
 
 /**
  * 文件请求处理

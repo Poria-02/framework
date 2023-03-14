@@ -17,7 +17,7 @@ import cn.momet.security.annotation.Logical;
 import cn.momet.security.annotation.RequiresLogin;
 import cn.momet.security.annotation.RequiresPermissions;
 import cn.momet.security.annotation.RequiresRoles;
-import com.ruoyi.system.api.model.LoginUser;
+import cn.momet.system.api.model.LoginUser;
 
 /**
  * Token 权限验证，逻辑实现类
