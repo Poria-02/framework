@@ -1,12 +1,13 @@
 package com.ruoyi.file.service;
 
+import cn.momet.core.utils.file.FileTypeUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 import com.github.tobato.fastdfs.domain.fdfs.StorePath;
 import com.github.tobato.fastdfs.service.FastFileStorageClient;
-import com.ruoyi.common.core.utils.file.FileTypeUtils;
+
 
 /**
  * FastDFS 文件存储

@@ -4,16 +4,18 @@ import java.io.File;
 import java.io.IOException;
 import java.nio.file.Paths;
 import java.util.Objects;
+
+import cn.momet.core.exception.file.FileNameLengthLimitExceededException;
+import cn.momet.core.exception.file.FileSizeLimitExceededException;
+import cn.momet.core.exception.file.InvalidExtensionException;
+import cn.momet.core.utils.DateUtils;
+import cn.momet.core.utils.StringUtils;
+import cn.momet.core.utils.file.FileTypeUtils;
+import cn.momet.core.utils.file.MimeTypeUtils;
+import cn.momet.core.utils.uuid.Seq;
 import org.apache.commons.io.FilenameUtils;
 import org.springframework.web.multipart.MultipartFile;
-import com.ruoyi.common.core.exception.file.FileNameLengthLimitExceededException;
-import com.ruoyi.common.core.exception.file.FileSizeLimitExceededException;
-import com.ruoyi.common.core.exception.file.InvalidExtensionException;
-import com.ruoyi.common.core.utils.DateUtils;
-import com.ruoyi.common.core.utils.StringUtils;
-import com.ruoyi.common.core.utils.file.FileTypeUtils;
-import com.ruoyi.common.core.utils.file.MimeTypeUtils;
-import com.ruoyi.common.core.utils.uuid.Seq;
+
 
 /**
  * 文件上传工具类
@@ -66,7 +68,7 @@ public class FileUploadUtils
      */
     public static final String upload(String baseDir, MultipartFile file, String[] allowedExtension)
             throws FileSizeLimitExceededException, IOException, FileNameLengthLimitExceededException,
-            InvalidExtensionException
+			InvalidExtensionException
     {
         int fileNamelength = Objects.requireNonNull(file.getOriginalFilename()).length();
         if (fileNamelength > FileUploadUtils.DEFAULT_FILE_NAME_LENGTH)
