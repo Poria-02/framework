@@ -11,7 +11,7 @@
 
 
 	<packaging>jar</packaging>
-	<description>gatewat网关</description>
+	<description>gateway网关</description>
 	<artifactId>cn-common-gateway</artifactId>
 
 	<dependencies>

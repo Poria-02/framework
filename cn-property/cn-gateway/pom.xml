@@ -51,6 +51,11 @@
 			<groupId>cn.fuling</groupId>
 			<artifactId>cn-common-core</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>fastjson</artifactId>
+			<version>1.2.83</version>
+		</dependency>
 		<!--缓存-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
