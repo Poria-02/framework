@@ -1,2 +1,2 @@
-com.ruoyi.common.redis.configure.RedisConfig
-com.ruoyi.common.redis.service.RedisService
+cn.momet.redis.configure.RedisConfig
+cn.momet.redis.service.RedisService

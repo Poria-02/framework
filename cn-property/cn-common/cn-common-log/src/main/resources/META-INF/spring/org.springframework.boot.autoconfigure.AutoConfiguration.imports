@@ -1,2 +1,2 @@
-com.ruoyi.common.log.service.AsyncLogService
-com.ruoyi.common.log.aspect.LogAspect
+cn.momet.log.service.AsyncLogService
+cn.momet.log.aspect.LogAspect
