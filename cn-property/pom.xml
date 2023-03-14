@@ -16,9 +16,7 @@
 	<packaging>pom</packaging>
 
 	<modules>
-		<module>cn-common</module>
-		<module>cn-register</module>
-		<module>cn-gateway---test</module>
+
 	</modules>
 
 	<properties>
