@@ -1,6 +1,7 @@
 package cn.momet.system.api;
 
 import cn.momet.core.constant.ServiceNameConstants;
+import cn.momet.core.domain.R;
 import cn.momet.system.api.domain.SysFile;
 import cn.momet.system.api.factory.RemoteFileFallbackFactory;
 import org.springframework.cloud.openfeign.FeignClient;
