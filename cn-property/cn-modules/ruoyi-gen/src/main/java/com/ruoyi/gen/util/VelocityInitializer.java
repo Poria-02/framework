@@ -1,8 +1,9 @@
 package com.ruoyi.gen.util;
 
 import java.util.Properties;
+
+import cn.momet.core.constant.Constants;
 import org.apache.velocity.app.Velocity;
-import com.ruoyi.common.core.constant.Constants;
 
 /**
  * VelocityEngine工厂

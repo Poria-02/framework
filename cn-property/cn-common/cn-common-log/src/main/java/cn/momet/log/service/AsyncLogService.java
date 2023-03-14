@@ -1,9 +1,9 @@
 package cn.momet.log.service;
 
+import cn.momet.core.constant.SecurityConstants;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
-import com.ruoyi.common.core.constant.SecurityConstants;
 import cn.momet.system.api.RemoteLogService;
 import cn.momet.system.api.domain.SysOperLog;
 
