@@ -73,7 +73,7 @@
 	<modules>
 		<module>cn-common</module>
 		<module>cn-register</module>
-		<module>cn-gateway</module>
+		<module>cn-gateway---test</module>
 	</modules>
 	<!--子模块在用以下jar包不用输入版本-->
 	<dependencyManagement>
