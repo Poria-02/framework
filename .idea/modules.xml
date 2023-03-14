@@ -6,7 +6,9 @@
       <module fileurl="file://$PROJECT_DIR$/cn-property/cn-common/cn-common-bom/cn-common-bom.iml" filepath="$PROJECT_DIR$/cn-property/cn-common/cn-common-bom/cn-common-bom.iml" />
       <module fileurl="file://$PROJECT_DIR$/cn-property/cn-common/cn-common-core/cn-common-core.iml" filepath="$PROJECT_DIR$/cn-property/cn-common/cn-common-core/cn-common-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/cn-property/cn-common/cn-common-feign/cn-common-feign.iml" filepath="$PROJECT_DIR$/cn-property/cn-common/cn-common-feign/cn-common-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cn-property/cn-common/cn-common-gateway/cn-common-gateway.iml" filepath="$PROJECT_DIR$/cn-property/cn-common/cn-common-gateway/cn-common-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/cn-property/cn-common/cn-common-log/cn-common-log.iml" filepath="$PROJECT_DIR$/cn-property/cn-common/cn-common-log/cn-common-log.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cn-property/cn-gateway/cn-gateway.iml" filepath="$PROJECT_DIR$/cn-property/cn-gateway/cn-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/cn-property/cn-register/cn-register.iml" filepath="$PROJECT_DIR$/cn-property/cn-register/cn-register.iml" />
       <module fileurl="file://$PROJECT_DIR$/cn-property/property.iml" filepath="$PROJECT_DIR$/cn-property/property.iml" />
     </modules>

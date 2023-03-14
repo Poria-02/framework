@@ -8,8 +8,10 @@
         <outputRelativeToContentRoot value="true" />
         <module name="cn-common-log" />
         <module name="cn-common-feign" />
+        <module name="cn-common-gateway" />
         <module name="cn-register" />
         <module name="cn-common-core" />
+        <module name="cn-gateway" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -17,7 +19,10 @@
       <module name="cn-common-bom" target="1.8" />
       <module name="cn-common-core" target="1.8" />
       <module name="cn-common-feign" target="1.8" />
+      <module name="cn-common-gateway" target="1.8" />
       <module name="cn-common-log" target="1.8" />
+      <module name="cn-gateway" target="1.8" />
+      <module name="cn-gatwat" target="1.8" />
       <module name="cn-register" target="1.8" />
       <module name="property" target="1.8" />
     </bytecodeTargetLevel>

@@ -70,6 +70,11 @@
 				<version>${druid.version}</version>
 			</dependency>
 			<dependency>
+				<groupId>cn.fuling</groupId>
+				<artifactId>cn-gateway</artifactId>
+				<version>${property.version}}</version>
+			</dependency>
+			<dependency>
 				<groupId>com.alibaba</groupId>
 				<artifactId>fastjson</artifactId>
 				<version>${fastjson.version}</version>
