@@ -211,12 +211,12 @@
 	</dependencyManagement>
 
 	<modules>
-		<module>ruoyi-auth</module>
-		<module>ruoyi-gateway</module>
-		<module>ruoyi-visual</module>
-		<module>ruoyi-modules</module>
-		<module>ruoyi-api</module>
-		<module>ruoyi-common</module>
+		<module>cn-auth</module>
+		<module>cn-gateway</module>
+		<module>cn-visual</module>
+		<module>cn-modules</module>
+		<module>cn-api</module>
+		<module>cn-common</module>
 	</modules>
 
 
