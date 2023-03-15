@@ -24,13 +24,13 @@
         <!-- RuoYi Api System -->
         <dependency>
             <groupId>cn.momet</groupId>
-            <artifactId>ruoyi-api-system</artifactId>
+            <artifactId>cn-upms-biz</artifactId>
         </dependency>
 
         <!-- RuoYi Common Redis-->
         <dependency>
             <groupId>cn.momet</groupId>
-            <artifactId>ruoyi-common-redis</artifactId>
+            <artifactId>cn-common-redis</artifactId>
         </dependency>
 		<dependency>
 			<groupId>com.baomidou</groupId>

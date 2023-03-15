@@ -54,18 +54,7 @@
         </dependency>
         
         <!-- RuoYi Common DataSource -->
-        <dependency>
-            <groupId>cn.momet</groupId>
-            <artifactId>ruoyi-common-datasource</artifactId>
-			<version>Momet.V1.0</version>
-		</dependency>
-        
-        <!-- RuoYi Common DataScope -->
-        <dependency>
-            <groupId>cn.momet</groupId>
-            <artifactId>ruoyi-common-datascope</artifactId>
-			<version>Momet.V1.0</version>
-        </dependency>
+
         
         <!-- RuoYi Common Log -->
         <dependency>
@@ -74,14 +63,7 @@
         </dependency>
         
         <!-- RuoYi Common Swagger -->
-        <dependency>
-            <groupId>cn.momet</groupId>
-            <artifactId>ruoyi-common-swagger</artifactId>
-        </dependency>
-		<dependency>
-			<groupId>cn.momet</groupId>
-			<artifactId>ruoyi-common-security</artifactId>
-		</dependency>
+
 
     </dependencies>
 

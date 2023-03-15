@@ -72,7 +72,7 @@
         <!-- RuoYi Common Redis-->
         <dependency>
             <groupId>cn.momet</groupId>
-            <artifactId>ruoyi-common-redis</artifactId>
+            <artifactId>cn-common-redis</artifactId>
         </dependency>
 
         <!-- Swagger -->

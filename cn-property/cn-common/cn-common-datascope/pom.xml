@@ -19,7 +19,7 @@
 		<!-- RuoYi Common Security -->
 		<dependency>
 			<groupId>cn.momet</groupId>
-			<artifactId>ruoyi-common-security</artifactId>
+			<artifactId>cn-common-security</artifactId>
 		</dependency>
 
 	</dependencies>

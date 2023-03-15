@@ -58,13 +58,13 @@
         <!-- RuoYi Api System -->
         <dependency>
             <groupId>cn.momet</groupId>
-            <artifactId>ruoyi-api-system</artifactId>
+            <artifactId>cn-upms-biz</artifactId>
         </dependency>
-        
+
         <!-- RuoYi Common Swagger -->
         <dependency>
             <groupId>cn.momet</groupId>
-            <artifactId>ruoyi-common-swagger</artifactId>
+            <artifactId>cn-common-swagger</artifactId>
         </dependency>
         
     </dependencies>

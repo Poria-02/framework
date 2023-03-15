@@ -25,7 +25,7 @@
         <!-- RuoYi Common Core-->
         <dependency>
             <groupId>cn.momet</groupId>
-            <artifactId>ruoyi-common-core</artifactId>
+            <artifactId>cn-common-core</artifactId>
         </dependency>
         
     </dependencies>
