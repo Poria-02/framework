@@ -24,8 +24,8 @@
         <!-- RuoYi Api System -->
         <dependency>
             <groupId>cn.momet</groupId>
-            <artifactId>cn-upms-biz</artifactId>
-			<version>Momet.V1.0</version>
+            <artifactId>cn-upms-api</artifactId>
+			<version>${Momet.version}</version>
         </dependency>
 
         <!-- RuoYi Common Redis-->

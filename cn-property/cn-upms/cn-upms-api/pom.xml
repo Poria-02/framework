@@ -10,7 +10,7 @@
 		<version>Momet.V1.0</version>
 	</parent>
 
-	<artifactId>cn-upms-biz</artifactId>
+	<artifactId>cn-upms-api</artifactId>
 	<packaging>jar</packaging>
 	<description>cn-upms-biz系统接口模块</description>
 

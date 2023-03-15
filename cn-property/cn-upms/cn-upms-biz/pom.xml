@@ -10,7 +10,7 @@
 		<version>Momet.V1.0</version>
 	</parent>
 
-	<artifactId>cn-upms-api</artifactId>
+	<artifactId>cn-upms-biz</artifactId>
 	<packaging>jar</packaging>
 	<description>系统模块</description>
 
@@ -20,6 +20,12 @@
 		<dependency>
 			<groupId>com.alibaba.cloud</groupId>
 			<artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>cn.momet</groupId>
+			<artifactId>cn-upms-api</artifactId>
+			<version>${Momet.version}</version>
 		</dependency>
 
 		<!-- SpringCloud Alibaba Nacos Config -->
