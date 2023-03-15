@@ -81,6 +81,10 @@
             <groupId>cn.momet</groupId>
             <artifactId>ruoyi-common-swagger</artifactId>
         </dependency>
+		<dependency>
+			<groupId>cn.momet</groupId>
+			<artifactId>ruoyi-common-security</artifactId>
+		</dependency>
 
     </dependencies>
 
