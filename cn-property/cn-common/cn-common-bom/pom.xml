@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+		 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<packaging>pom</packaging>
+	<groupId>cn.momet</groupId>
+	<version>Momet.V1.0</version>
+	<artifactId>cn-common-bom</artifactId>
+
+	<modelVersion>4.0.0</modelVersion>
+
+
+	<properties>
+		<!--	之前为	3.6.2-->
+		<Momet.version>Momet.V1.0</Momet.version>
+	</properties>
+	<dependencyManagement>
+		<dependencies>
+			<!-- 核心模块 -->
+			<dependency>
+				<groupId>cn.momet</groupId>
+				<artifactId>cn-common-core</artifactId>
+				<version>${Momet.version}</version>
+			</dependency>
+
+			<!-- 接口模块 -->
+			<dependency>
+				<groupId>cn.momet</groupId>
+				<artifactId>cn-common-swagger</artifactId>
+				<version>${Momet.version}</version>
+			</dependency>
+
+			<!-- 安全模块 -->
+			<dependency>
+				<groupId>cn.momet</groupId>
+				<artifactId>cn-common-security</artifactId>
+				<version>${Momet.version}</version>
+			</dependency>
+
+			<!-- 分布式事务 -->
+			<dependency>
+				<groupId>cn.momet</groupId>
+				<artifactId>cn-common-seata</artifactId>
+				<version>${Momet.version}</version>
+			</dependency>
+
+			<!-- 日志记录 -->
+			<dependency>
+				<groupId>cn.momet</groupId>
+				<artifactId>cn-common-log</artifactId>
+				<version>${Momet.version}</version>
+			</dependency>
+
+			<!-- 缓存服务 -->
+			<dependency>
+				<groupId>cn.momet</groupId>
+				<artifactId>cn-common-redis</artifactId>
+				<version>${Momet.version}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>cn.momet</groupId>
+				<artifactId>cn-common-datascope</artifactId>
+				<version>${Momet.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>cn.momet</groupId>
+				<artifactId>cn-common-datasource</artifactId>
+				<version>${Momet.version}</version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+	<build>
+		<plugins>
+			<plugin>
+				<version>3.2.1</version>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-source-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<version>1.6</version>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-gpg-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>
