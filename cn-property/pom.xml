@@ -217,13 +217,13 @@
 	</dependencyManagement>
 
 
-	<dependencies>
-		<!-- bootstrap 启动器 -->
-		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-bootstrap</artifactId>
-		</dependency>
-	</dependencies>
+<!--	<dependencies>-->
+<!--		&lt;!&ndash; bootstrap 启动器 &ndash;&gt;-->
+<!--		<dependency>-->
+<!--			<groupId>org.springframework.cloud</groupId>-->
+<!--			<artifactId>spring-cloud-starter-bootstrap</artifactId>-->
+<!--		</dependency>-->
+<!--	</dependencies>-->
 
 	<build>
 		<plugins>

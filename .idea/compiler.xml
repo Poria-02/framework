@@ -6,25 +6,56 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="cn-common-log" />
-        <module name="cn-common-feign" />
-        <module name="cn-common-gateway" />
+        <module name="cn-common-datasource" />
+        <module name="cn-upms-api" />
         <module name="cn-register" />
+        <module name="ruoyi-modules-job" />
+        <module name="cn-common-feign" />
+        <module name="cn-common-swagger" />
+        <module name="cn-common-seata" />
+        <module name="cn-auth" />
+        <module name="cn-common-security" />
+        <module name="cn-common-gateway" />
         <module name="cn-common-core" />
+        <module name="cn-common-log" />
+        <module name="cn-common-redis" />
+        <module name="ruoyi-modules-gen" />
+        <module name="cn-common-datascope" />
+        <module name="cn-upms-biz" />
+        <module name="cn-visual-monitor" />
+        <module name="ruoyi-common-log" />
         <module name="cn-gateway" />
+        <module name="ruoyi-modules-file" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="cn-common" target="1.8" />
+      <module name="cn-auth" target="1.5" />
+      <module name="cn-common" target="1.5" />
       <module name="cn-common-bom" target="1.8" />
-      <module name="cn-common-core" target="1.8" />
+      <module name="cn-common-core" target="1.5" />
+      <module name="cn-common-datascope" target="1.5" />
+      <module name="cn-common-datasource" target="1.5" />
       <module name="cn-common-feign" target="1.8" />
       <module name="cn-common-gateway" target="1.8" />
       <module name="cn-common-log" target="1.8" />
-      <module name="cn-gateway" target="1.8" />
+      <module name="cn-common-redis" target="1.5" />
+      <module name="cn-common-seata" target="1.5" />
+      <module name="cn-common-security" target="1.5" />
+      <module name="cn-common-swagger" target="1.5" />
+      <module name="cn-gateway" target="1.5" />
       <module name="cn-gatwat" target="1.8" />
-      <module name="cn-register" target="1.8" />
-      <module name="property" target="1.8" />
+      <module name="cn-register" target="1.5" />
+      <module name="cn-upms" target="1.5" />
+      <module name="cn-upms-api" target="1.5" />
+      <module name="cn-upms-biz" target="1.5" />
+      <module name="cn-visual" target="1.5" />
+      <module name="cn-visual-monitor" target="1.5" />
+      <module name="property" target="1.5" />
+      <module name="ruoyi-common-log" target="1.5" />
+      <module name="ruoyi-modules" target="1.5" />
+      <module name="ruoyi-modules-file" target="1.5" />
+      <module name="ruoyi-modules-gen" target="1.5" />
+      <module name="ruoyi-modules-job" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
