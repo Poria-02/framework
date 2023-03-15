@@ -15,7 +15,7 @@
 
 	<properties>
 		<!--	之前为	3.6.2-->
-		<Momet.version>Momet.V1.0</Momet.version>
+		<Momet.version>Momet.V1.0-SNAPSHOT</Momet.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.8</java.version>
@@ -195,14 +195,9 @@
 			<dependency>
 				<groupId>cn.momet</groupId>
 				<artifactId>cn-common-redis</artifactId>
-			</dependency>
-
-			<!-- 系统接口 -->
-			<dependency>
-				<groupId>cn.momet</groupId>
-				<artifactId>cn-upms-api</artifactId>
 				<version>Momet.V1.0</version>
 			</dependency>
+
 			<dependency>
 				<groupId>cn.momet</groupId>
 				<artifactId>cn-common-datascope</artifactId>

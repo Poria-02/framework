@@ -10,19 +10,84 @@
 		<version>Momet.V1.0</version>
 	</parent>
 
-	<artifactId>cn-upms-biz</artifactId>
+	<artifactId>cn-upms-api</artifactId>
 	<packaging>jar</packaging>
-	<description>cn-upms-biz系统接口模块</description>
+	<description>系统模块</description>
 
 	<dependencies>
 
-		<!-- RuoYi Common Core-->
+		<!-- SpringCloud Alibaba Nacos -->
+		<dependency>
+			<groupId>com.alibaba.cloud</groupId>
+			<artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+		</dependency>
+
+		<!-- SpringCloud Alibaba Nacos Config -->
+		<dependency>
+			<groupId>com.alibaba.cloud</groupId>
+			<artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
+		</dependency>
+
+		<!-- SpringCloud Alibaba Sentinel -->
+		<dependency>
+			<groupId>com.alibaba.cloud</groupId>
+			<artifactId>spring-cloud-starter-alibaba-sentinel</artifactId>
+		</dependency>
+
+		<!-- SpringBoot Actuator -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
+
+		<!-- Swagger UI -->
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger-ui</artifactId>
+			<version>${swagger.fox.version}</version>
+		</dependency>
+
+		<!-- Mysql Connector -->
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+		</dependency>
+
+		<!-- RuoYi Common DataSource -->
 		<dependency>
 			<groupId>cn.momet</groupId>
-			<artifactId>cn-common-core</artifactId>
-			<version>Momet.V1.0</version>
+			<artifactId>cn-common-datascope</artifactId>
+		</dependency>
+
+		<!-- RuoYi Common Log -->
+		<dependency>
+			<groupId>cn.momet</groupId>
+			<artifactId>cn-common-log</artifactId>
+		</dependency>
+
+		<!-- RuoYi Common Swagger -->
+		<dependency>
+			<groupId>cn.momet</groupId>
+			<artifactId>cn-common-swagger</artifactId>
 		</dependency>
 
 	</dependencies>
+
+	<build>
+		<finalName>${project.artifactId}</finalName>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+				<executions>
+					<execution>
+						<goals>
+							<goal>repackage</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
 
 </project>

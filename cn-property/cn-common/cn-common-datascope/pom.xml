@@ -20,7 +20,6 @@
 		<dependency>
 			<groupId>cn.momet</groupId>
 			<artifactId>cn-common-security</artifactId>
-			<version>Momet.V1.0</version>
 		</dependency>
 
 	</dependencies>
