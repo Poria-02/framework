@@ -6,15 +6,13 @@
 
     <parent>
         <groupId>cn.momet</groupId>
-        <artifactId>ruoyi-common</artifactId>
+        <artifactId>cn-common</artifactId>
         <version>Momet.V1.0</version>
     </parent>
     
-    <artifactId>ruoyi-common-redis</artifactId>
-	
-    <description>
-        ruoyi-common-redis缓存服务
-    </description>
+    <artifactId>cn-common-redis</artifactId>
+	<packaging>jar</packaging>
+    <description>cn-common-redis缓存服务</description>
 
     <dependencies>
 		

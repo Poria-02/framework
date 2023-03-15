@@ -46,7 +46,6 @@
 		<module>cn-gateway</module>
 		<module>cn-visual</module>
 		<module>cn-modules</module>
-		<module>cn-api</module>
 		<module>cn-common</module>
 		<module>cn-register</module>
 		<module>cn-upms</module>

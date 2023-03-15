@@ -6,13 +6,12 @@
 
     <parent>
         <groupId>cn.momet</groupId>
-		<artifactId>property</artifactId>
+		<artifactId>cn-upms</artifactId>
 		<version>Momet.V1.0</version>
     </parent>
 
-	
-    <artifactId>cn-upms</artifactId>
-
+    <artifactId>cn-upms-api</artifactId>
+	<packaging>jar</packaging>
     <description>系统模块</description>
 	
     <dependencies>

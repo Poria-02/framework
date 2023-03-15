@@ -5,15 +5,13 @@
 
     <parent>
         <groupId>cn.momet</groupId>
-        <artifactId>ruoyi-visual</artifactId>
+        <artifactId>cn-visual</artifactId>
         <version>Momet.V1.0</version>
     </parent>
 	
-    <artifactId>ruoyi-visual-monitor</artifactId>
-
-    <description>
-        ruoyi-visual-monitor监控中心
-    </description>
+    <artifactId>cn-visual-monitor</artifactId>
+	<packaging>jar</packaging>
+    <description>cn-visual-monitor监控中心</description>
 
     <dependencies>
         

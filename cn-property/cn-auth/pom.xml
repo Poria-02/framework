@@ -9,11 +9,9 @@
 		<version>Momet.V1.0</version>
 	</parent>
 
-	<artifactId>ruoyi-auth</artifactId>
-
-	<description>
-		ruoyi-auth认证授权中心
-	</description>
+	<artifactId>cn-auth</artifactId>
+	<packaging>jar</packaging>
+	<description>cn-auth认证授权中心</description>
 
 	<dependencies>
 

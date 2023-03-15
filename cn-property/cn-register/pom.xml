@@ -10,9 +10,9 @@
     </parent>
 
     <artifactId>cn-register</artifactId>
-    <name>cn-register</name>
+	<packaging>jar</packaging>
     <description>注册中心</description>
-    <packaging>jar</packaging>
+
 
     <properties>
         <nacos.version>1.4.1</nacos.version>

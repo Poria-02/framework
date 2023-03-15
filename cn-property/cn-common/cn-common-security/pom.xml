@@ -5,15 +5,13 @@
 
     <parent>
         <groupId>cn.momet</groupId>
-        <artifactId>ruoyi-common</artifactId>
+        <artifactId>cn-common</artifactId>
         <version>Momet.V1.0</version>
     </parent>
     
-    <artifactId>ruoyi-common-security</artifactId>
-
-    <description>
-        ruoyi-common-security安全模块
-    </description>
+    <artifactId>cn-common-security</artifactId>
+	<packaging>jar</packaging>
+    <description>cn-common-security安全模块</description>
 
     <dependencies>
 

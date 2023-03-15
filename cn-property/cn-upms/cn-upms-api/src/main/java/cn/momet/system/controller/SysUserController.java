@@ -16,7 +16,6 @@ import cn.momet.system.api.domain.SysRole;
 import cn.momet.system.api.domain.SysUser;
 import cn.momet.system.api.model.LoginUser;
 import cn.momet.system.service.*;
-import com.ruoyi.system.service.*;
 import org.apache.commons.lang3.ArrayUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.annotation.Validated;

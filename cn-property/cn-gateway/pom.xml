@@ -8,11 +8,10 @@
 		<artifactId>property</artifactId>
 		<version>Momet.V1.0</version>
     </parent>
-    <artifactId>ruoyi-gateway</artifactId>
 
-    <description>
-        ruoyi-gateway网关模块
-    </description>
+    <artifactId>cn-gateway</artifactId>
+	<packaging>jar</packaging>
+    <description>cn-gateway网关模块</description>
 
     <dependencies>
 

@@ -6,15 +6,13 @@
 
 	<parent>
 		<groupId>cn.momet</groupId>
-		<artifactId>ruoyi-api</artifactId>
+		<artifactId>cn-upms</artifactId>
 		<version>Momet.V1.0</version>
 	</parent>
 
-	<artifactId>ruoyi-api-system</artifactId>
-
-	<description>
-		ruoyi-api-system系统接口模块
-	</description>
+	<artifactId>cn-upms-biz</artifactId>
+	<packaging>jar</packaging>
+	<description>cn-upms-biz系统接口模块</description>
 
 	<dependencies>
 

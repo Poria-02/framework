@@ -9,6 +9,10 @@
 		<version>Momet.V1.0</version>
     </parent>
 
+	<artifactId>cn-common</artifactId>
+	<packaging>pom</packaging>
+	<description>cn-common通用模块</description>
+
     <modules>
         <module>cn-common-log</module>
         <module>cn-common-core</module>
@@ -20,11 +24,5 @@
         <module>cn-common-datasource</module>
     </modules>
 
-    <artifactId>ruoyi-common</artifactId>
-    <packaging>pom</packaging>
-
-    <description>
-        ruoyi-common通用模块
-    </description>
 
 </project>

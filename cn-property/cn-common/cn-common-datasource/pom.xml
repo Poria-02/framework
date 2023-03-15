@@ -6,15 +6,13 @@
 
 	<parent>
 		<groupId>cn.momet</groupId>
-		<artifactId>ruoyi-common</artifactId>
+		<artifactId>cn-common</artifactId>
 		<version>Momet.V1.0</version>
 	</parent>
 
-	<artifactId>ruoyi-common-datasource</artifactId>
-
-	<description>
-		ruoyi-common-datasource多数据源
-	</description>
+	<artifactId>cn-common-datasource</artifactId>
+	<packaging>jar</packaging>
+	<description>cn-common-datasource多数据源</description>
 
 	<dependencies>
 

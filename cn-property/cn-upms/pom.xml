@@ -9,15 +9,13 @@
 		<version>Momet.V1.0</version>
     </parent>
 
+	<artifactId>cn-upms</artifactId>
+	<packaging>pom</packaging>
+	<description>系统接口</description>
+
     <modules>
-        <module>ruoyi-api-system</module>
+        <module>cn-upms-api</module>
+		<module>cn-upms-biz</module>
     </modules>
-
-    <artifactId>ruoyi-api</artifactId>
-    <packaging>pom</packaging>
-
-    <description>
-        ruoyi-api系统接口
-    </description>
 
 </project>
