@@ -65,12 +65,14 @@
         <dependency>
             <groupId>cn.momet</groupId>
             <artifactId>ruoyi-common-log</artifactId>
+			<version>Momet.V1.0</version>
         </dependency>
         
         <!-- RuoYi Common Swagger -->
         <dependency>
             <groupId>cn.momet</groupId>
             <artifactId>cn-common-swagger</artifactId>
+			<version>Momet.V1.0</version>
         </dependency>
 
     </dependencies>

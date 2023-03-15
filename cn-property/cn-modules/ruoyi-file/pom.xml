@@ -59,12 +59,14 @@
         <dependency>
             <groupId>cn.momet</groupId>
             <artifactId>cn-upms-biz</artifactId>
+			<version>Momet.V1.0</version>
         </dependency>
 
         <!-- RuoYi Common Swagger -->
         <dependency>
             <groupId>cn.momet</groupId>
             <artifactId>cn-common-swagger</artifactId>
+			<version>Momet.V1.0</version>
         </dependency>
         
     </dependencies>
