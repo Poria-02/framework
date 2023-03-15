@@ -1,7 +1,7 @@
 package com.ruoyi.system.mapper;
 
 import java.util.List;
-import com.ruoyi.system.api.domain.SysDictType;
+import cn.momet.system.api.domain.SysDictType;
 
 /**
  * 字典表 数据层

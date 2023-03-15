@@ -1,7 +1,7 @@
 package com.ruoyi.system.service;
 
 import java.util.List;
-import com.ruoyi.system.api.domain.SysDept;
+import cn.momet.system.api.domain.SysDept;
 import com.ruoyi.system.domain.vo.TreeSelect;
 
 /**

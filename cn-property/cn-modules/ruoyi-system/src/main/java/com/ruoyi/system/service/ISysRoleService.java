@@ -2,7 +2,7 @@ package com.ruoyi.system.service;
 
 import java.util.List;
 import java.util.Set;
-import com.ruoyi.system.api.domain.SysRole;
+import cn.momet.system.api.domain.SysRole;
 import com.ruoyi.system.domain.SysUserRole;
 
 /**

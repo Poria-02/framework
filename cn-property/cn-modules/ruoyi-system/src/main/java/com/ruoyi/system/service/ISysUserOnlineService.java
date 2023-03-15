@@ -1,6 +1,6 @@
 package com.ruoyi.system.service;
 
-import com.ruoyi.system.api.model.LoginUser;
+import cn.momet.system.api.model.LoginUser;
 import com.ruoyi.system.domain.SysUserOnline;
 
 /**

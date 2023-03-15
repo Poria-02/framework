@@ -11,21 +11,19 @@ import com.ruoyi.gateway.handler.ValidateCodeHandler;
 
 /**
  * 路由配置信息
- * 
+ *
  * @author ruoyi
  */
 @Configuration
-public class RouterFunctionConfiguration
-{
-    @Autowired
-    private ValidateCodeHandler validateCodeHandler;
+public class RouterFunctionConfiguration {
+	@Autowired
+	private ValidateCodeHandler validateCodeHandler;
 
-    @SuppressWarnings("rawtypes")
-    @Bean
-    public RouterFunction routerFunction()
-    {
-        return RouterFunctions.route(
-                RequestPredicates.GET("/code").and(RequestPredicates.accept(MediaType.TEXT_PLAIN)),
-                validateCodeHandler);
-    }
+	@SuppressWarnings("rawtypes")
+	@Bean
+	public RouterFunction routerFunction() {
+		return RouterFunctions.route(
+				RequestPredicates.GET("/code").and(RequestPredicates.accept(MediaType.TEXT_PLAIN)),
+				validateCodeHandler);
+	}
 }

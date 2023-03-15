@@ -2,7 +2,7 @@ package com.ruoyi.system.service;
 
 import java.util.Set;
 
-import com.ruoyi.system.api.domain.SysUser;
+import cn.momet.system.api.domain.SysUser;
 
 /**
  * 权限信息 服务层

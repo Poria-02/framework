@@ -3,15 +3,15 @@ package cn.momet.security.interceptor;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import cn.momet.core.constant.SecurityConstants;
+import cn.momet.core.context.SecurityContextHolder;
+import cn.momet.core.utils.ServletUtils;
+import cn.momet.core.utils.StringUtils;
 import cn.momet.security.auth.AuthUtil;
 import cn.momet.security.utils.SecurityUtils;
 import org.springframework.web.method.HandlerMethod;
 import org.springframework.web.servlet.AsyncHandlerInterceptor;
-import com.ruoyi.common.core.constant.SecurityConstants;
-import com.ruoyi.common.core.context.SecurityContextHolder;
-import com.ruoyi.common.core.utils.ServletUtils;
-import com.ruoyi.common.core.utils.StringUtils;
-import com.ruoyi.system.api.model.LoginUser;
+import cn.momet.system.api.model.LoginUser;
 
 /**
  * 自定义请求头拦截器，将Header数据封装到线程变量中方便获取
