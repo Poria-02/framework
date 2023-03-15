@@ -14,7 +14,7 @@
 	<packaging>pom</packaging>
 
 	<properties>
-<!--	之前为	3.6.2-->
+		<!--	之前为	3.6.2-->
 		<Momet.version>Momet.V1.0</Momet.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -49,6 +49,7 @@
 		<module>cn-api</module>
 		<module>cn-common</module>
 		<module>cn-register</module>
+		<module>cn-upms</module>
 	</modules>
 
 	<!-- 依赖声明 -->
@@ -217,8 +218,6 @@
 	</dependencyManagement>
 
 
-
-
 	<dependencies>
 		<!-- bootstrap 启动器 -->
 		<dependency>
@@ -256,6 +255,17 @@
 			</plugins>
 		</pluginManagement>
 	</build>
+	<profiles>
+		<profile>
+			<id>dev</id>
+			<properties>
+				<profiles.active>dev</profiles.active>
+			</properties>
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>
+		</profile>
+	</profiles>
 
 	<repositories>
 		<repository>

@@ -20,9 +20,9 @@ public class MybatisPlusConfig {
 	 * @return
 	 */
 	@Bean
-	public MybatisPlusInterceptor mybatisPlusInterceptor(){
+	public MybatisPlusInterceptor mybatisPlusInterceptor() {
 		MybatisPlusInterceptor interceptor = new MybatisPlusInterceptor();
-		PaginationInnerInterceptor innerInterceptor=new PaginationInnerInterceptor();
+		PaginationInnerInterceptor innerInterceptor = new PaginationInnerInterceptor();
 		innerInterceptor.setDbType(DbType.MYSQL);
 		innerInterceptor.setOverflow(true);
 		interceptor.addInnerInterceptor(new OptimisticLockerInnerInterceptor());
