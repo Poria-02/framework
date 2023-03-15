@@ -25,12 +25,14 @@
         <dependency>
             <groupId>cn.momet</groupId>
             <artifactId>cn-upms-biz</artifactId>
+			<version>Momet.V1.0</version>
         </dependency>
 
         <!-- RuoYi Common Redis-->
         <dependency>
             <groupId>cn.momet</groupId>
             <artifactId>cn-common-redis</artifactId>
+			<version>Momet.V1.0</version>
         </dependency>
 		<dependency>
 			<groupId>com.baomidou</groupId>
