@@ -225,19 +225,28 @@
 	</dependencyManagement>
 
 
-<!--	<dependencies>-->
-<!--		&lt;!&ndash; bootstrap 启动器 &ndash;&gt;-->
-<!--		<dependency>-->
-<!--			<groupId>org.springframework.cloud</groupId>-->
-<!--			<artifactId>spring-cloud-starter-bootstrap</artifactId>-->
-<!--		</dependency>-->
-<!--	</dependencies>-->
+	<dependencies>
+		<!-- bootstrap 启动器 -->
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-bootstrap</artifactId>
+		</dependency>
+	</dependencies>
 
 	<build>
+		<finalName>${project.name}</finalName>
+		<resources>
+			<resource>
+				<directory>src/main/resources</directory>
+				<filtering>true</filtering>
+			</resource>
+		</resources>
 		<plugins>
+			<!--            jdk编译插件-->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
+<!--				<version>3.8.0</version>-->
 				<configuration>
 					<source>${java.version}</source>
 					<target>${java.version}</target>
@@ -245,6 +254,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<!--子类项目构建可以使用-->
 		<pluginManagement>
 			<plugins>
 				<plugin>
@@ -254,6 +264,7 @@
 					<executions>
 						<execution>
 							<goals>
+								<!--配置的执行目标 -->
 								<goal>repackage</goal>
 							</goals>
 						</execution>
