@@ -5,6 +5,7 @@ import cn.momet.security.annotation.EnableRyFeignClients;
 import cn.momet.swagger.annotation.EnableCustomSwagger2;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 /**
  * 系统模块
@@ -15,6 +16,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @EnableCustomSwagger2
 @EnableRyFeignClients
 @SpringBootApplication
+@EnableDiscoveryClient
 public class RuoYiSystemApplication
 {
     public static void main(String[] args)

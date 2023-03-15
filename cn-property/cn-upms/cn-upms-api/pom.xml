@@ -16,12 +16,7 @@
 
 	<dependencies>
 
-		<dependency>
-			<groupId>cn.momet</groupId>
-			<artifactId>cn-upms-api</artifactId>
-			<version>${Momet.version}</version>
-		</dependency>
-		<!-- RuoYi Common Core-->
+		<!--  Common Core-->
 		<dependency>
 			<groupId>cn.momet</groupId>
 			<artifactId>cn-common-core</artifactId>

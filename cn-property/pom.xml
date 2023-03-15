@@ -8,7 +8,7 @@
 	<!--项目名称-->
 	<artifactId>property</artifactId>
 	<!--项目版本-->
-	<version>Momet.V1.0</version>
+		<version>Momet.V1.0</version>
 
 	<description>物业管理系统</description>
 	<packaging>pom</packaging>
@@ -47,7 +47,6 @@
 		<module>cn-visual</module>
 		<module>cn-modules</module>
 		<module>cn-common</module>
-		<module>cn-register</module>
 		<module>cn-upms</module>
 	</modules>
 
@@ -98,6 +97,12 @@
 				<groupId>io.swagger</groupId>
 				<artifactId>swagger-annotations</artifactId>
 				<version>${swagger.core.version}</version>
+			</dependency>
+			<!-- Swagger -->
+			<dependency>
+				<groupId>io.springfox</groupId>
+				<artifactId>springfox-swagger2</artifactId>
+				<version>${swagger.fox.version}</version>
 			</dependency>
 
 			<!-- 验证码 -->
@@ -160,53 +165,53 @@
 			<dependency>
 				<groupId>cn.momet</groupId>
 				<artifactId>cn-common-core</artifactId>
-				<version>Momet.V1.0</version>
+				<version>${Momet.version}</version>
 			</dependency>
 
 			<!-- 接口模块 -->
 			<dependency>
 				<groupId>cn.momet</groupId>
 				<artifactId>cn-common-swagger</artifactId>
-				<version>Momet.V1.0</version>
+				<version>${Momet.version}</version>
 			</dependency>
 
 			<!-- 安全模块 -->
 			<dependency>
 				<groupId>cn.momet</groupId>
 				<artifactId>cn-common-security</artifactId>
-				<version>Momet.V1.0</version>
+				<version>${Momet.version}</version>
 			</dependency>
 
 			<!-- 分布式事务 -->
 			<dependency>
 				<groupId>cn.momet</groupId>
 				<artifactId>cn-common-seata</artifactId>
-				<version>Momet.V1.0</version>
+					<version>${Momet.version}</version>
 			</dependency>
 
 			<!-- 日志记录 -->
 			<dependency>
 				<groupId>cn.momet</groupId>
 				<artifactId>cn-common-log</artifactId>
-				<version>Momet.V1.0</version>
+					<version>${Momet.version}</version>
 			</dependency>
 
 			<!-- 缓存服务 -->
 			<dependency>
 				<groupId>cn.momet</groupId>
 				<artifactId>cn-common-redis</artifactId>
-				<version>Momet.V1.0</version>
+					<version>${Momet.version}</version>
 			</dependency>
 
 			<dependency>
 				<groupId>cn.momet</groupId>
 				<artifactId>cn-common-datascope</artifactId>
-				<version>Momet.V1.0</version>
+					<version>${Momet.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>cn.momet</groupId>
 				<artifactId>cn-common-datasource</artifactId>
-				<version>Momet.V1.0</version>
+					<version>${Momet.version}</version>
 			</dependency>
 
 			<!--mybatisplus-->
