@@ -10,7 +10,7 @@
         <version>Momet.V1.0</version>
     </parent>
     
-    <artifactId>ruoyi-common-log</artifactId>
+    <artifactId>cn-common-log</artifactId>
 	<packaging>jar</packaging>
     <description>cn-common-log日志记录</description>
 
@@ -20,7 +20,6 @@
         <dependency>
             <groupId>cn.momet</groupId>
             <artifactId>cn-common-security</artifactId>
-			<version>Momet.V1.0</version>
         </dependency>
 
     </dependencies>

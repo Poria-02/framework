@@ -57,20 +57,18 @@
 		<dependency>
 			<groupId>cn.momet</groupId>
 			<artifactId>cn-common-datascope</artifactId>
-			<version>Momet.V1.0</version>
 		</dependency>
         
         <!-- RuoYi Common Log -->
         <dependency>
             <groupId>cn.momet</groupId>
-            <artifactId>ruoyi-common-log</artifactId>
+            <artifactId>cn-common-log</artifactId>
         </dependency>
         
         <!-- RuoYi Common Swagger -->
 		<dependency>
 			<groupId>cn.momet</groupId>
 			<artifactId>cn-common-swagger</artifactId>
-			<version>Momet.V1.0</version>
 		</dependency>
 
     </dependencies>

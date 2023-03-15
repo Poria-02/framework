@@ -64,7 +64,7 @@
         <!-- RuoYi Common Log -->
         <dependency>
             <groupId>cn.momet</groupId>
-            <artifactId>ruoyi-common-log</artifactId>
+            <artifactId>cn-common-log</artifactId>
 			<version>Momet.V1.0</version>
         </dependency>
         

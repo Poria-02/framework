@@ -54,7 +54,6 @@
 	<!-- 依赖声明 -->
 	<dependencyManagement>
 		<dependencies>
-
 			<!-- SpringCloud 微服务 -->
 			<dependency>
 				<groupId>org.springframework.cloud</groupId>
@@ -160,49 +159,58 @@
 			<!-- 核心模块 -->
 			<dependency>
 				<groupId>cn.momet</groupId>
-				<artifactId>ruoyi-common-core</artifactId>
+				<artifactId>cn-common-core</artifactId>
 				<version>Momet.V1.0</version>
 			</dependency>
 
 			<!-- 接口模块 -->
 			<dependency>
 				<groupId>cn.momet</groupId>
-				<artifactId>ruoyi-common-swagger</artifactId>
+				<artifactId>cn-common-swagger</artifactId>
 				<version>Momet.V1.0</version>
 			</dependency>
 
 			<!-- 安全模块 -->
 			<dependency>
 				<groupId>cn.momet</groupId>
-				<artifactId>ruoyi-common-security</artifactId>
+				<artifactId>cn-common-security</artifactId>
 				<version>Momet.V1.0</version>
 			</dependency>
 
 			<!-- 分布式事务 -->
 			<dependency>
 				<groupId>cn.momet</groupId>
-				<artifactId>ruoyi-common-seata</artifactId>
+				<artifactId>cn-common-seata</artifactId>
 				<version>Momet.V1.0</version>
 			</dependency>
 
 			<!-- 日志记录 -->
 			<dependency>
 				<groupId>cn.momet</groupId>
-				<artifactId>ruoyi-common-log</artifactId>
+				<artifactId>cn-common-log</artifactId>
 				<version>Momet.V1.0</version>
 			</dependency>
 
 			<!-- 缓存服务 -->
 			<dependency>
 				<groupId>cn.momet</groupId>
-				<artifactId>ruoyi-common-redis</artifactId>
-				<version>Momet.V1.0</version>
+				<artifactId>cn-common-redis</artifactId>
 			</dependency>
 
 			<!-- 系统接口 -->
 			<dependency>
 				<groupId>cn.momet</groupId>
-				<artifactId>ruoyi-api-system</artifactId>
+				<artifactId>cn-upms-api</artifactId>
+				<version>Momet.V1.0</version>
+			</dependency>
+			<dependency>
+				<groupId>cn.momet</groupId>
+				<artifactId>cn-common-datascope</artifactId>
+				<version>Momet.V1.0</version>
+			</dependency>
+			<dependency>
+				<groupId>cn.momet</groupId>
+				<artifactId>cn-common-datasource</artifactId>
 				<version>Momet.V1.0</version>
 			</dependency>
 
