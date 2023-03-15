@@ -22,6 +22,7 @@
         <module>cn-common-security</module>
         <module>cn-common-datascope</module>
         <module>cn-common-datasource</module>
+        <module>cn-common-bom</module>
     </modules>
 
 
