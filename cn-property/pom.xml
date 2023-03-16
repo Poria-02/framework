@@ -4,18 +4,16 @@
 		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>cn.momet</groupId>
-	<!--项目名称-->
-	<artifactId>property</artifactId>
-	<!--项目版本-->
-		<version>Momet.V1.0</version>
+	<groupId>com.ruoyi</groupId>
+	<artifactId>ruoyi</artifactId>
+	<version>3.6.2</version>
 
-	<description>物业管理系统</description>
-	<packaging>pom</packaging>
+	<name>ruoyi</name>
+	<url>http://www.ruoyi.vip</url>
+	<description>若依微服务系统</description>
 
 	<properties>
-		<!--	之前为	3.6.2-->
-		<Momet.version>Momet.V1.0</Momet.version>
+		<ruoyi.version>3.6.2</ruoyi.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.8</java.version>
@@ -37,24 +35,12 @@
 		<minio.version>8.2.2</minio.version>
 		<poi.version>4.1.2</poi.version>
 		<transmittable-thread-local.version>2.14.2</transmittable-thread-local.version>
-		<mybatis-plus.version>3.5.0</mybatis-plus.version>
-		<hutool.version>5.7.22</hutool.version>
-		<lombok.version>1.18.8</lombok.version>
 	</properties>
-
-
-	<modules>
-		<module>cn-auth</module>
-		<module>cn-gateway</module>
-		<module>cn-visual</module>
-		<module>cn-modules</module>
-		<module>cn-common</module>
-		<module>cn-upms</module>
-	</modules>
 
 	<!-- 依赖声明 -->
 	<dependencyManagement>
 		<dependencies>
+
 			<!-- SpringCloud 微服务 -->
 			<dependency>
 				<groupId>org.springframework.cloud</groupId>
@@ -99,12 +85,6 @@
 				<groupId>io.swagger</groupId>
 				<artifactId>swagger-annotations</artifactId>
 				<version>${swagger.core.version}</version>
-			</dependency>
-			<!-- Swagger -->
-			<dependency>
-				<groupId>io.springfox</groupId>
-				<artifactId>springfox-swagger2</artifactId>
-				<version>${swagger.fox.version}</version>
 			</dependency>
 
 			<!-- 验证码 -->
@@ -165,80 +145,79 @@
 
 			<!-- 核心模块 -->
 			<dependency>
-				<groupId>cn.momet</groupId>
-				<artifactId>cn-common-core</artifactId>
-				<version>${Momet.version}</version>
+				<groupId>com.ruoyi</groupId>
+				<artifactId>ruoyi-common-core</artifactId>
+				<version>${ruoyi.version}</version>
 			</dependency>
 
 			<!-- 接口模块 -->
 			<dependency>
-				<groupId>cn.momet</groupId>
-				<artifactId>cn-common-swagger</artifactId>
-				<version>${Momet.version}</version>
+				<groupId>com.ruoyi</groupId>
+				<artifactId>ruoyi-common-swagger</artifactId>
+				<version>${ruoyi.version}</version>
 			</dependency>
 
 			<!-- 安全模块 -->
 			<dependency>
-				<groupId>cn.momet</groupId>
-				<artifactId>cn-common-security</artifactId>
-				<version>${Momet.version}</version>
+				<groupId>com.ruoyi</groupId>
+				<artifactId>ruoyi-common-security</artifactId>
+				<version>${ruoyi.version}</version>
+			</dependency>
+
+			<!-- 权限范围 -->
+			<dependency>
+				<groupId>com.ruoyi</groupId>
+				<artifactId>ruoyi-common-datascope</artifactId>
+				<version>${ruoyi.version}</version>
+			</dependency>
+
+			<!-- 多数据源 -->
+			<dependency>
+				<groupId>com.ruoyi</groupId>
+				<artifactId>ruoyi-common-datasource</artifactId>
+				<version>${ruoyi.version}</version>
 			</dependency>
 
 			<!-- 分布式事务 -->
 			<dependency>
-				<groupId>cn.momet</groupId>
-				<artifactId>cn-common-seata</artifactId>
-					<version>${Momet.version}</version>
+				<groupId>com.ruoyi</groupId>
+				<artifactId>ruoyi-common-seata</artifactId>
+				<version>${ruoyi.version}</version>
 			</dependency>
 
 			<!-- 日志记录 -->
 			<dependency>
-				<groupId>cn.momet</groupId>
-				<artifactId>cn-common-log</artifactId>
-					<version>${Momet.version}</version>
+				<groupId>com.ruoyi</groupId>
+				<artifactId>ruoyi-common-log</artifactId>
+				<version>${ruoyi.version}</version>
 			</dependency>
 
 			<!-- 缓存服务 -->
 			<dependency>
-				<groupId>cn.momet</groupId>
-				<artifactId>cn-common-redis</artifactId>
-					<version>${Momet.version}</version>
+				<groupId>com.ruoyi</groupId>
+				<artifactId>ruoyi-common-redis</artifactId>
+				<version>${ruoyi.version}</version>
 			</dependency>
 
+			<!-- 系统接口 -->
 			<dependency>
-				<groupId>cn.momet</groupId>
-				<artifactId>cn-common-datascope</artifactId>
-					<version>${Momet.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>cn.momet</groupId>
-				<artifactId>cn-common-datasource</artifactId>
-					<version>${Momet.version}</version>
+				<groupId>com.ruoyi</groupId>
+				<artifactId>ruoyi-api-system</artifactId>
+				<version>${ruoyi.version}</version>
 			</dependency>
 
-			<!--mybatisplus-->
-			<dependency>
-				<groupId>com.baomidou</groupId>
-				<artifactId>mybatis-plus-boot-starter</artifactId>
-				<version>${mybatis-plus.version}</version>
-			</dependency>
-
-			<!--lombok-->
-			<dependency>
-				<groupId>org.projectlombok</groupId>
-				<artifactId>lombok</artifactId>
-				<version>${lombok.version}</version>
-			</dependency>
-
-			<!--hutool-->
-			<dependency>
-				<groupId>cn.hutool</groupId>
-				<artifactId>hutool-all</artifactId>
-				<version>${hutool.version}</version>
-			</dependency>
 		</dependencies>
 	</dependencyManagement>
 
+	<modules>
+		<module>ruoyi-auth</module>
+		<module>ruoyi-gateway</module>
+		<module>ruoyi-visual</module>
+		<module>ruoyi-modules</module>
+		<module>ruoyi-api</module>
+		<module>ruoyi-common</module>
+	</modules>
+	<packaging>pom</packaging>
 
 	<dependencies>
 		<!-- bootstrap 启动器 -->
@@ -249,19 +228,10 @@
 	</dependencies>
 
 	<build>
-		<finalName>${project.name}</finalName>
-		<resources>
-			<resource>
-				<directory>src/main/resources</directory>
-				<filtering>true</filtering>
-			</resource>
-		</resources>
 		<plugins>
-			<!--            jdk编译插件-->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
-<!--				<version>3.8.0</version>-->
 				<configuration>
 					<source>${java.version}</source>
 					<target>${java.version}</target>
@@ -269,7 +239,6 @@
 				</configuration>
 			</plugin>
 		</plugins>
-		<!--子类项目构建可以使用-->
 		<pluginManagement>
 			<plugins>
 				<plugin>
@@ -279,7 +248,6 @@
 					<executions>
 						<execution>
 							<goals>
-								<!--配置的执行目标 -->
 								<goal>repackage</goal>
 							</goals>
 						</execution>
@@ -288,17 +256,6 @@
 			</plugins>
 		</pluginManagement>
 	</build>
-	<profiles>
-		<profile>
-			<id>dev</id>
-			<properties>
-				<profiles.active>dev</profiles.active>
-			</properties>
-			<activation>
-				<activeByDefault>true</activeByDefault>
-			</activation>
-		</profile>
-	</profiles>
 
 	<repositories>
 		<repository>
