@@ -38,6 +38,8 @@
 		<poi.version>4.1.2</poi.version>
 		<transmittable-thread-local.version>2.14.2</transmittable-thread-local.version>
 		<mybatis-plus.version>3.5.0</mybatis-plus.version>
+		<hutool.version>5.7.22</hutool.version>
+		<lombok.version>1.18.8</lombok.version>
 	</properties>
 
 
@@ -221,6 +223,19 @@
 				<version>${mybatis-plus.version}</version>
 			</dependency>
 
+			<!--lombok-->
+			<dependency>
+				<groupId>org.projectlombok</groupId>
+				<artifactId>lombok</artifactId>
+				<version>${lombok.version}</version>
+			</dependency>
+
+			<!--hutool-->
+			<dependency>
+				<groupId>cn.hutool</groupId>
+				<artifactId>hutool-all</artifactId>
+				<version>${hutool.version}</version>
+			</dependency>
 		</dependencies>
 	</dependencyManagement>
 
