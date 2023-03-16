@@ -15,7 +15,7 @@
 
 
     <properties>
-        <nacos.version>1.4.1</nacos.version>
+        <nacos.version>2.0.4</nacos.version>
     </properties>
 
 
