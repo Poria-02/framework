@@ -35,6 +35,8 @@
         <minio.version>8.2.2</minio.version>
         <poi.version>4.1.2</poi.version>
         <transmittable-thread-local.version>2.14.2</transmittable-thread-local.version>
+        <hutool.version>4.1.1</hutool.version>
+        <lombok.version>1.18.22</lombok.version>
     </properties>
 
     <!-- 依赖声明 -->
@@ -205,7 +207,6 @@
                 <artifactId>ruoyi-api-system</artifactId>
                 <version>${ruoyi.version}</version>
             </dependency>
-
         </dependencies>
     </dependencyManagement>
 
@@ -224,6 +225,18 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-bootstrap</artifactId>
+        </dependency>
+        <!--hutool-->
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+            <version>${hutool.version}</version>
+        </dependency>
+        <!--lombok-->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>${lombok.version}</version>
         </dependency>
     </dependencies>
 
