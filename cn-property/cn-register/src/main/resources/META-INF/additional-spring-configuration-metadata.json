@@ -1,8 +1,0 @@
-{
-  "properties": [
-    {
-      "name": "db.num",
-      "type": "java.lang.String",
-      "description": "Description for db.num."
-  }
-] }

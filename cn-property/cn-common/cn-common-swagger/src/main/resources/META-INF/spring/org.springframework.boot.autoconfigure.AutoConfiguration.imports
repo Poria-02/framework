@@ -1,3 +1,0 @@
-cn.momet.swagger.config.SwaggerAutoConfiguration
-cn.momet.common.swagger.config.SwaggerWebConfiguration
-cn.momet.common.swagger.config.SwaggerBeanPostProcessor

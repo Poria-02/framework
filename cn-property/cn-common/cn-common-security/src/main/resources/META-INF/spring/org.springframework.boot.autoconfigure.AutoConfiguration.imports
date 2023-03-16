@@ -1,5 +1,0 @@
-cn.momet.common.security.config.WebMvcConfig
-cn.momet.common.security.service.TokenService
-cn.momet.common.security.aspect.PreAuthorizeAspect
-cn.momet.common.security.aspect.InnerAuthAspect
-cn.momet.common.security.handler.GlobalExceptionHandler
