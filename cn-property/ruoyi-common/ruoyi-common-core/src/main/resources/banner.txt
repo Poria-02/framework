@@ -1,0 +1,12 @@
+${AnsiColor.BRIGHT_BLUE}
+ _  _                          _               _
+(_)| |                        (_) _           | |
+ _ | | _    ___    ___  ____   _ | |_    ____ | |
+| || || \  / _ \  /___)|  _ \ | ||  _)  / _  || |
+| || | | || |_| ||___ || | | || || |__ ( ( | || |
+|_||_| |_| \___/ (___/ | ||_/ |_| \___) \_||_||_|
+                       |_|
+${AnsiColor.BRIGHT_GREEN}
+互联网医院医疗  Boot Version: 1.0.0
+Spring Boot Version: ${spring-boot.version}${spring-boot.formatted-version}
+${AnsiColor.YELLOW}                        |___/
