@@ -213,7 +213,7 @@
 		<module>ruoyi-auth</module>
 		<module>ruoyi-gateway</module>
 		<module>ruoyi-visual</module>
-		<module>ruoyi-api</module>
+		<module>ruoyi-modules</module>
 		<module>ruoyi-common</module>
 	</modules>
 	<packaging>pom</packaging>

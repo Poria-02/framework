@@ -9,14 +9,15 @@
     <modelVersion>4.0.0</modelVersion>
 
     <modules>
-        <module>ruoyi-api-system</module>
+        <module>ruoyi-system</module>
+
     </modules>
 
-    <artifactId>ruoyi-api</artifactId>
+    <artifactId>ruoyi-modules</artifactId>
     <packaging>pom</packaging>
 
     <description>
-        ruoyi-api系统接口
+        ruoyi-modules业务模块
     </description>
 
 </project>
