@@ -19,6 +19,7 @@ public class WebSecurityConfigurer
 
     public WebSecurityConfigurer(AdminServerProperties adminServerProperties)
     {
+        System.out.println("分支测试");
         this.adminContextPath = adminServerProperties.getContextPath();
     }
 
