@@ -2,6 +2,11 @@
 <project version="4">
   <component name="RemoteRepositoriesConfiguration">
     <remote-repository>
+      <option name="id" value="public" />
+      <option name="name" value="aliyun nexus" />
+      <option name="url" value="https://maven.aliyun.com/repository/public" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="ih-maven" />
       <option name="name" value="ih" />
       <option name="url" value="https://mvn.shanxi-ncd.cn/repository/maven-public/" />

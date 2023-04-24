@@ -215,7 +215,7 @@
         <module>ruoyi-gateway</module>
         <module>ruoyi-visual</module>
         <module>ruoyi-modules</module>
-        <module>ruoyi-api</module>
+        <module>cn-api</module>
         <module>ruoyi-common</module>
     </modules>
     <packaging>pom</packaging>

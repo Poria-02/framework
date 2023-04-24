@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/cn-property/cn-api/ruoyi-api-system/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cn-property/cn-api/ruoyi-api-system/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cn-property/cn-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cn-property/cn-api/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cn-property/cn-auth/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cn-property/cn-auth/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cn-property/cn-common/cn-common-bom/src/main/java" charset="UTF-8" />
@@ -51,6 +55,42 @@
     <file url="file://$PROJECT_DIR$/cn-property/cn-visual/cn-visual-monitor/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cn-property/cn-visual/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cn-property/cn-visual/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cn-property/ruoyi-auth/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cn-property/ruoyi-auth/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cn-property/ruoyi-common/ruoyi-common-core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cn-property/ruoyi-common/ruoyi-common-core/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cn-property/ruoyi-common/ruoyi-common-datascope/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cn-property/ruoyi-common/ruoyi-common-datascope/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cn-property/ruoyi-common/ruoyi-common-datasource/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cn-property/ruoyi-common/ruoyi-common-datasource/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cn-property/ruoyi-common/ruoyi-common-log/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cn-property/ruoyi-common/ruoyi-common-log/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cn-property/ruoyi-common/ruoyi-common-redis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cn-property/ruoyi-common/ruoyi-common-redis/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cn-property/ruoyi-common/ruoyi-common-seata/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cn-property/ruoyi-common/ruoyi-common-seata/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cn-property/ruoyi-common/ruoyi-common-security/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cn-property/ruoyi-common/ruoyi-common-security/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cn-property/ruoyi-common/ruoyi-common-swagger/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cn-property/ruoyi-common/ruoyi-common-swagger/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cn-property/ruoyi-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cn-property/ruoyi-common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cn-property/ruoyi-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cn-property/ruoyi-gateway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cn-property/ruoyi-modules/ruoyi-file/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cn-property/ruoyi-modules/ruoyi-file/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cn-property/ruoyi-modules/ruoyi-gen/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cn-property/ruoyi-modules/ruoyi-gen/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cn-property/ruoyi-modules/ruoyi-job/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cn-property/ruoyi-modules/ruoyi-job/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cn-property/ruoyi-modules/ruoyi-system/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cn-property/ruoyi-modules/ruoyi-system/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cn-property/ruoyi-modules/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cn-property/ruoyi-modules/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cn-property/ruoyi-visual/ruoyi-monitor/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cn-property/ruoyi-visual/ruoyi-monitor/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cn-property/ruoyi-visual/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cn-property/ruoyi-visual/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cn-property/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cn-property/src/main/resources" charset="UTF-8" />
   </component>
