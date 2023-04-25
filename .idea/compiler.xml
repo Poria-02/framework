@@ -13,8 +13,8 @@
         <module name="cn-api-system" />
         <module name="cn-common-security" />
         <module name="cn-auth" />
-        <module name="ih-common-transaction" />
         <module name="cn-common-core" />
+        <module name="cn-common-fegin" />
         <module name="cn-common-log" />
         <module name="cn-common-redis" />
         <module name="cn-modules-job" />
@@ -33,6 +33,7 @@
       <module name="cn-common-core" target="1.8" />
       <module name="cn-common-datascope" target="1.8" />
       <module name="cn-common-datasource" target="1.8" />
+      <module name="cn-common-fegin" target="1.8" />
       <module name="cn-common-feign" target="1.8" />
       <module name="cn-common-gateway" target="1.8" />
       <module name="cn-common-log" target="1.8" />

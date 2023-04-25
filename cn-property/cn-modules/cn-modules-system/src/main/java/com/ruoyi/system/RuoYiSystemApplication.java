@@ -1,10 +1,9 @@
 package com.ruoyi.system;
 
+import cn.common.security.annotation.EnableCustomConfig;
+import com.ruoyi.common.swagger.annotation.EnableCustomSwagger2;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import cn.common.security.annotation.EnableCustomConfig;
-import cn.common.security.annotation.EnableRyFeignClients;
-import com.ruoyi.common.swagger.annotation.EnableCustomSwagger2;
 
 /**
  * 系统模块
@@ -13,7 +12,7 @@ import com.ruoyi.common.swagger.annotation.EnableCustomSwagger2;
  */
 @EnableCustomConfig
 @EnableCustomSwagger2
-@EnableRyFeignClients
+//@EnableRyFeignClients
 @SpringBootApplication
 public class RuoYiSystemApplication
 {

@@ -6,7 +6,7 @@
 
     <parent>
         <groupId>cn.framework</groupId>
-        <artifactId>framework</artifactId>
+        <artifactId>cn-modules</artifactId>
         <version>Framework.V1.0</version>
     </parent>
 

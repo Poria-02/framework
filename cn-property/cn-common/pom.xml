@@ -13,11 +13,11 @@
         <module>cn-common-log</module>
         <module>cn-common-core</module>
         <module>cn-common-redis</module>
-        <module>ih-common-transaction</module>
         <module>cn-common-swagger</module>
         <module>cn-common-security</module>
         <module>cn-common-datascope</module>
         <module>cn-common-datasource</module>
+        <module>cn-common-fegin</module>
     </modules>
 
     <artifactId>cn-common</artifactId>

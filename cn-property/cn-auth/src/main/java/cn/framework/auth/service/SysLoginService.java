@@ -13,8 +13,8 @@ import cn.common.core.exception.ServiceException;
 import cn.common.core.text.Convert;
 import cn.common.core.utils.StringUtils;
 import cn.common.core.utils.ip.IpUtils;
-import com.ruoyi.common.redis.service.RedisService;
 import cn.common.security.utils.SecurityUtils;
+import com.ruoyi.common.redis.service.RedisService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -72,7 +72,7 @@ public class SysLoginService {
             throw new ServiceException("登录用户：" + username + " 不存在");
         }
 
-        if (R.FAIL == userResult.getCode()) {
+        if (Constants.FAIL == userResult.getCode()) {
             throw new ServiceException(userResult.getMsg());
         }
 
@@ -119,7 +119,7 @@ public class SysLoginService {
         sysUser.setPassword(SecurityUtils.encryptPassword(password));
         R<?> registerResult = remoteUserService.registerUserInfo(sysUser, SecurityConstants.INNER);
 
-        if (R.FAIL == registerResult.getCode()) {
+        if (Constants.FAIL == registerResult.getCode()) {
             throw new ServiceException(registerResult.getMsg());
         }
         recordLogService.recordLogininfor(username, Constants.REGISTER, "注册成功");

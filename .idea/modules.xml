@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/cn-property/cn-common/cn-common-core/cn-common-core.iml" filepath="$PROJECT_DIR$/cn-property/cn-common/cn-common-core/cn-common-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/cn-property/cn-common/cn-common-datascope/cn-common-datascope.iml" filepath="$PROJECT_DIR$/cn-property/cn-common/cn-common-datascope/cn-common-datascope.iml" />
       <module fileurl="file://$PROJECT_DIR$/cn-property/cn-common/cn-common-datasource/cn-common-datasource.iml" filepath="$PROJECT_DIR$/cn-property/cn-common/cn-common-datasource/cn-common-datasource.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cn-property/cn-common/cn-common-fegin/cn-common-fegin.iml" filepath="$PROJECT_DIR$/cn-property/cn-common/cn-common-fegin/cn-common-fegin.iml" />
       <module fileurl="file://$PROJECT_DIR$/cn-property/cn-common/cn-common-log/cn-common-log.iml" filepath="$PROJECT_DIR$/cn-property/cn-common/cn-common-log/cn-common-log.iml" />
       <module fileurl="file://$PROJECT_DIR$/cn-property/cn-common/cn-common-redis/cn-common-redis.iml" filepath="$PROJECT_DIR$/cn-property/cn-common/cn-common-redis/cn-common-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/cn-property/cn-common/cn-common-security/cn-common-security.iml" filepath="$PROJECT_DIR$/cn-property/cn-common/cn-common-security/cn-common-security.iml" />
@@ -21,7 +22,6 @@
       <module fileurl="file://$PROJECT_DIR$/cn-property/cn-visual/cn-visual.iml" filepath="$PROJECT_DIR$/cn-property/cn-visual/cn-visual.iml" />
       <module fileurl="file://$PROJECT_DIR$/cn-property/cn-visual/cn-visual-monitor/cn-visual-monitor.iml" filepath="$PROJECT_DIR$/cn-property/cn-visual/cn-visual-monitor/cn-visual-monitor.iml" />
       <module fileurl="file://$PROJECT_DIR$/cn-property/framework.iml" filepath="$PROJECT_DIR$/cn-property/framework.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cn-property/cn-common/ih-common-transaction/ih-common-transaction.iml" filepath="$PROJECT_DIR$/cn-property/cn-common/ih-common-transaction/ih-common-transaction.iml" />
     </modules>
   </component>
 </project>
