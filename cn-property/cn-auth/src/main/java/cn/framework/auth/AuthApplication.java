@@ -1,5 +1,6 @@
 package cn.framework.auth;
 
+import cn.common.feign.annotation.EnableCnFeignClients;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -13,6 +14,7 @@ import java.net.UnknownHostException;
  * 认证授权中心
  */
 @Slf4j
+@EnableCnFeignClients
 @SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
 public class AuthApplication {
     public static void main(String[] args) throws UnknownHostException {

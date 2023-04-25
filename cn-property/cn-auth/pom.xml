@@ -53,7 +53,11 @@
             <groupId>cn.framework</groupId>
             <artifactId>cn-common-security</artifactId>
         </dependency>
-        
+        <dependency>
+            <groupId>cn.framework</groupId>
+            <artifactId>cn-common-fegin</artifactId>
+        </dependency>
+
     </dependencies>
 
     <build>

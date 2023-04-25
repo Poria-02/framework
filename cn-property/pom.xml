@@ -212,6 +212,13 @@
                 <version>Framework.V1.0</version>
             </dependency>
 
+            <!-- fegin -->
+            <dependency>
+                <groupId>cn.framework</groupId>
+                <artifactId>cn-common-fegin</artifactId>
+                <version>Framework.V1.0</version>
+            </dependency>
+
             <!-- 系统接口 -->
             <dependency>
                 <groupId>cn.framework</groupId>
@@ -239,6 +246,11 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>${lombok.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
     </dependencies>
 

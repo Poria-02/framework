@@ -1,4 +1,4 @@
-package cn.common.fegin.endpoint;
+package cn.common.feign.endpoint;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
