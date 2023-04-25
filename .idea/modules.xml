@@ -2,31 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/cn-property/ruoyi-api/cn-api.iml" filepath="$PROJECT_DIR$/cn-property/ruoyi-api/cn-api.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cn-property/cn-auth/cn-auth.iml" filepath="$PROJECT_DIR$/cn-property/cn-auth/cn-auth.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cn-property/cn-common/cn-common.iml" filepath="$PROJECT_DIR$/cn-property/cn-common/cn-common.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cn-property/cn-common/cn-common-bom/cn-common-bom.iml" filepath="$PROJECT_DIR$/cn-property/cn-common/cn-common-bom/cn-common-bom.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cn-property/cn-common/cn-common-core/cn-common-core.iml" filepath="$PROJECT_DIR$/cn-property/cn-common/cn-common-core/cn-common-core.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cn-property/cn-common/cn-common-datascope/cn-common-datascope.iml" filepath="$PROJECT_DIR$/cn-property/cn-common/cn-common-datascope/cn-common-datascope.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cn-property/cn-common/cn-common-datasource/cn-common-datasource.iml" filepath="$PROJECT_DIR$/cn-property/cn-common/cn-common-datasource/cn-common-datasource.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cn-property/cn-common/cn-common-feign/cn-common-feign.iml" filepath="$PROJECT_DIR$/cn-property/cn-common/cn-common-feign/cn-common-feign.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cn-property/cn-common/cn-common-gateway/cn-common-gateway.iml" filepath="$PROJECT_DIR$/cn-property/cn-common/cn-common-gateway/cn-common-gateway.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cn-property/cn-common/cn-common-log/cn-common-log.iml" filepath="$PROJECT_DIR$/cn-property/cn-common/cn-common-log/cn-common-log.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cn-property/cn-common/cn-common-redis/cn-common-redis.iml" filepath="$PROJECT_DIR$/cn-property/cn-common/cn-common-redis/cn-common-redis.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cn-property/cn-common/cn-common-seata/cn-common-seata.iml" filepath="$PROJECT_DIR$/cn-property/cn-common/cn-common-seata/cn-common-seata.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cn-property/cn-common/cn-common-security/cn-common-security.iml" filepath="$PROJECT_DIR$/cn-property/cn-common/cn-common-security/cn-common-security.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cn-property/cn-common/cn-common-swagger/cn-common-swagger.iml" filepath="$PROJECT_DIR$/cn-property/cn-common/cn-common-swagger/cn-common-swagger.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cn-property/cn-gateway/cn-gateway.iml" filepath="$PROJECT_DIR$/cn-property/cn-gateway/cn-gateway.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cn-property/cn-register/cn-register.iml" filepath="$PROJECT_DIR$/cn-property/cn-register/cn-register.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cn-property/cn-upms/cn-upms.iml" filepath="$PROJECT_DIR$/cn-property/cn-upms/cn-upms.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cn-property/cn-upms/cn-upms-api/cn-upms-api.iml" filepath="$PROJECT_DIR$/cn-property/cn-upms/cn-upms-api/cn-upms-api.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cn-property/cn-upms/cn-upms-biz/cn-upms-biz.iml" filepath="$PROJECT_DIR$/cn-property/cn-upms/cn-upms-biz/cn-upms-biz.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cn-property/cn-visual/cn-visual.iml" filepath="$PROJECT_DIR$/cn-property/cn-visual/cn-visual.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cn-property/cn-visual/cn-visual-monitor/cn-visual-monitor.iml" filepath="$PROJECT_DIR$/cn-property/cn-visual/cn-visual-monitor/cn-visual-monitor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cn-property/cn-api/cn-api.iml" filepath="$PROJECT_DIR$/cn-property/cn-api/cn-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cn-property/ruoyi-auth/cn-auth.iml" filepath="$PROJECT_DIR$/cn-property/ruoyi-auth/cn-auth.iml" />
       <module fileurl="file://$PROJECT_DIR$/cn-property/property.iml" filepath="$PROJECT_DIR$/cn-property/property.iml" />
       <module fileurl="file://$PROJECT_DIR$/cn-property/ruoyi.iml" filepath="$PROJECT_DIR$/cn-property/ruoyi.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cn-property/ruoyi-api/ruoyi-api-system/ruoyi-api-system.iml" filepath="$PROJECT_DIR$/cn-property/ruoyi-api/ruoyi-api-system/ruoyi-api-system.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cn-property/ruoyi-auth/ruoyi-auth.iml" filepath="$PROJECT_DIR$/cn-property/ruoyi-auth/ruoyi-auth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cn-property/cn-api/ruoyi-api-system/ruoyi-api-system.iml" filepath="$PROJECT_DIR$/cn-property/cn-api/ruoyi-api-system/ruoyi-api-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cn-property/cn-auth/ruoyi-auth.iml" filepath="$PROJECT_DIR$/cn-property/cn-auth/ruoyi-auth.iml" />
       <module fileurl="file://$PROJECT_DIR$/cn-property/ruoyi-common/ruoyi-common.iml" filepath="$PROJECT_DIR$/cn-property/ruoyi-common/ruoyi-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/cn-property/ruoyi-common/ruoyi-common-core/ruoyi-common-core.iml" filepath="$PROJECT_DIR$/cn-property/ruoyi-common/ruoyi-common-core/ruoyi-common-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/cn-property/ruoyi-common/ruoyi-common-datascope/ruoyi-common-datascope.iml" filepath="$PROJECT_DIR$/cn-property/ruoyi-common/ruoyi-common-datascope/ruoyi-common-datascope.iml" />

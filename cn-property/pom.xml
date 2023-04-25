@@ -7,10 +7,20 @@
     <groupId>com.ruoyi</groupId>
     <artifactId>ruoyi</artifactId>
     <version>3.6.2</version>
+    <packaging>pom</packaging>
 
     <name>ruoyi</name>
-    <url>http://www.ruoyi.vip</url>
     <description>若依微服务系统</description>
+
+    <modules>
+        <module>cn-auth</module>
+        <module>ruoyi-gateway</module>
+        <module>ruoyi-visual</module>
+        <module>ruoyi-modules</module>
+        <module>cn-api</module>
+        <module>ruoyi-common</module>
+    </modules>
+
 
     <properties>
         <ruoyi.version>3.6.2</ruoyi.version>
@@ -210,15 +220,6 @@
         </dependencies>
     </dependencyManagement>
 
-    <modules>
-        <module>ruoyi-auth</module>
-        <module>ruoyi-gateway</module>
-        <module>ruoyi-visual</module>
-        <module>ruoyi-modules</module>
-        <module>cn-api</module>
-        <module>ruoyi-common</module>
-    </modules>
-    <packaging>pom</packaging>
 
     <dependencies>
         <!-- bootstrap 启动器 -->
@@ -243,12 +244,13 @@
     <build>
         <plugins>
             <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.0</version>
                 <configuration>
+                    <skip>true</skip>
+                    <encoding>UTF-8</encoding>
                     <source>${java.version}</source>
                     <target>${java.version}</target>
-                    <encoding>${project.build.sourceEncoding}</encoding>
                 </configuration>
             </plugin>
         </plugins>
