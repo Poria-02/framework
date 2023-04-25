@@ -1,14 +1,16 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <parent>
-        <groupId>com.ruoyi</groupId>
-        <artifactId>ruoyi</artifactId>
-        <version>3.6.2</version>
-    </parent>
     <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>cn.framework</groupId>
+        <artifactId>framework</artifactId>
+        <version>Framework.V1.0</version>
+    </parent>
     
-    <artifactId>ruoyi-auth</artifactId>
+    <artifactId>cn-auth</artifactId>
+    <packaging>jar</packaging>
 	
     <description>
         ruoyi-auth认证授权中心
@@ -48,12 +50,12 @@
 		
         <!-- RuoYi Common Security-->
         <dependency>
-            <groupId>com.ruoyi</groupId>
-            <artifactId>ruoyi-common-security</artifactId>
+            <groupId>cn.framework</groupId>
+            <artifactId>cn-common-security</artifactId>
         </dependency>
         
     </dependencies>
-	
+
     <build>
         <finalName>${project.artifactId}</finalName>
         <plugins>

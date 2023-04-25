@@ -4,26 +4,26 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.ruoyi</groupId>
-    <artifactId>ruoyi</artifactId>
-    <version>3.6.2</version>
+    <version>Framework.V1.0</version>
+    <groupId>cn.framework</groupId>
+    <!-- 本pom的名字 -->
+    <artifactId>framework</artifactId>
+    <name>${project.artifactId}</name>
     <packaging>pom</packaging>
 
-    <name>ruoyi</name>
-    <description>若依微服务系统</description>
+    <description>通用架构</description>
 
     <modules>
-        <module>cn-auth</module>
-        <module>ruoyi-gateway</module>
-        <module>ruoyi-visual</module>
-        <module>ruoyi-modules</module>
         <module>cn-api</module>
-        <module>ruoyi-common</module>
+        <module>cn-auth</module>
+        <module>cn-common</module>
+        <module>cn-gateway</module>
+        <module>cn-modules</module>
+        <module>cn-visual</module>
     </modules>
 
-
     <properties>
-        <ruoyi.version>3.6.2</ruoyi.version>
+        <framework.version>Framework.V1.0-SNAPSHOT</framework.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
@@ -50,6 +50,7 @@
     </properties>
 
     <!-- 依赖声明 -->
+    <!-- 子版本在以下不需要声明版本，只需要关注版本号 -->
     <dependencyManagement>
         <dependencies>
 
@@ -157,65 +158,65 @@
 
             <!-- 核心模块 -->
             <dependency>
-                <groupId>com.ruoyi</groupId>
-                <artifactId>ruoyi-common-core</artifactId>
-                <version>${ruoyi.version}</version>
+                <groupId>cn.framework</groupId>
+                <artifactId>cn-common-core</artifactId>
+                <version>Framework.V1.0</version>
             </dependency>
 
             <!-- 接口模块 -->
             <dependency>
-                <groupId>com.ruoyi</groupId>
-                <artifactId>ruoyi-common-swagger</artifactId>
-                <version>${ruoyi.version}</version>
+                <groupId>cn.framework</groupId>
+                <artifactId>cn-common-swagger</artifactId>
+                <version>Framework.V1.0</version>
             </dependency>
 
             <!-- 安全模块 -->
             <dependency>
-                <groupId>com.ruoyi</groupId>
-                <artifactId>ruoyi-common-security</artifactId>
-                <version>${ruoyi.version}</version>
+                <groupId>cn.framework</groupId>
+                <artifactId>cn-common-security</artifactId>
+                <version>Framework.V1.0</version>
             </dependency>
 
             <!-- 权限范围 -->
             <dependency>
-                <groupId>com.ruoyi</groupId>
-                <artifactId>ruoyi-common-datascope</artifactId>
-                <version>${ruoyi.version}</version>
+                <groupId>cn.framework</groupId>
+                <artifactId>cn-common-datascope</artifactId>
+                <version>Framework.V1.0</version>
             </dependency>
 
             <!-- 多数据源 -->
             <dependency>
-                <groupId>com.ruoyi</groupId>
-                <artifactId>ruoyi-common-datasource</artifactId>
-                <version>${ruoyi.version}</version>
+                <groupId>cn.framework</groupId>
+                <artifactId>cn-common-datasource</artifactId>
+                <version>Framework.V1.0</version>
             </dependency>
 
             <!-- 分布式事务 -->
             <dependency>
-                <groupId>com.ruoyi</groupId>
-                <artifactId>ruoyi-common-seata</artifactId>
-                <version>${ruoyi.version}</version>
+                <groupId>cn.framework</groupId>
+                <artifactId>cn-common-seata</artifactId>
+                <version>Framework.V1.0</version>
             </dependency>
 
             <!-- 日志记录 -->
             <dependency>
-                <groupId>com.ruoyi</groupId>
-                <artifactId>ruoyi-common-log</artifactId>
-                <version>${ruoyi.version}</version>
+                <groupId>cn.framework</groupId>
+                <artifactId>cn-common-log</artifactId>
+                <version>Framework.V1.0</version>
             </dependency>
 
             <!-- 缓存服务 -->
             <dependency>
-                <groupId>com.ruoyi</groupId>
-                <artifactId>ruoyi-common-redis</artifactId>
-                <version>${ruoyi.version}</version>
+                <groupId>cn.framework</groupId>
+                <artifactId>cn-common-redis</artifactId>
+                <version>Framework.V1.0</version>
             </dependency>
 
             <!-- 系统接口 -->
             <dependency>
-                <groupId>com.ruoyi</groupId>
-                <artifactId>ruoyi-api-system</artifactId>
-                <version>${ruoyi.version}</version>
+                <groupId>cn.framework</groupId>
+                <artifactId>cn-api-system</artifactId>
+                <version>Framework.V1.0</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
@@ -243,7 +244,9 @@
 
     <build>
         <plugins>
+            <!--Maven插件   设置编译项目指定Java版本和编码-->
             <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.8.0</version>
                 <configuration>
@@ -256,6 +259,7 @@
         </plugins>
         <pluginManagement>
             <plugins>
+                <!-- 打包工具 -->
                 <plugin>
                     <groupId>org.springframework.boot</groupId>
                     <artifactId>spring-boot-maven-plugin</artifactId>
@@ -272,6 +276,7 @@
         </pluginManagement>
     </build>
 
+    <!-- Maven  jar包仓库 -->
     <repositories>
         <repository>
             <id>public</id>

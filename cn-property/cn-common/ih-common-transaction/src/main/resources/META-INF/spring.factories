@@ -1,0 +1,1 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=cn.shanxincd.ih.common.transaction.TransactionConfiguration

@@ -7,6 +7,11 @@
       <option name="url" value="https://maven.aliyun.com/repository/public" />
     </remote-repository>
     <remote-repository>
+      <option name="id" value="ih-maven-releases" />
+      <option name="name" value="ih-releases" />
+      <option name="url" value="https://mvn.shanxi-ncd.cn/repository/maven-releases/" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="ih-maven" />
       <option name="name" value="ih" />
       <option name="url" value="https://mvn.shanxi-ncd.cn/repository/maven-public/" />
@@ -25,6 +30,11 @@
       <option name="id" value="jboss.community" />
       <option name="name" value="JBoss Community repository" />
       <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="ih-maven-snapshots" />
+      <option name="name" value="ih-snapshot" />
+      <option name="url" value="https://mvn.shanxi-ncd.cn/repository/maven-snapshots/" />
     </remote-repository>
     <remote-repository>
       <option name="id" value="aliyun" />

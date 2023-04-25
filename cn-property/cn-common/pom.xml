@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>cn.framework</groupId>
+        <artifactId>framework</artifactId>
+        <version>Framework.V1.0</version>
+    </parent>
+
+    <modules>
+        <module>cn-common-log</module>
+        <module>cn-common-core</module>
+        <module>cn-common-redis</module>
+        <module>ih-common-transaction</module>
+        <module>cn-common-swagger</module>
+        <module>cn-common-security</module>
+        <module>cn-common-datascope</module>
+        <module>cn-common-datasource</module>
+    </modules>
+
+    <artifactId>cn-common</artifactId>
+    <packaging>pom</packaging>
+
+    <description>
+        ruoyi-common通用模块
+    </description>
+
+</project>
