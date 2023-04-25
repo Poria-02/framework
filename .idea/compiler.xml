@@ -52,6 +52,7 @@
       <module name="cn-upms-biz" target="1.5" />
       <module name="cn-visual" target="1.8" />
       <module name="cn-visual-monitor" target="1.8" />
+      <module name="framework" target="1.8" />
       <module name="ih-common-transaction" target="1.8" />
       <module name="property" target="1.5" />
       <module name="ruoyi" target="1.8" />

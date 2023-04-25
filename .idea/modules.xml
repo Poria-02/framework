@@ -15,14 +15,13 @@
       <module fileurl="file://$PROJECT_DIR$/cn-property/cn-common/cn-common-swagger/cn-common-swagger.iml" filepath="$PROJECT_DIR$/cn-property/cn-common/cn-common-swagger/cn-common-swagger.iml" />
       <module fileurl="file://$PROJECT_DIR$/cn-property/cn-gateway/cn-gateway.iml" filepath="$PROJECT_DIR$/cn-property/cn-gateway/cn-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/cn-property/cn-modules/cn-modules.iml" filepath="$PROJECT_DIR$/cn-property/cn-modules/cn-modules.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cn-property/cn-modules/ruoyi-file/cn-modules-file.iml" filepath="$PROJECT_DIR$/cn-property/cn-modules/ruoyi-file/cn-modules-file.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cn-property/cn-modules/ruoyi-job/cn-modules-job.iml" filepath="$PROJECT_DIR$/cn-property/cn-modules/ruoyi-job/cn-modules-job.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cn-property/cn-modules/ruoyi-system/cn-modules-system.iml" filepath="$PROJECT_DIR$/cn-property/cn-modules/ruoyi-system/cn-modules-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cn-property/cn-modules/cn-modules-file/cn-modules-file.iml" filepath="$PROJECT_DIR$/cn-property/cn-modules/cn-modules-file/cn-modules-file.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cn-property/cn-modules/cn-modules-job/cn-modules-job.iml" filepath="$PROJECT_DIR$/cn-property/cn-modules/cn-modules-job/cn-modules-job.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cn-property/cn-modules/cn-modules-system/cn-modules-system.iml" filepath="$PROJECT_DIR$/cn-property/cn-modules/cn-modules-system/cn-modules-system.iml" />
       <module fileurl="file://$PROJECT_DIR$/cn-property/cn-visual/cn-visual.iml" filepath="$PROJECT_DIR$/cn-property/cn-visual/cn-visual.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cn-property/cn-visual/ruoyi-monitor/cn-visual-monitor.iml" filepath="$PROJECT_DIR$/cn-property/cn-visual/ruoyi-monitor/cn-visual-monitor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cn-property/cn-visual/cn-visual-monitor/cn-visual-monitor.iml" filepath="$PROJECT_DIR$/cn-property/cn-visual/cn-visual-monitor/cn-visual-monitor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cn-property/framework.iml" filepath="$PROJECT_DIR$/cn-property/framework.iml" />
       <module fileurl="file://$PROJECT_DIR$/cn-property/cn-common/ih-common-transaction/ih-common-transaction.iml" filepath="$PROJECT_DIR$/cn-property/cn-common/ih-common-transaction/ih-common-transaction.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cn-property/property.iml" filepath="$PROJECT_DIR$/cn-property/property.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cn-property/ruoyi.iml" filepath="$PROJECT_DIR$/cn-property/ruoyi.iml" />
     </modules>
   </component>
 </project>

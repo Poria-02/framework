@@ -1,15 +1,15 @@
 package cn.api.system;
 
+import cn.api.system.domain.SysLogininfor;
+import cn.api.system.domain.SysOperLog;
+import cn.api.system.factory.RemoteLogFallbackFactory;
+import cn.common.core.constant.SecurityConstants;
+import cn.common.core.constant.ServiceNameConstants;
+import cn.common.core.domain.R;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestHeader;
-import com.ruoyi.common.core.constant.SecurityConstants;
-import com.ruoyi.common.core.constant.ServiceNameConstants;
-import com.ruoyi.common.core.domain.R;
-import cn.api.system.domain.SysLogininfor;
-import cn.api.system.domain.SysOperLog;
-import cn.api.system.factory.RemoteLogFallbackFactory;
 
 /**
  * 日志服务

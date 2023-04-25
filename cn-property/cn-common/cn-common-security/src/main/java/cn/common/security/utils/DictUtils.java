@@ -1,17 +1,14 @@
 package cn.common.security.utils;
 
-import java.util.Collection;
-import java.util.List;
-
+import cn.api.system.domain.SysDictData;
 import cn.common.core.constant.CacheConstants;
 import cn.common.core.utils.SpringUtils;
 import cn.common.core.utils.StringUtils;
 import com.alibaba.fastjson2.JSONArray;
-import com.ruoyi.common.core.constant.CacheConstants;
-import com.ruoyi.common.core.utils.SpringUtils;
-import com.ruoyi.common.core.utils.StringUtils;
 import com.ruoyi.common.redis.service.RedisService;
-import cn.api.system.domain.SysDictData;
+
+import java.util.Collection;
+import java.util.List;
 
 /**
  * 字典工具类

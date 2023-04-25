@@ -1,31 +1,33 @@
 package cn.framework.auth;
 
+import cn.common.security.annotation.EnableRyFeignClients;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
-import cn.common.security.annotation.EnableRyFeignClients;
+import org.springframework.core.env.Environment;
+
+import java.net.InetAddress;
+import java.net.UnknownHostException;
 
 /**
  * 认证授权中心
- * 
- * @author ruoyi
+ *
  */
+@Slf4j
 @EnableRyFeignClients
-@SpringBootApplication(exclude = {DataSourceAutoConfiguration.class })
-public class AuthApplication
-{
-    public static void main(String[] args)
-    {
-        SpringApplication.run(AuthApplication.class, args);
-        System.out.println("(♥◠‿◠)ﾉﾞ  认证授权中心启动成功   ლ(´ڡ`ლ)ﾞ  \n" +
-                " .-------.       ____     __        \n" +
-                " |  _ _   \\      \\   \\   /  /    \n" +
-                " | ( ' )  |       \\  _. /  '       \n" +
-                " |(_ o _) /        _( )_ .'         \n" +
-                " | (_,_).' __  ___(_ o _)'          \n" +
-                " |  |\\ \\  |  ||   |(_,_)'         \n" +
-                " |  | \\ `'   /|   `-'  /           \n" +
-                " |  |  \\    /  \\      /           \n" +
-                " ''-'   `'-'    `-..-'              ");
+@SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
+public class AuthApplication {
+    public static void main(String[] args) throws UnknownHostException {
+
+        SpringApplication app = new SpringApplication(AuthApplication.class);
+        Environment env = app. run(args).getEnvironment();
+        log.info(
+                "\n----------------------------------------------------------\n\t"
+                        + "Application '{}' is running! Access URLs:\n\t"
+                        + "Local: \t\thttp://localhost:{}\n\t"
+                        + "External: \thttp://{}:{}\n----------------------------------------------------------",
+                env.getProperty("spring.application.name"), env.getProperty("server.port"),
+                InetAddress.getLocalHost().getHostAddress(), env.getProperty("server.port"));
     }
 }

@@ -5,20 +5,9 @@
       <list>
         <option value="$PROJECT_DIR$/cn-property/pom.xml" />
         <option value="$PROJECT_DIR$/cn-property/cn-common/cn-common-gateway/pom.xml" />
-        <option value="$PROJECT_DIR$/cn-property/cn-common/cn-common-core/pom.xml" />
-        <option value="$PROJECT_DIR$/cn-property/cn-common/cn-common-datascope/pom.xml" />
-        <option value="$PROJECT_DIR$/cn-property/cn-common/cn-common-datasource/pom.xml" />
-        <option value="$PROJECT_DIR$/cn-property/cn-common/cn-common-redis/pom.xml" />
-        <option value="$PROJECT_DIR$/cn-property/cn-common/cn-common-log/pom.xml" />
-        <option value="$PROJECT_DIR$/cn-property/cn-common/cn-common-security/pom.xml" />
-        <option value="$PROJECT_DIR$/cn-property/cn-common/cn-common-swagger/pom.xml" />
-        <option value="$PROJECT_DIR$/cn-property/cn-common/ih-common-transaction/pom.xml" />
+        <option value="$PROJECT_DIR$/cn-property/cn-api/pom.xml" />
+        <option value="$PROJECT_DIR$/cn-property/cn-api/cn-api-system/pom.xml" />
       </list>
-    </option>
-    <option name="ignoredFiles">
-      <set>
-        <option value="$PROJECT_DIR$/cn-property/cn-modules/ruoyi-gen/pom.xml" />
-      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
