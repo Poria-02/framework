@@ -11,7 +11,7 @@ import com.ruoyi.common.core.text.Convert;
 import com.ruoyi.common.core.utils.StringUtils;
 import com.ruoyi.common.core.web.domain.BaseEntity;
 import com.ruoyi.common.datascope.annotation.DataScope;
-import com.ruoyi.common.security.utils.SecurityUtils;
+import cn.common.security.utils.SecurityUtils;
 import cn.api.system.domain.SysRole;
 import cn.api.system.domain.SysUser;
 import cn.api.system.model.LoginUser;

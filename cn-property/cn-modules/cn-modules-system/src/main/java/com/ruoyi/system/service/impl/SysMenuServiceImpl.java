@@ -13,7 +13,7 @@ import org.springframework.stereotype.Service;
 import cn.common.core.constant.Constants;
 import cn.common.core.constant.UserConstants;
 import cn.common.core.utils.StringUtils;
-import com.ruoyi.common.security.utils.SecurityUtils;
+import cn.common.security.utils.SecurityUtils;
 import cn.api.system.domain.SysRole;
 import cn.api.system.domain.SysUser;
 import com.ruoyi.system.domain.SysMenu;

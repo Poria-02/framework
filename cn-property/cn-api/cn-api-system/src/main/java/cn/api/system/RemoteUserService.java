@@ -1,31 +1,26 @@
 package cn.api.system;
 
-import org.springframework.cloud.openfeign.FeignClient;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestHeader;
-import com.ruoyi.common.core.constant.SecurityConstants;
-import com.ruoyi.common.core.constant.ServiceNameConstants;
-import com.ruoyi.common.core.domain.R;
 import cn.api.system.domain.SysUser;
 import cn.api.system.factory.RemoteUserFallbackFactory;
 import cn.api.system.model.LoginUser;
+import cn.common.core.constant.SecurityConstants;
+import cn.common.core.constant.ServiceNameConstants;
+import cn.common.core.domain.R;
+import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.web.bind.annotation.*;
 
 /**
  * 用户服务
- * 
+ *
  * @author ruoyi
  */
 @FeignClient(contextId = "remoteUserService", value = ServiceNameConstants.SYSTEM_SERVICE, fallbackFactory = RemoteUserFallbackFactory.class)
-public interface RemoteUserService
-{
+public interface RemoteUserService {
     /**
      * 通过用户名查询用户信息
      *
      * @param username 用户名
-     * @param source 请求来源
+     * @param source   请求来源
      * @return 结果
      */
     @GetMapping("/user/info/{username}")
@@ -35,7 +30,7 @@ public interface RemoteUserService
      * 注册用户信息
      *
      * @param sysUser 用户信息
-     * @param source 请求来源
+     * @param source  请求来源
      * @return 结果
      */
     @PostMapping("/user/register")

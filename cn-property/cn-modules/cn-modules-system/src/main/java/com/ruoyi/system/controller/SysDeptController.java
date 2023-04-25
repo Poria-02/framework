@@ -18,8 +18,8 @@ import cn.common.core.web.controller.BaseController;
 import cn.common.core.web.domain.AjaxResult;
 import com.ruoyi.common.log.annotation.Log;
 import com.ruoyi.common.log.enums.BusinessType;
-import com.ruoyi.common.security.annotation.RequiresPermissions;
-import com.ruoyi.common.security.utils.SecurityUtils;
+import cn.common.security.annotation.RequiresPermissions;
+import cn.common.security.utils.SecurityUtils;
 import cn.api.system.domain.SysDept;
 import com.ruoyi.system.service.ISysDeptService;
 

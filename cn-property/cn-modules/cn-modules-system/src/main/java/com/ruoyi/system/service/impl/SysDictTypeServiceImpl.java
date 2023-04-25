@@ -11,7 +11,7 @@ import org.springframework.transaction.annotation.Transactional;
 import cn.common.core.constant.UserConstants;
 import cn.common.core.exception.ServiceException;
 import cn.common.core.utils.StringUtils;
-import com.ruoyi.common.security.utils.DictUtils;
+import cn.common.security.utils.DictUtils;
 import cn.api.system.domain.SysDictData;
 import cn.api.system.domain.SysDictType;
 import com.ruoyi.system.mapper.SysDictDataMapper;

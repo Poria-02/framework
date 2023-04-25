@@ -16,7 +16,7 @@ import cn.common.core.utils.SpringUtils;
 import cn.common.core.utils.StringUtils;
 import cn.common.core.utils.bean.BeanValidators;
 import com.ruoyi.common.datascope.annotation.DataScope;
-import com.ruoyi.common.security.utils.SecurityUtils;
+import cn.common.security.utils.SecurityUtils;
 import cn.api.system.domain.SysRole;
 import cn.api.system.domain.SysUser;
 import com.ruoyi.system.domain.SysPost;

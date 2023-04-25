@@ -26,7 +26,7 @@ import com.ruoyi.common.log.annotation.Log;
 import com.ruoyi.common.log.enums.BusinessStatus;
 import com.ruoyi.common.log.filter.PropertyPreExcludeFilter;
 import com.ruoyi.common.log.service.AsyncLogService;
-import com.ruoyi.common.security.utils.SecurityUtils;
+import cn.common.security.utils.SecurityUtils;
 import cn.api.system.domain.SysOperLog;
 
 /**
