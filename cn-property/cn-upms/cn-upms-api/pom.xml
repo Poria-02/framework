@@ -16,7 +16,7 @@
     <description>
         cn-api-system系统接口模块
     </description>
-
+    <version>${framework.version}</version>
     <dependencies>
 
         <!-- RuoYi Common Core-->

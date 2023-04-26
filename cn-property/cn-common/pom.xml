@@ -23,8 +23,6 @@
     <artifactId>cn-common</artifactId>
     <packaging>pom</packaging>
 
-    <description>
-        ruoyi-common通用模块
-    </description>
+    <description>cn-common通用模块</description>
 
 </project>

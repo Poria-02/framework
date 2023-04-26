@@ -17,8 +17,6 @@
     <artifactId>cn-upms</artifactId>
     <packaging>pom</packaging>
 
-    <description>
-        ruoyi-modules业务模块
-    </description>
+    <description>cn-modules业务模块</description>
 
 </project>
