@@ -1,8 +1,8 @@
 package cn.common.security.handler;
 
 import cn.common.core.constant.HttpStatus;
-import cn.common.core.exception.DemoModeException;
-import cn.common.core.exception.InnerAuthException;
+
+import cn.common.core.exception.InnerException;
 import cn.common.core.exception.ServiceException;
 import cn.common.core.exception.auth.NotPermissionException;
 import cn.common.core.exception.auth.NotRoleException;
@@ -111,16 +111,9 @@ public class GlobalExceptionHandler {
     /**
      * 内部认证异常
      */
-    @ExceptionHandler(InnerAuthException.class)
-    public AjaxResult handleInnerAuthException(InnerAuthException e) {
+    @ExceptionHandler(InnerException.class)
+    public AjaxResult handleInnerAuthException(InnerException e) {
         return AjaxResult.error(e.getMessage());
     }
 
-    /**
-     * 演示模式异常
-     */
-    @ExceptionHandler(DemoModeException.class)
-    public AjaxResult handleDemoModeException(DemoModeException e) {
-        return AjaxResult.error("演示模式，不允许操作");
-    }
 }

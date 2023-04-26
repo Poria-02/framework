@@ -1,7 +1,7 @@
 package cn.framework.auth.controller;
 
 import cn.api.system.model.LoginUser;
-import cn.common.core.domain.R;
+import cn.common.core.utils.R;
 import cn.common.core.utils.JwtUtils;
 import cn.common.core.utils.StringUtils;
 import cn.common.security.auth.AuthUtil;

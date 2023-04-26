@@ -5,7 +5,7 @@ import cn.api.system.domain.SysOperLog;
 import cn.api.system.factory.RemoteLogFallbackFactory;
 import cn.common.core.constant.SecurityConstants;
 import cn.common.core.constant.ServiceNameConstants;
-import cn.common.core.domain.R;
+import cn.common.core.utils.R;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

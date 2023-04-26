@@ -6,7 +6,7 @@ server:
 spring: 
   application:
     # 应用名称
-    name: ruoyi-system
+    name: @artifactId@
   profiles:
     # 环境配置
     active: dev

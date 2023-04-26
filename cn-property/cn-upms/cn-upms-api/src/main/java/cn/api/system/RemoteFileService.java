@@ -3,7 +3,7 @@ package cn.api.system;
 import cn.api.system.domain.SysFile;
 import cn.api.system.factory.RemoteFileFallbackFactory;
 import cn.common.core.constant.ServiceNameConstants;
-import cn.common.core.domain.R;
+import cn.common.core.utils.R;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.PostMapping;

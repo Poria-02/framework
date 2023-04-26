@@ -16,7 +16,7 @@ import cn.common.core.web.domain.AjaxResult;
 import cn.common.core.web.page.TableDataInfo;
 import com.ruoyi.common.log.annotation.Log;
 import com.ruoyi.common.log.enums.BusinessType;
-import cn.common.security.annotation.InnerAuth;
+import cn.common.security.annotation.Inner;
 import cn.common.security.annotation.RequiresPermissions;
 import cn.api.system.domain.SysOperLog;
 import com.ruoyi.system.service.ISysOperLogService;
@@ -69,7 +69,7 @@ public class SysOperlogController extends BaseController
         return success();
     }
 
-    @InnerAuth
+    @Inner
     @PostMapping
     public AjaxResult add(@RequestBody SysOperLog operLog)
     {

@@ -12,9 +12,6 @@
 
     <artifactId>cn-upms-biz</artifactId>
     <packaging>jar</packaging>
-    <description>
-        ruoyi-modules-system系统模块
-    </description>
 	
     <dependencies>
     	

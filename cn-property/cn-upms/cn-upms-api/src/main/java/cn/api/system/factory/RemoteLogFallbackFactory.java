@@ -3,7 +3,7 @@ package cn.api.system.factory;
 import cn.api.system.RemoteLogService;
 import cn.api.system.domain.SysLogininfor;
 import cn.api.system.domain.SysOperLog;
-import cn.common.core.domain.R;
+import cn.common.core.utils.R;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.cloud.openfeign.FallbackFactory;

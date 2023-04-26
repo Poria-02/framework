@@ -5,7 +5,7 @@ import cn.api.system.factory.RemoteUserFallbackFactory;
 import cn.api.system.model.LoginUser;
 import cn.common.core.constant.SecurityConstants;
 import cn.common.core.constant.ServiceNameConstants;
-import cn.common.core.domain.R;
+import cn.common.core.utils.R;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.*;
 

@@ -1,7 +1,6 @@
 package cn.common.core.utils;
 
 import cn.common.core.constant.Constants;
-import cn.common.core.domain.R;
 import cn.common.core.text.Convert;
 import com.alibaba.fastjson2.JSON;
 import org.springframework.core.io.buffer.DataBuffer;
@@ -238,7 +237,7 @@ public class ServletUtils {
      * @return Mono<Void>
      */
     public static Mono<Void> webFluxResponseWriter(ServerHttpResponse response, Object value) {
-        return webFluxResponseWriter(response, HttpStatus.OK, value,  Constants.FAIL);
+        return webFluxResponseWriter(response, HttpStatus.OK, value, Constants.FAIL);
     }
 
     /**

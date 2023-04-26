@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
-import cn.common.core.domain.R;
+import cn.common.core.utils.R;
 import cn.common.core.utils.StringUtils;
 import cn.common.core.utils.file.FileTypeUtils;
 import cn.common.core.utils.file.MimeTypeUtils;
@@ -122,37 +122,37 @@ public class SysProfileController extends BaseController
         return error("修改密码异常，请联系管理员");
     }
     
-    /**
-     * 头像上传
-     */
-    @Log(title = "用户头像", businessType = BusinessType.UPDATE)
-    @PostMapping("/avatar")
-    public AjaxResult avatar(@RequestParam("avatarfile") MultipartFile file)
-    {
-        if (!file.isEmpty())
-        {
-            LoginUser loginUser = SecurityUtils.getLoginUser();
-            String extension = FileTypeUtils.getExtension(file);
-            if (!StringUtils.equalsAnyIgnoreCase(extension, MimeTypeUtils.IMAGE_EXTENSION))
-            {
-                return error("文件格式不正确，请上传" + Arrays.toString(MimeTypeUtils.IMAGE_EXTENSION) + "格式");
-            }
-            R<SysFile> fileResult = remoteFileService.upload(file);
-            if (StringUtils.isNull(fileResult) || StringUtils.isNull(fileResult.getData()))
-            {
-                return error("文件服务异常，请联系管理员");
-            }
-            String url = fileResult.getData().getUrl();
-            if (userService.updateUserAvatar(loginUser.getUsername(), url))
-            {
-                AjaxResult ajax = AjaxResult.success();
-                ajax.put("imgUrl", url);
-                // 更新缓存用户头像
-                loginUser.getSysUser().setAvatar(url);
-                tokenService.setLoginUser(loginUser);
-                return ajax;
-            }
-        }
-        return error("上传图片异常，请联系管理员");
-    }
+//    /**
+//     * 头像上传
+//     */
+//    @Log(title = "用户头像", businessType = BusinessType.UPDATE)
+//    @PostMapping("/avatar")
+//    public AjaxResult avatar(@RequestParam("avatarfile") MultipartFile file)
+//    {
+//        if (!file.isEmpty())
+//        {
+//            LoginUser loginUser = SecurityUtils.getLoginUser();
+//            String extension = FileTypeUtils.getExtension(file);
+//            if (!StringUtils.equalsAnyIgnoreCase(extension, MimeTypeUtils.IMAGE_EXTENSION))
+//            {
+//                return error("文件格式不正确，请上传" + Arrays.toString(MimeTypeUtils.IMAGE_EXTENSION) + "格式");
+//            }
+////            R<SysFile> fileResult = remoteFileService.upload(file);
+//            if (StringUtils.isNull(fileResult) || StringUtils.isNull(fileResult.getData()))
+//            {
+//                return error("文件服务异常，请联系管理员");
+//            }
+//            String url = fileResult.getData().getUrl();
+//            if (userService.updateUserAvatar(loginUser.getUsername(), url))
+//            {
+//                AjaxResult ajax = AjaxResult.success();
+//                ajax.put("imgUrl", url);
+//                // 更新缓存用户头像
+//                loginUser.getSysUser().setAvatar(url);
+//                tokenService.setLoginUser(loginUser);
+//                return ajax;
+//            }
+//        }
+//        return error("上传图片异常，请联系管理员");
+//    }
 }

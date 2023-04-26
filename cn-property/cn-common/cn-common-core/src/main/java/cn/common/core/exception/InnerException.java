@@ -2,15 +2,13 @@ package cn.common.core.exception;
 
 /**
  * 内部认证异常
- * 
+ *
  * @author ruoyi
  */
-public class InnerAuthException extends RuntimeException
-{
+public class InnerException extends RuntimeException {
     private static final long serialVersionUID = 1L;
 
-    public InnerAuthException(String message)
-    {
+    public InnerException(String message) {
         super(message);
     }
 }

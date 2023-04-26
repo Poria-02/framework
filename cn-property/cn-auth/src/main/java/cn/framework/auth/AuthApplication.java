@@ -6,6 +6,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.core.env.Environment;
+import org.springframework.scheduling.annotation.EnableAsync;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;
@@ -14,6 +15,7 @@ import java.net.UnknownHostException;
  * 认证授权中心
  */
 @Slf4j
+@EnableAsync
 @EnableCnFeignClients
 @SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
 public class AuthApplication {

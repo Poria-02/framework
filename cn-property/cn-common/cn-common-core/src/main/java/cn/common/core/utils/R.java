@@ -1,4 +1,4 @@
-package cn.common.core.domain;
+package cn.common.core.utils;
 
 import cn.common.core.constant.Constants;
 import io.swagger.annotations.ApiModel;
@@ -22,7 +22,6 @@ import java.io.Serializable;
 @ApiModel(value = "响应信息主体")
 public class R<T> implements Serializable {
     private static final long serialVersionUID = 1L;
-
 
 
     @ApiModelProperty(value = "返回标记：成功标记=200，失败标记=500")

@@ -11,10 +11,6 @@
     
     <artifactId>cn-auth</artifactId>
     <packaging>jar</packaging>
-	
-    <description>
-        ruoyi-auth认证授权中心
-    </description>
     
     <dependencies>
         
@@ -53,9 +49,15 @@
             <groupId>cn.framework</groupId>
             <artifactId>cn-common-security</artifactId>
         </dependency>
+
         <dependency>
             <groupId>cn.framework</groupId>
             <artifactId>cn-common-fegin</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>cn.framework</groupId>
+            <artifactId>cn-common-core</artifactId>
         </dependency>
 
     </dependencies>

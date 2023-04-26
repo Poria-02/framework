@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
-import cn.common.core.domain.R;
+import cn.common.core.utils.R;
 import cn.common.core.utils.StringUtils;
 import cn.common.core.utils.poi.ExcelUtil;
 import cn.common.core.web.controller.BaseController;
@@ -25,7 +25,7 @@ import cn.common.core.web.domain.AjaxResult;
 import cn.common.core.web.page.TableDataInfo;
 import com.ruoyi.common.log.annotation.Log;
 import com.ruoyi.common.log.enums.BusinessType;
-import cn.common.security.annotation.InnerAuth;
+import cn.common.security.annotation.Inner;
 import cn.common.security.annotation.RequiresPermissions;
 import cn.common.security.utils.SecurityUtils;
 import cn.api.system.domain.SysDept;
@@ -110,7 +110,7 @@ public class SysUserController extends BaseController
     /**
      * 获取当前用户信息
      */
-    @InnerAuth
+    @Inner
     @GetMapping("/info/{username}")
     public R<LoginUser> info(@PathVariable("username") String username)
     {
@@ -133,7 +133,7 @@ public class SysUserController extends BaseController
     /**
      * 注册用户信息
      */
-    @InnerAuth
+    @Inner
     @PostMapping("/register")
     public R<Boolean> register(@RequestBody SysUser sysUser)
     {

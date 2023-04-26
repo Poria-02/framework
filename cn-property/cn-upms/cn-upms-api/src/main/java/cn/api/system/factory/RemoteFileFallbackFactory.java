@@ -2,7 +2,7 @@ package cn.api.system.factory;
 
 import cn.api.system.RemoteFileService;
 import cn.api.system.domain.SysFile;
-import cn.common.core.domain.R;
+import cn.common.core.utils.R;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.cloud.openfeign.FallbackFactory;
