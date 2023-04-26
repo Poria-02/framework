@@ -1,10 +1,11 @@
 package com.ruoyi.common.log.aspect;
 
-import cn.api.system.domain.SysOperLog;
+
 import cn.common.core.utils.ServletUtils;
 import cn.common.core.utils.StringUtils;
 import cn.common.core.utils.ip.IpUtils;
 import cn.common.security.utils.SecurityUtils;
+import cn.umps.api.domain.SysOperLog;
 import com.alibaba.fastjson2.JSON;
 import com.ruoyi.common.log.annotation.Log;
 import com.ruoyi.common.log.enums.BusinessStatus;

@@ -1,11 +1,13 @@
 package cn.framework.auth.service;
 
-import cn.api.system.RemoteLogService;
-import cn.api.system.domain.SysLogininfor;
+
+
 import cn.common.core.constant.Constants;
 import cn.common.core.constant.SecurityConstants;
 import cn.common.core.utils.StringUtils;
 import cn.common.core.utils.ip.IpUtils;
+import cn.umps.api.RemoteLogService;
+import cn.umps.api.domain.SysLogininfor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

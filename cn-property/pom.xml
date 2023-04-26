@@ -46,6 +46,7 @@
         <transmittable-thread-local.version>2.14.2</transmittable-thread-local.version>
         <hutool.version>4.1.1</hutool.version>
         <lombok.version>1.18.22</lombok.version>
+        <security.oauth.version>2.3.6.RELEASE</security.oauth.version>
     </properties>
 
     <!-- 依赖声明 -->
@@ -78,6 +79,13 @@
                 <version>${spring-boot.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
+            </dependency>
+
+            <!-- Oauth2 依赖 -->
+            <dependency>
+                <groupId>org.springframework.security.oauth</groupId>
+                <artifactId>spring-security-oauth2</artifactId>
+                <version>${security.oauth.version}</version>
             </dependency>
 
             <!-- FastDFS 分布式文件系统 -->

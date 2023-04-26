@@ -24,6 +24,11 @@
             <groupId>cn.framework</groupId>
             <artifactId>cn-common-security</artifactId>
         </dependency>
-        
+
+        <dependency>
+            <groupId>cn.framework</groupId>
+            <artifactId>cn-upms-api</artifactId>
+            <version>Framework.V1.0</version>
+        </dependency>
     </dependencies>
 </project>

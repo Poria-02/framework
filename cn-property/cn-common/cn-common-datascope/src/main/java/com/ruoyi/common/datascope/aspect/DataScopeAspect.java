@@ -1,13 +1,14 @@
 package com.ruoyi.common.datascope.aspect;
 
-import cn.api.system.domain.SysRole;
-import cn.api.system.domain.SysUser;
-import cn.api.system.model.LoginUser;
+
 import cn.common.core.context.SecurityContextHolder;
 import cn.common.core.text.Convert;
 import cn.common.core.utils.StringUtils;
 import cn.common.core.web.domain.BaseEntity;
 import cn.common.security.utils.SecurityUtils;
+import cn.umps.api.domain.SysRole;
+import cn.umps.api.domain.SysUser;
+import cn.umps.api.model.LoginUser;
 import com.ruoyi.common.datascope.annotation.DataScope;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.Aspect;

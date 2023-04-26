@@ -1,12 +1,13 @@
 package cn.common.security.interceptor;
 
-import cn.api.system.model.LoginUser;
+
 import cn.common.core.constant.SecurityConstants;
 import cn.common.core.context.SecurityContextHolder;
 import cn.common.core.utils.ServletUtils;
 import cn.common.core.utils.StringUtils;
 import cn.common.security.auth.AuthUtil;
 import cn.common.security.utils.SecurityUtils;
+import cn.umps.api.model.LoginUser;
 import org.springframework.web.method.HandlerMethod;
 import org.springframework.web.servlet.AsyncHandlerInterceptor;
 

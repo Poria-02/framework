@@ -14,7 +14,7 @@
     <artifactId>cn-upms-api</artifactId>
     <packaging>jar</packaging>
     <description>
-        ruoyi-api-system系统接口模块
+        cn-api-system系统接口模块
     </description>
 
     <dependencies>

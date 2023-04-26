@@ -1,6 +1,8 @@
 package cn.common.security.service;
 
-import cn.api.system.model.LoginUser;
+
+
+
 import cn.common.core.constant.CacheConstants;
 import cn.common.core.constant.SecurityConstants;
 import cn.common.core.utils.JwtUtils;
@@ -9,6 +11,7 @@ import cn.common.core.utils.StringUtils;
 import cn.common.core.utils.ip.IpUtils;
 import cn.common.core.utils.uuid.IdUtils;
 import cn.common.security.utils.SecurityUtils;
+import cn.umps.api.model.LoginUser;
 import com.ruoyi.common.redis.service.RedisService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

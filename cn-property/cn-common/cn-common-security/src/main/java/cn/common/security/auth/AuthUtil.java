@@ -1,8 +1,9 @@
 package cn.common.security.auth;
 
-import cn.api.system.model.LoginUser;
+
 import cn.common.security.annotation.RequiresPermissions;
 import cn.common.security.annotation.RequiresRoles;
+import cn.umps.api.model.LoginUser;
 
 /**
  * Token 权限验证工具类

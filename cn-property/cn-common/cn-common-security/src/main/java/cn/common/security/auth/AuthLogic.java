@@ -1,6 +1,6 @@
 package cn.common.security.auth;
 
-import cn.api.system.model.LoginUser;
+
 import cn.common.core.context.SecurityContextHolder;
 import cn.common.core.exception.auth.NotLoginException;
 import cn.common.core.exception.auth.NotPermissionException;
@@ -13,6 +13,7 @@ import cn.common.security.annotation.RequiresPermissions;
 import cn.common.security.annotation.RequiresRoles;
 import cn.common.security.service.TokenService;
 import cn.common.security.utils.SecurityUtils;
+import cn.umps.api.model.LoginUser;
 import org.springframework.util.PatternMatchUtils;
 
 import java.util.Collection;

@@ -24,16 +24,15 @@
             <artifactId>spring-webmvc</artifactId>
         </dependency>
 
-        <!-- RuoYi Api System -->
-        <dependency>
-            <groupId>cn.framework</groupId>
-            <artifactId>cn-api-system</artifactId>
-        </dependency>
-
-        <!-- RuoYi Common Redis-->
         <dependency>
             <groupId>cn.framework</groupId>
             <artifactId>cn-common-redis</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>cn.framework</groupId>
+            <artifactId>cn-upms-api</artifactId>
+            <version>Framework.V1.0</version>
+            <scope>compile</scope>
         </dependency>
 
     </dependencies>

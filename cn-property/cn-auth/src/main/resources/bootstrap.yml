@@ -6,7 +6,7 @@ server:
 spring: 
   application:
     # 应用名称
-    name: @artifactId@
+    name: cn-auth
   cloud:
     nacos:
       discovery:
@@ -23,4 +23,4 @@ spring:
 
   profiles:
     # 环境配置
-    active: @profiles.active@
+    active: dev

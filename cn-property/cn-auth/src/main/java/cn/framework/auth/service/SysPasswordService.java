@@ -1,9 +1,10 @@
 package cn.framework.auth.service;
 
-import cn.api.system.domain.SysUser;
+
 import cn.common.core.constant.CacheConstants;
 import cn.common.core.constant.Constants;
 import cn.common.core.exception.ServiceException;
+import cn.umps.api.domain.SysUser;
 import com.ruoyi.common.redis.service.RedisService;
 import cn.common.security.utils.SecurityUtils;
 import org.springframework.beans.factory.annotation.Autowired;

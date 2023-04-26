@@ -1,8 +1,9 @@
 package com.ruoyi.common.log.service;
 
-import cn.api.system.RemoteLogService;
-import cn.api.system.domain.SysOperLog;
+
 import cn.common.core.constant.SecurityConstants;
+import cn.umps.api.RemoteLogService;
+import cn.umps.api.domain.SysOperLog;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;

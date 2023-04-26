@@ -1,8 +1,6 @@
 package cn.framework.auth.service;
 
-import cn.api.system.RemoteUserService;
-import cn.api.system.domain.SysUser;
-import cn.api.system.model.LoginUser;
+
 import cn.common.core.constant.CacheConstants;
 import cn.common.core.constant.Constants;
 import cn.common.core.constant.SecurityConstants;
@@ -14,9 +12,14 @@ import cn.common.core.utils.R;
 import cn.common.core.utils.StringUtils;
 import cn.common.core.utils.ip.IpUtils;
 import cn.common.security.utils.SecurityUtils;
+import cn.umps.api.RemoteUserService;
+import cn.umps.api.domain.SysUser;
+import cn.umps.api.model.LoginUser;
 import com.ruoyi.common.redis.service.RedisService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+
+import javax.annotation.Resource;
 
 /**
  * 登录校验方法
@@ -25,7 +28,7 @@ import org.springframework.stereotype.Component;
  */
 @Component
 public class SysLoginService {
-    @Autowired
+    @Resource
     private RemoteUserService remoteUserService;
 
     @Autowired
@@ -34,7 +37,7 @@ public class SysLoginService {
     @Autowired
     private SysRecordLogService recordLogService;
 
-    @Autowired
+    @Resource
     private RedisService redisService;
 
     /**

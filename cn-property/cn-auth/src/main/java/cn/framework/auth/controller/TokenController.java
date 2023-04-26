@@ -1,6 +1,6 @@
 package cn.framework.auth.controller;
 
-import cn.api.system.model.LoginUser;
+
 import cn.common.core.utils.R;
 import cn.common.core.utils.JwtUtils;
 import cn.common.core.utils.StringUtils;
@@ -10,12 +10,14 @@ import cn.common.security.utils.SecurityUtils;
 import cn.framework.auth.form.LoginBody;
 import cn.framework.auth.form.RegisterBody;
 import cn.framework.auth.service.SysLoginService;
+import cn.umps.api.model.LoginUser;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
+import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 
 /**
@@ -25,7 +27,7 @@ import javax.servlet.http.HttpServletRequest;
  */
 @RestController
 public class TokenController {
-    @Autowired
+    @Resource
     private TokenService tokenService;
 
     @Autowired

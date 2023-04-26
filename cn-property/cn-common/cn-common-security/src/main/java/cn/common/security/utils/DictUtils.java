@@ -1,9 +1,10 @@
 package cn.common.security.utils;
 
-import cn.api.system.domain.SysDictData;
+
 import cn.common.core.constant.CacheConstants;
 import cn.common.core.utils.SpringUtils;
 import cn.common.core.utils.StringUtils;
+import cn.umps.api.domain.SysDictData;
 import com.alibaba.fastjson2.JSONArray;
 import com.ruoyi.common.redis.service.RedisService;
 
