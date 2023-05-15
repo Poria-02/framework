@@ -23,12 +23,12 @@ public class AuthApplication {
 
         SpringApplication app = new SpringApplication(AuthApplication.class);
         Environment env = app.run(args).getEnvironment();
-        log.info(
-                "\n----------------------------------------------------------\n\t"
-                        + "Application '{}' is running! Access URLs:\n\t"
-                        + "Local: \t\thttp://localhost:{}\n\t"
-                        + "External: \thttp://{}:{}\n----------------------------------------------------------",
-                env.getProperty("spring.application.name"), env.getProperty("server.port"),
-                InetAddress.getLocalHost().getHostAddress(), env.getProperty("server.port"));
+//        log.info(
+//                "\n----------------------------------------------------------\n\t"
+//                        + "Application '{}' is running! Access URLs:\n\t"
+//                        + "Local: \t\thttp://localhost:{}\n\t"
+//                        + "External: \thttp://{}:{}\n----------------------------------------------------------",
+//                env.getProperty("spring.application.name"), env.getProperty("server.port"),
+//                InetAddress.getLocalHost().getHostAddress(), env.getProperty("server.port"));
     }
 }

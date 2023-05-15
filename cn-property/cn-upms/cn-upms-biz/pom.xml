@@ -79,7 +79,7 @@
         <dependency>
             <groupId>cn.framework</groupId>
             <artifactId>cn-upms-api</artifactId>
-            <version>Framework.V1.0</version>
+            <version>${framework.version}</version>
         </dependency>
     </dependencies>
 
