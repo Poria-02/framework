@@ -1,6 +1,5 @@
 package cn.umps.biz.controller;
 
-import cn.common.core.utils.StringUtils;
 import cn.common.core.web.controller.BaseController;
 import cn.common.core.web.domain.AjaxResult;
 import cn.common.security.service.TokenService;
@@ -8,7 +7,7 @@ import cn.common.security.utils.SecurityUtils;
 import cn.umps.api.RemoteFileService;
 import cn.umps.api.domain.SysUser;
 import cn.umps.api.model.LoginUser;
-import cn.umps.biz.service.ISysUserService;
+import cn.umps.biz.service.SysUserService;
 import com.ruoyi.common.log.annotation.Log;
 import com.ruoyi.common.log.enums.BusinessType;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,9 +20,9 @@ import org.springframework.web.bind.annotation.*;
  */
 @RestController
 @RequestMapping("/user/profile")
-public class SysProfileController extends BaseController {
+public class SysProfileController {
     @Autowired
-    private ISysUserService userService;
+    private SysUserService userService;
 
     @Autowired
     private TokenService tokenService;

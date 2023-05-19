@@ -7,7 +7,7 @@ import cn.common.core.web.page.TableDataInfo;
 import cn.common.security.annotation.RequiresPermissions;
 import cn.common.security.utils.SecurityUtils;
 import cn.umps.biz.domain.SysConfig;
-import cn.umps.biz.service.ISysConfigService;
+import cn.umps.biz.service.SysConfigService;
 import com.ruoyi.common.log.annotation.Log;
 import com.ruoyi.common.log.enums.BusinessType;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,9 +24,9 @@ import java.util.List;
  */
 @RestController
 @RequestMapping("/config")
-public class SysConfigController extends BaseController {
+public class SysConfigController  {
     @Autowired
-    private ISysConfigService configService;
+    private SysConfigService configService;
 
     /**
      * 获取参数配置列表

@@ -1,6 +1,5 @@
 package com.ruoyi.gateway.filter;
 
-import cn.common.core.utils.StringUtils;
 import cn.common.core.utils.html.EscapeUtil;
 import com.ruoyi.gateway.config.properties.XssProperties;
 import io.netty.buffer.ByteBufAllocator;

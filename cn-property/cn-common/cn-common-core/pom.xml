@@ -7,7 +7,7 @@
     <parent>
         <groupId>cn.framework</groupId>
         <artifactId>cn-common</artifactId>
-        <version>Framework.V1.0</version>
+        <version>2022.8.1</version>
     </parent>
 
     <artifactId>cn-common-core</artifactId>
@@ -113,6 +113,11 @@
         <dependency>
             <groupId>io.swagger</groupId>
             <artifactId>swagger-annotations</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>jakarta.servlet</groupId>
+            <artifactId>jakarta.servlet-api</artifactId>
         </dependency>
 
     </dependencies>

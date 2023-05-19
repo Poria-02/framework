@@ -6,7 +6,7 @@ import cn.common.core.web.page.TableDataInfo;
 import cn.common.security.annotation.RequiresPermissions;
 import cn.common.security.utils.SecurityUtils;
 import cn.umps.biz.domain.SysNotice;
-import cn.umps.biz.service.ISysNoticeService;
+import cn.umps.biz.service.SysNoticeService;
 import com.ruoyi.common.log.annotation.Log;
 import com.ruoyi.common.log.enums.BusinessType;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,9 +22,9 @@ import java.util.List;
  */
 @RestController
 @RequestMapping("/notice")
-public class SysNoticeController extends BaseController {
+public class SysNoticeController extends {
     @Autowired
-    private ISysNoticeService noticeService;
+    private SysNoticeService noticeService;
 
     /**
      * 获取通知公告列表

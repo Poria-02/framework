@@ -2,9 +2,9 @@ package cn.umps.biz.service.impl;
 
 import cn.umps.api.domain.SysRole;
 import cn.umps.api.domain.SysUser;
-import cn.umps.biz.service.ISysMenuService;
-import cn.umps.biz.service.ISysPermissionService;
-import cn.umps.biz.service.ISysRoleService;
+import cn.umps.biz.service.SysMenuService;
+import cn.umps.biz.service.SysPermissionService;
+import cn.umps.biz.service.SysRoleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -18,12 +18,12 @@ import java.util.Set;
  * @author ruoyi
  */
 @Service
-public class SysPermissionServiceImpl implements ISysPermissionService {
+public class SysPermissionServiceImpl implements SysPermissionService {
     @Autowired
-    private ISysRoleService roleService;
+    private SysRoleService roleService;
 
     @Autowired
-    private ISysMenuService menuService;
+    private SysMenuService menuService;
 
     /**
      * 获取角色数据权限

@@ -3,7 +3,7 @@ package cn.umps.biz.service.impl;
 import cn.common.security.utils.DictUtils;
 import cn.umps.api.domain.SysDictData;
 import cn.umps.biz.mapper.SysDictDataMapper;
-import cn.umps.biz.service.ISysDictDataService;
+import cn.umps.biz.service.SysDictDataService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -15,7 +15,7 @@ import java.util.List;
  * @author ruoyi
  */
 @Service
-public class SysDictDataServiceImpl implements ISysDictDataService {
+public class SysDictDataServiceImpl implements SysDictDataService {
     @Autowired
     private SysDictDataMapper dictDataMapper;
 

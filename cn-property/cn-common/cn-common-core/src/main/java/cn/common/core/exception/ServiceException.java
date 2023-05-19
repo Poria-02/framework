@@ -3,11 +3,7 @@ package cn.common.core.exception;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
-/**
- * 业务异常
- *
- * @author ruoyi
- */
+
 @Data
 @EqualsAndHashCode(callSuper = true)
 public final class ServiceException extends RuntimeException {
@@ -26,9 +22,8 @@ public final class ServiceException extends RuntimeException {
     /**
      * 错误明细，内部调试错误
      * <p>
-     * 和 {@link CommonResult#getDetailMessage()} 一致的设计
      */
-    private String detailMessage;
+    private String data;
 
     /**
      * 空构造方法，避免反序列化问题
@@ -46,7 +41,7 @@ public final class ServiceException extends RuntimeException {
     }
 
     public String getDetailMessage() {
-        return detailMessage;
+        return data;
     }
 
     @Override
@@ -64,7 +59,7 @@ public final class ServiceException extends RuntimeException {
     }
 
     public ServiceException setDetailMessage(String detailMessage) {
-        this.detailMessage = detailMessage;
+        this.data = detailMessage;
         return this;
     }
 }

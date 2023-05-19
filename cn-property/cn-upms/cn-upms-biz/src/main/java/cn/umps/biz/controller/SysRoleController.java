@@ -10,9 +10,9 @@ import cn.umps.api.domain.SysDept;
 import cn.umps.api.domain.SysRole;
 import cn.umps.api.domain.SysUser;
 import cn.umps.biz.domain.SysUserRole;
-import cn.umps.biz.service.ISysDeptService;
-import cn.umps.biz.service.ISysRoleService;
-import cn.umps.biz.service.ISysUserService;
+import cn.umps.biz.service.SysDeptService;
+import cn.umps.biz.service.SysRoleService;
+import cn.umps.biz.service.SysUserService;
 import com.ruoyi.common.log.annotation.Log;
 import com.ruoyi.common.log.enums.BusinessType;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -29,15 +29,15 @@ import java.util.List;
  */
 @RestController
 @RequestMapping("/role")
-public class SysRoleController extends BaseController {
+public class SysRoleController {
     @Autowired
-    private ISysRoleService roleService;
+    private SysRoleService roleService;
 
     @Autowired
-    private ISysUserService userService;
+    private SysUserService userService;
 
     @Autowired
-    private ISysDeptService deptService;
+    private SysDeptService deptService;
 
     @RequiresPermissions("system:role:list")
     @GetMapping("/list")

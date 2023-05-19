@@ -1,9 +1,7 @@
 package com.ruoyi.common.log.aspect;
 
 
-import cn.common.core.utils.ServletUtils;
-import cn.common.core.utils.StringUtils;
-import cn.common.core.utils.ip.IpUtils;
+import cn.common.core.utils.IpUtils;
 import cn.common.security.utils.SecurityUtils;
 import cn.umps.api.domain.SysOperLog;
 import com.alibaba.fastjson2.JSON;

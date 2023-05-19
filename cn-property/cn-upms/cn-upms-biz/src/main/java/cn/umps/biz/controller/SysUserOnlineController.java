@@ -1,14 +1,13 @@
 package cn.umps.biz.controller;
 
 import cn.common.core.constant.CacheConstants;
-import cn.common.core.utils.StringUtils;
 import cn.common.core.web.controller.BaseController;
 import cn.common.core.web.domain.AjaxResult;
 import cn.common.core.web.page.TableDataInfo;
 import cn.common.security.annotation.RequiresPermissions;
 import cn.umps.api.model.LoginUser;
 import cn.umps.biz.domain.SysUserOnline;
-import cn.umps.biz.service.ISysUserOnlineService;
+import cn.umps.biz.service.SysUserOnlineService;
 import com.ruoyi.common.log.annotation.Log;
 import com.ruoyi.common.log.enums.BusinessType;
 import com.ruoyi.common.redis.service.RedisService;
@@ -27,9 +26,9 @@ import java.util.List;
  */
 @RestController
 @RequestMapping("/online")
-public class SysUserOnlineController extends BaseController {
+public class SysUserOnlineController  {
     @Autowired
-    private ISysUserOnlineService userOnlineService;
+    private SysUserOnlineService userOnlineService;
 
     @Autowired
     private RedisService redisService;

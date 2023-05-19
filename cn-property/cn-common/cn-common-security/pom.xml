@@ -6,7 +6,7 @@
     <parent>
         <groupId>cn.framework</groupId>
         <artifactId>cn-common</artifactId>
-        <version>Framework.V1.0</version>
+        <version>2022.8.1</version>
     </parent>
     
     <artifactId>cn-common-security</artifactId>
@@ -34,7 +34,12 @@
             <version>${framework.version}</version>
             <scope>compile</scope>
         </dependency>
-
+        <!-- Oauth2 依赖 -->
+        <dependency>
+            <groupId>org.springframework.security.oauth</groupId>
+            <artifactId>spring-security-oauth2</artifactId>
+            <version>${security.oauth.version}</version>
+        </dependency>
     </dependencies>
 
 </project>

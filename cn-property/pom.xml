@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <version>Framework.V1.0</version>
+    <version>2022.8.1</version>
     <groupId>cn.framework</groupId>
     <!-- 本pom的名字 -->
     <artifactId>framework</artifactId>
@@ -22,7 +22,7 @@
     </modules>
 
     <properties>
-        <framework.version>Framework.V1.0-SNAPSHOT</framework.version>
+        <framework.version>2022.8.1</framework.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
@@ -30,21 +30,17 @@
         <spring-cloud.version>2021.0.5</spring-cloud.version>
         <spring-cloud-alibaba.version>2021.0.4.0</spring-cloud-alibaba.version>
         <spring-boot-admin.version>2.7.10</spring-boot-admin.version>
-        <swagger.fox.version>3.0.0</swagger.fox.version>
-        <swagger.core.version>1.6.2</swagger.core.version>
         <tobato.version>1.27.2</tobato.version>
         <kaptcha.version>2.3.3</kaptcha.version>
         <pagehelper.boot.version>1.4.6</pagehelper.boot.version>
         <druid.version>1.2.16</druid.version>
         <dynamic-ds.version>3.5.2</dynamic-ds.version>
         <commons.io.version>2.11.0</commons.io.version>
-        <velocity.version>2.3</velocity.version>
         <fastjson.version>2.0.23</fastjson.version>
         <jjwt.version>0.9.1</jjwt.version>
         <minio.version>8.2.2</minio.version>
         <poi.version>4.1.2</poi.version>
         <transmittable-thread-local.version>2.14.2</transmittable-thread-local.version>
-        <hutool.version>4.1.1</hutool.version>
         <lombok.version>1.18.22</lombok.version>
         <security.oauth.version>2.3.6.RELEASE</security.oauth.version>
     </properties>
@@ -81,11 +77,13 @@
                 <scope>import</scope>
             </dependency>
 
-            <!-- Oauth2 依赖 -->
+            <!-- SpringCloud 微服务 -->
             <dependency>
-                <groupId>org.springframework.security.oauth</groupId>
-                <artifactId>spring-security-oauth2</artifactId>
-                <version>${security.oauth.version}</version>
+                <groupId>cn.framework</groupId>
+                <artifactId>cn-common-bom</artifactId>
+                <version>2022.8.1</version>
+                <type>pom</type>
+                <scope>import</scope>
             </dependency>
 
             <!-- FastDFS 分布式文件系统 -->
@@ -93,18 +91,6 @@
                 <groupId>com.github.tobato</groupId>
                 <artifactId>fastdfs-client</artifactId>
                 <version>${tobato.version}</version>
-            </dependency>
-
-            <!-- Swagger 依赖配置 -->
-            <dependency>
-                <groupId>io.swagger</groupId>
-                <artifactId>swagger-models</artifactId>
-                <version>${swagger.core.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>io.swagger</groupId>
-                <artifactId>swagger-annotations</artifactId>
-                <version>${swagger.core.version}</version>
             </dependency>
 
             <!-- 验证码 -->
@@ -135,13 +121,6 @@
                 <version>${poi.version}</version>
             </dependency>
 
-            <!-- 代码生成使用模板 -->
-            <dependency>
-                <groupId>org.apache.velocity</groupId>
-                <artifactId>velocity-engine-core</artifactId>
-                <version>${velocity.version}</version>
-            </dependency>
-
             <!-- JSON 解析器和生成器 -->
             <dependency>
                 <groupId>com.alibaba.fastjson2</groupId>
@@ -163,75 +142,7 @@
                 <version>${transmittable-thread-local.version}</version>
             </dependency>
 
-            <!-- 核心模块 -->
-            <dependency>
-                <groupId>cn.framework</groupId>
-                <artifactId>cn-common-core</artifactId>
-                <version>Framework.V1.0</version>
-            </dependency>
 
-            <!-- 接口模块 -->
-            <dependency>
-                <groupId>cn.framework</groupId>
-                <artifactId>cn-common-swagger</artifactId>
-                <version>Framework.V1.0</version>
-            </dependency>
-
-            <!-- 安全模块 -->
-            <dependency>
-                <groupId>cn.framework</groupId>
-                <artifactId>cn-common-security</artifactId>
-                <version>Framework.V1.0</version>
-            </dependency>
-
-            <!-- 权限范围 -->
-            <dependency>
-                <groupId>cn.framework</groupId>
-                <artifactId>cn-common-datascope</artifactId>
-                <version>Framework.V1.0</version>
-            </dependency>
-
-            <!-- 多数据源 -->
-            <dependency>
-                <groupId>cn.framework</groupId>
-                <artifactId>cn-common-datasource</artifactId>
-                <version>Framework.V1.0</version>
-            </dependency>
-
-            <!-- 分布式事务 -->
-            <dependency>
-                <groupId>cn.framework</groupId>
-                <artifactId>cn-common-seata</artifactId>
-                <version>Framework.V1.0</version>
-            </dependency>
-
-            <!-- 日志记录 -->
-            <dependency>
-                <groupId>cn.framework</groupId>
-                <artifactId>cn-common-log</artifactId>
-                <version>Framework.V1.0</version>
-            </dependency>
-
-            <!-- 缓存服务 -->
-            <dependency>
-                <groupId>cn.framework</groupId>
-                <artifactId>cn-common-redis</artifactId>
-                <version>Framework.V1.0</version>
-            </dependency>
-
-            <!-- fegin -->
-            <dependency>
-                <groupId>cn.framework</groupId>
-                <artifactId>cn-common-fegin</artifactId>
-                <version>Framework.V1.0</version>
-            </dependency>
-
-            <!-- 系统接口 -->
-            <dependency>
-                <groupId>cn.framework</groupId>
-                <artifactId>cn-api-system</artifactId>
-                <version>Framework.V1.0</version>
-            </dependency>
         </dependencies>
     </dependencyManagement>
 
@@ -242,22 +153,20 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-bootstrap</artifactId>
         </dependency>
-        <!--hutool-->
-        <dependency>
-            <groupId>cn.hutool</groupId>
-            <artifactId>hutool-all</artifactId>
-            <version>${hutool.version}</version>
-        </dependency>
         <!--lombok-->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>${lombok.version}</version>
         </dependency>
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+            <version>${spring-boot.version}</version>
         </dependency>
     </dependencies>
 

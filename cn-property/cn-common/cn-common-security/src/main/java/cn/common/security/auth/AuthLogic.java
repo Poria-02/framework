@@ -6,7 +6,6 @@ import cn.common.core.exception.auth.NotLoginException;
 import cn.common.core.exception.auth.NotPermissionException;
 import cn.common.core.exception.auth.NotRoleException;
 import cn.common.core.utils.SpringUtils;
-import cn.common.core.utils.StringUtils;
 import cn.common.security.annotation.Logical;
 import cn.common.security.annotation.RequiresLogin;
 import cn.common.security.annotation.RequiresPermissions;

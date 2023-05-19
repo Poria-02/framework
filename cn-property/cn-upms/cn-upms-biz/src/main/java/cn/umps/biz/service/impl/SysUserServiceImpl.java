@@ -3,7 +3,6 @@ package cn.umps.biz.service.impl;
 import cn.common.core.constant.UserConstants;
 import cn.common.core.exception.ServiceException;
 import cn.common.core.utils.SpringUtils;
-import cn.common.core.utils.StringUtils;
 import cn.common.core.utils.bean.BeanValidators;
 import cn.common.security.utils.SecurityUtils;
 import cn.umps.api.domain.SysRole;
@@ -12,8 +11,8 @@ import cn.umps.biz.domain.SysPost;
 import cn.umps.biz.domain.SysUserPost;
 import cn.umps.biz.domain.SysUserRole;
 import cn.umps.biz.mapper.*;
-import cn.umps.biz.service.ISysConfigService;
-import cn.umps.biz.service.ISysUserService;
+import cn.umps.biz.service.SysConfigService;
+import cn.umps.biz.service.SysUserService;
 import com.ruoyi.common.datascope.annotation.DataScope;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -33,7 +32,7 @@ import java.util.stream.Collectors;
  * @author ruoyi
  */
 @Service
-public class SysUserServiceImpl implements ISysUserService {
+public class SysUserServiceImpl implements SysUserService {
     private static final Logger log = LoggerFactory.getLogger(SysUserServiceImpl.class);
 
     @Autowired
@@ -52,7 +51,7 @@ public class SysUserServiceImpl implements ISysUserService {
     private SysUserPostMapper userPostMapper;
 
     @Autowired
-    private ISysConfigService configService;
+    private SysConfigService configService;
 
     @Autowired
     protected Validator validator;

@@ -3,7 +3,6 @@ package com.ruoyi.common.datascope.aspect;
 
 import cn.common.core.context.SecurityContextHolder;
 import cn.common.core.text.Convert;
-import cn.common.core.utils.StringUtils;
 import cn.common.core.web.domain.BaseEntity;
 import cn.common.security.utils.SecurityUtils;
 import cn.umps.api.domain.SysRole;

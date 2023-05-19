@@ -2,11 +2,10 @@ package cn.umps.biz.service.impl;
 
 import cn.common.core.constant.UserConstants;
 import cn.common.core.exception.ServiceException;
-import cn.common.core.utils.StringUtils;
 import cn.umps.biz.domain.SysPost;
 import cn.umps.biz.mapper.SysPostMapper;
 import cn.umps.biz.mapper.SysUserPostMapper;
-import cn.umps.biz.service.ISysPostService;
+import cn.umps.biz.service.SysPostService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -18,7 +17,7 @@ import java.util.List;
  * @author ruoyi
  */
 @Service
-public class SysPostServiceImpl implements ISysPostService {
+public class SysPostServiceImpl implements SysPostService {
     @Autowired
     private SysPostMapper postMapper;
 

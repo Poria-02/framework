@@ -7,7 +7,7 @@ import cn.common.core.web.page.TableDataInfo;
 import cn.common.security.annotation.RequiresPermissions;
 import cn.common.security.utils.SecurityUtils;
 import cn.umps.api.domain.SysDictType;
-import cn.umps.biz.service.ISysDictTypeService;
+import cn.umps.biz.service.SysDictTypeService;
 import com.ruoyi.common.log.annotation.Log;
 import com.ruoyi.common.log.enums.BusinessType;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -25,9 +25,9 @@ import java.util.List;
  */
 @RestController
 @RequestMapping("/dict/type")
-public class SysDictTypeController extends BaseController {
+public class SysDictTypeController  {
     @Autowired
-    private ISysDictTypeService dictTypeService;
+    private SysDictTypeService dictTypeService;
 
     @RequiresPermissions("system:dict:list")
     @GetMapping("/list")

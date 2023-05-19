@@ -1,9 +1,8 @@
 package cn.umps.biz.service.impl;
 
-import cn.common.core.utils.StringUtils;
 import cn.umps.api.model.LoginUser;
 import cn.umps.biz.domain.SysUserOnline;
-import cn.umps.biz.service.ISysUserOnlineService;
+import cn.umps.biz.service.SysUserOnlineService;
 import org.springframework.stereotype.Service;
 
 /**
@@ -12,7 +11,7 @@ import org.springframework.stereotype.Service;
  * @author ruoyi
  */
 @Service
-public class SysUserOnlineServiceImpl implements ISysUserOnlineService {
+public class SysUserOnlineServiceImpl implements SysUserOnlineService {
     /**
      * 通过登录地址查询信息
      *

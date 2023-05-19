@@ -1,6 +1,5 @@
 package com.ruoyi.gateway.filter;
 
-import cn.common.core.utils.ServletUtils;
 import org.springframework.cloud.gateway.filter.GatewayFilter;
 import org.springframework.cloud.gateway.filter.factory.AbstractGatewayFilterFactory;
 import org.springframework.stereotype.Component;

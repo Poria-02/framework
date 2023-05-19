@@ -2,7 +2,7 @@ package cn.umps.biz.service.impl;
 
 import cn.umps.api.domain.SysLogininfor;
 import cn.umps.biz.mapper.SysLogininforMapper;
-import cn.umps.biz.service.ISysLogininforService;
+import cn.umps.biz.service.SysLogininforService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -14,7 +14,7 @@ import java.util.List;
  * @author ruoyi
  */
 @Service
-public class SysLogininforServiceImpl implements ISysLogininforService {
+public class SysLogininforServiceImpl implements SysLogininforService {
 
     @Autowired
     private SysLogininforMapper logininforMapper;

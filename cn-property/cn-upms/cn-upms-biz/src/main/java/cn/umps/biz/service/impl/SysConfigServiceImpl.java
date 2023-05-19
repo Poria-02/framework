@@ -4,10 +4,9 @@ import cn.common.core.constant.CacheConstants;
 import cn.common.core.constant.UserConstants;
 import cn.common.core.exception.ServiceException;
 import cn.common.core.text.Convert;
-import cn.common.core.utils.StringUtils;
 import cn.umps.biz.domain.SysConfig;
 import cn.umps.biz.mapper.SysConfigMapper;
-import cn.umps.biz.service.ISysConfigService;
+import cn.umps.biz.service.SysConfigService;
 import com.ruoyi.common.redis.service.RedisService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -22,7 +21,7 @@ import java.util.List;
  * @author ruoyi
  */
 @Service
-public class SysConfigServiceImpl implements ISysConfigService {
+public class SysConfigServiceImpl implements SysConfigService {
     @Autowired
     private SysConfigMapper configMapper;
 

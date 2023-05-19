@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>3.0.2</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+
+    <groupId>cn.framework</groupId>
+    <artifactId>cn-common-bom</artifactId>
+    <packaging>pom</packaging>
+    <version>2022.8.1</version>
+    <description>公共版本控制</description>
+
+    <properties>
+        <hutool.version>5.8.11</hutool.version>
+        <swagger.core.version>2.2.7</swagger.core.version>
+        <activemq.version>2.7.6</activemq.version>
+    </properties>
+
+    <dependencies>
+        <!-- 核心模块 -->
+        <dependency>
+            <groupId>cn.framework</groupId>
+            <artifactId>cn-common-core</artifactId>
+            <version>2022.8.1</version>
+        </dependency>
+
+        <!-- 接口模块 -->
+        <dependency>
+            <groupId>cn.framework</groupId>
+            <artifactId>cn-common-swagger</artifactId>
+            <version>2022.8.1</version>
+        </dependency>
+
+        <!-- 安全模块 -->
+        <dependency>
+            <groupId>cn.framework</groupId>
+            <artifactId>cn-common-security</artifactId>
+            <version>2022.8.1</version>
+        </dependency>
+
+        <!-- 权限范围 -->
+        <dependency>
+            <groupId>cn.framework</groupId>
+            <artifactId>cn-common-datascope</artifactId>
+            <version>2022.8.1</version>
+        </dependency>
+
+        <!-- 多数据源 -->
+        <dependency>
+            <groupId>cn.framework</groupId>
+            <artifactId>cn-common-datasource</artifactId>
+            <version>2022.8.1</version>
+        </dependency>
+
+        <!--        &lt;!&ndash; 分布式事务 &ndash;&gt;-->
+        <!--        <dependency>-->
+        <!--            <groupId>cn.framework</groupId>-->
+        <!--            <artifactId>cn-common-seata</artifactId>-->
+        <!--            <version>2022.8.1</version>-->
+        <!--        </dependency>-->
+
+        <!-- 日志记录 -->
+        <dependency>
+            <groupId>cn.framework</groupId>
+            <artifactId>cn-common-log</artifactId>
+            <version>2022.8.1</version>
+        </dependency>
+
+        <!-- 缓存服务 -->
+        <dependency>
+            <groupId>cn.framework</groupId>
+            <artifactId>cn-common-redis</artifactId>
+            <version>2022.8.1</version>
+        </dependency>
+
+        <!-- fegin -->
+        <dependency>
+            <groupId>cn.framework</groupId>
+            <artifactId>cn-common-fegin</artifactId>
+            <version>2022.8.1</version>
+        </dependency>
+
+        <!--hutool-->
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+            <version>${hutool.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-bom</artifactId>
+            <version>${hutool.version}</version>
+            <type>pom</type>
+            <scope>import</scope>
+        </dependency>
+
+        <!-- Swagger 依赖配置 -->
+        <dependency>
+            <groupId>io.swagger.core.v3</groupId>
+            <artifactId>swagger-annotations</artifactId>
+            <version>${swagger.core.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.swagger.core.v3</groupId>
+            <artifactId>swagger-annotations-jakarta</artifactId>
+            <version>${swagger.core.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-activemq</artifactId>
+            <version>${activemq.version}</version>
+        </dependency>
+
+    </dependencies>
+</project>

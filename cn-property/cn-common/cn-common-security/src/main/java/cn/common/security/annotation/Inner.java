@@ -14,5 +14,5 @@ public @interface Inner {
     /**
      * 是否校验用户信息
      */
-    boolean isUser() default false;
+    boolean isUser() default true;
 }

@@ -1,9 +1,8 @@
 package com.ruoyi.gateway.service.impl;
 
 import cn.common.core.constant.CacheConstants;
-import cn.common.core.constant.Constants;
+import cn.common.core.constant.CommonConstants;
 import cn.common.core.exception.CaptchaException;
-import cn.common.core.utils.StringUtils;
 import cn.common.core.utils.sign.Base64;
 import cn.common.core.utils.uuid.IdUtils;
 import cn.common.core.web.domain.AjaxResult;
@@ -71,7 +70,7 @@ public class ValidateCodeServiceImpl implements ValidateCodeService {
             image = captchaProducer.createImage(capStr);
         }
 
-        redisService.setCacheObject(verifyKey, code, Constants.CAPTCHA_EXPIRATION, TimeUnit.MINUTES);
+        redisService.setCacheObject(verifyKey, code, CommonConstants.CAPTCHA_EXPIRATION, TimeUnit.MINUTES);
         // 转换流信息写出
         FastByteArrayOutputStream os = new FastByteArrayOutputStream();
         try {

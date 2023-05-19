@@ -2,7 +2,6 @@ package cn.umps.biz.controller;
 
 
 import cn.common.core.utils.R;
-import cn.common.core.utils.StringUtils;
 import cn.common.core.utils.poi.ExcelUtil;
 import cn.common.core.web.controller.BaseController;
 import cn.common.core.web.domain.AjaxResult;
@@ -36,24 +35,24 @@ import java.util.stream.Collectors;
  */
 @RestController
 @RequestMapping("/user")
-public class SysUserController extends BaseController {
+public class SysUserController {
     @Autowired
-    private ISysUserService userService;
+    private SysUserService userService;
 
     @Autowired
-    private ISysRoleService roleService;
+    private SysRoleService roleService;
 
     @Autowired
-    private ISysDeptService deptService;
+    private SysDeptService deptService;
 
     @Autowired
-    private ISysPostService postService;
+    private SysPostService postService;
 
     @Autowired
-    private ISysPermissionService permissionService;
+    private SysPermissionService permissionService;
 
     @Autowired
-    private ISysConfigService configService;
+    private SysConfigService configService;
 
     /**
      * 获取用户列表
@@ -100,7 +99,7 @@ public class SysUserController extends BaseController {
     public R<LoginUser> info(@PathVariable("username") String username) {
         SysUser sysUser = userService.selectUserByUserName(username);
         if (StringUtils.isNull(sysUser)) {
-            return R.fail("用户名或密码错误");
+            return R.failed("用户名或密码错误");
         }
         // 角色集合
         Set<String> roles = permissionService.getRolePermission(sysUser);
@@ -121,10 +120,10 @@ public class SysUserController extends BaseController {
     public R<Boolean> register(@RequestBody SysUser sysUser) {
         String username = sysUser.getUserName();
         if (!("true".equals(configService.selectConfigByKey("sys.account.registerUser")))) {
-            return R.fail("当前系统没有开启注册功能！");
+            return R.failed("当前系统没有开启注册功能！");
         }
         if (!userService.checkUserNameUnique(sysUser)) {
-            return R.fail("保存用户'" + username + "'失败，注册账号已存在");
+            return R.failed("保存用户'" + username + "'失败，注册账号已存在");
         }
         return R.ok(userService.registerUser(sysUser));
     }

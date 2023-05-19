@@ -2,8 +2,6 @@ package cn.framework.auth.controller;
 
 
 import cn.common.core.utils.R;
-import cn.common.core.utils.JwtUtils;
-import cn.common.core.utils.StringUtils;
 import cn.common.security.auth.AuthUtil;
 import cn.common.security.service.TokenService;
 import cn.common.security.utils.SecurityUtils;

@@ -7,7 +7,7 @@ import cn.common.core.web.page.TableDataInfo;
 import cn.common.security.annotation.Inner;
 import cn.common.security.annotation.RequiresPermissions;
 import cn.umps.api.domain.SysOperLog;
-import cn.umps.biz.service.ISysOperLogService;
+import cn.umps.biz.service.SysOperLogService;
 import com.ruoyi.common.log.annotation.Log;
 import com.ruoyi.common.log.enums.BusinessType;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,9 +23,9 @@ import java.util.List;
  */
 @RestController
 @RequestMapping("/operlog")
-public class SysOperlogController extends BaseController {
+public class SysOperlogController {
     @Autowired
-    private ISysOperLogService operLogService;
+    private SysOperLogService operLogService;
 
     @RequiresPermissions("system:operlog:list")
     @GetMapping("/list")

@@ -2,7 +2,7 @@ package cn.umps.biz.service.impl;
 
 import cn.umps.biz.domain.SysNotice;
 import cn.umps.biz.mapper.SysNoticeMapper;
-import cn.umps.biz.service.ISysNoticeService;
+import cn.umps.biz.service.SysNoticeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -14,7 +14,7 @@ import java.util.List;
  * @author ruoyi
  */
 @Service
-public class SysNoticeServiceImpl implements ISysNoticeService {
+public class SysNoticeServiceImpl implements SysNoticeService {
     @Autowired
     private SysNoticeMapper noticeMapper;
 

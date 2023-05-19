@@ -1,7 +1,5 @@
 package cn.umps.biz.domain.vo;
 
-import cn.common.core.utils.StringUtils;
-
 /**
  * 路由显示信息
  *

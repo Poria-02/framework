@@ -2,7 +2,7 @@ package cn.umps.biz.service.impl;
 
 import cn.umps.api.domain.SysOperLog;
 import cn.umps.biz.mapper.SysOperLogMapper;
-import cn.umps.biz.service.ISysOperLogService;
+import cn.umps.biz.service.SysOperLogService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -14,7 +14,7 @@ import java.util.List;
  * @author ruoyi
  */
 @Service
-public class SysOperLogServiceImpl implements ISysOperLogService {
+public class SysOperLogServiceImpl implements SysOperLogService {
     @Autowired
     private SysOperLogMapper operLogMapper;
 

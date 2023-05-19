@@ -1,7 +1,5 @@
 package com.ruoyi.gateway.filter;
 
-import cn.common.core.utils.ServletUtils;
-import cn.common.core.utils.StringUtils;
 import com.alibaba.fastjson2.JSON;
 import com.alibaba.fastjson2.JSONObject;
 import com.ruoyi.gateway.config.properties.CaptchaProperties;

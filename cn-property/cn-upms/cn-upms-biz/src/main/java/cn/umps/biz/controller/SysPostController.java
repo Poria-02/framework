@@ -7,7 +7,7 @@ import cn.common.core.web.page.TableDataInfo;
 import cn.common.security.annotation.RequiresPermissions;
 import cn.common.security.utils.SecurityUtils;
 import cn.umps.biz.domain.SysPost;
-import cn.umps.biz.service.ISysPostService;
+import cn.umps.biz.service.SysPostService;
 import com.ruoyi.common.log.annotation.Log;
 import com.ruoyi.common.log.enums.BusinessType;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,9 +24,9 @@ import java.util.List;
  */
 @RestController
 @RequestMapping("/post")
-public class SysPostController extends BaseController {
+public class SysPostController  {
     @Autowired
-    private ISysPostService postService;
+    private SysPostService postService;
 
     /**
      * 获取岗位列表

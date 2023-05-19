@@ -3,7 +3,6 @@ package cn.umps.biz.service.impl;
 import cn.common.core.constant.UserConstants;
 import cn.common.core.exception.ServiceException;
 import cn.common.core.utils.SpringUtils;
-import cn.common.core.utils.StringUtils;
 import cn.common.security.utils.SecurityUtils;
 
 import cn.umps.api.domain.SysRole;
@@ -15,7 +14,7 @@ import cn.umps.biz.mapper.SysRoleDeptMapper;
 import cn.umps.biz.mapper.SysRoleMapper;
 import cn.umps.biz.mapper.SysRoleMenuMapper;
 import cn.umps.biz.mapper.SysUserRoleMapper;
-import cn.umps.biz.service.ISysRoleService;
+import cn.umps.biz.service.SysRoleService;
 import com.ruoyi.common.datascope.annotation.DataScope;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -29,7 +28,7 @@ import java.util.*;
  * @author ruoyi
  */
 @Service
-public class SysRoleServiceImpl implements ISysRoleService {
+public class SysRoleServiceImpl implements SysRoleService {
     @Autowired
     private SysRoleMapper roleMapper;
 

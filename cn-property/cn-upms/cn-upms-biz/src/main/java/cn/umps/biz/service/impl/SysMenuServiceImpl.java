@@ -1,8 +1,7 @@
 package cn.umps.biz.service.impl;
 
-import cn.common.core.constant.Constants;
+import cn.common.core.constant.CommonConstants;
 import cn.common.core.constant.UserConstants;
-import cn.common.core.utils.StringUtils;
 import cn.common.security.utils.SecurityUtils;
 import cn.umps.api.domain.SysRole;
 import cn.umps.api.domain.SysUser;
@@ -13,7 +12,7 @@ import cn.umps.biz.domain.vo.TreeSelect;
 import cn.umps.biz.mapper.SysMenuMapper;
 import cn.umps.biz.mapper.SysRoleMapper;
 import cn.umps.biz.mapper.SysRoleMenuMapper;
-import cn.umps.biz.service.ISysMenuService;
+import cn.umps.biz.service.SysMenuService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -26,7 +25,7 @@ import java.util.stream.Collectors;
  * @author ruoyi
  */
 @Service
-public class SysMenuServiceImpl implements ISysMenuService {
+public class SysMenuServiceImpl implements SysMenuService {
     public static final String PREMISSION_STRING = "perms[\"{0}\"]";
 
     @Autowired
@@ -457,7 +456,7 @@ public class SysMenuServiceImpl implements ISysMenuService {
      * @return
      */
     public String innerLinkReplaceEach(String path) {
-        return StringUtils.replaceEach(path, new String[]{Constants.HTTP, Constants.HTTPS, Constants.WWW, "."},
+        return StringUtils.replaceEach(path, new String[]{CommonConstants.HTTP, CommonConstants.HTTPS, CommonConstants.WWW, "."},
                 new String[]{"", "", "", "/"});
     }
 }

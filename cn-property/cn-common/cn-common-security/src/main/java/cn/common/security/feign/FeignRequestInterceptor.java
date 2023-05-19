@@ -1,9 +1,7 @@
 package cn.common.security.feign;
 
 import cn.common.core.constant.SecurityConstants;
-import cn.common.core.utils.ServletUtils;
-import cn.common.core.utils.StringUtils;
-import cn.common.core.utils.ip.IpUtils;
+import cn.common.core.utils.IpUtils;
 import feign.RequestInterceptor;
 import feign.RequestTemplate;
 import org.springframework.stereotype.Component;

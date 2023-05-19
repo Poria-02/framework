@@ -1,6 +1,5 @@
 package com.ruoyi.gateway.handler;
 
-import cn.common.core.utils.ServletUtils;
 import com.alibaba.csp.sentinel.adapter.gateway.sc.callback.GatewayCallbackManager;
 import com.alibaba.csp.sentinel.slots.block.BlockException;
 import org.springframework.web.reactive.function.server.ServerResponse;

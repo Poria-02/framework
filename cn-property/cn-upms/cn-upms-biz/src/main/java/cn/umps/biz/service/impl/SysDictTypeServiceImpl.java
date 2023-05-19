@@ -2,13 +2,12 @@ package cn.umps.biz.service.impl;
 
 import cn.common.core.constant.UserConstants;
 import cn.common.core.exception.ServiceException;
-import cn.common.core.utils.StringUtils;
 import cn.common.security.utils.DictUtils;
 import cn.umps.api.domain.SysDictData;
 import cn.umps.api.domain.SysDictType;
 import cn.umps.biz.mapper.SysDictDataMapper;
 import cn.umps.biz.mapper.SysDictTypeMapper;
-import cn.umps.biz.service.ISysDictTypeService;
+import cn.umps.biz.service.SysDictTypeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -26,7 +25,7 @@ import java.util.stream.Collectors;
  * @author ruoyi
  */
 @Service
-public class SysDictTypeServiceImpl implements ISysDictTypeService {
+public class SysDictTypeServiceImpl implements SysDictTypeService {
     @Autowired
     private SysDictTypeMapper dictTypeMapper;
 

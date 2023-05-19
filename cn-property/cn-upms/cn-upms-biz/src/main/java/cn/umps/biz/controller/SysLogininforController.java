@@ -8,7 +8,7 @@ import cn.common.core.web.page.TableDataInfo;
 import cn.common.security.annotation.Inner;
 import cn.common.security.annotation.RequiresPermissions;
 import cn.umps.api.domain.SysLogininfor;
-import cn.umps.biz.service.ISysLogininforService;
+import cn.umps.biz.service.SysLogininforService;
 import com.ruoyi.common.log.annotation.Log;
 import com.ruoyi.common.log.enums.BusinessType;
 import com.ruoyi.common.redis.service.RedisService;
@@ -25,9 +25,9 @@ import java.util.List;
  */
 @RestController
 @RequestMapping("/logininfor")
-public class SysLogininforController extends BaseController {
+public class SysLogininforController {
     @Autowired
-    private ISysLogininforService logininforService;
+    private SysLogininforService logininforService;
 
     @Autowired
     private RedisService redisService;

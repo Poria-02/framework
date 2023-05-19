@@ -1,6 +1,5 @@
 package cn.umps.biz.controller;
 
-import cn.common.core.utils.StringUtils;
 import cn.common.core.utils.poi.ExcelUtil;
 import cn.common.core.web.controller.BaseController;
 import cn.common.core.web.domain.AjaxResult;
@@ -8,8 +7,8 @@ import cn.common.core.web.page.TableDataInfo;
 import cn.common.security.annotation.RequiresPermissions;
 import cn.common.security.utils.SecurityUtils;
 import cn.umps.api.domain.SysDictData;
-import cn.umps.biz.service.ISysDictDataService;
-import cn.umps.biz.service.ISysDictTypeService;
+import cn.umps.biz.service.SysDictDataService;
+import cn.umps.biz.service.SysDictTypeService;
 import com.ruoyi.common.log.annotation.Log;
 import com.ruoyi.common.log.enums.BusinessType;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -27,12 +26,12 @@ import java.util.List;
  */
 @RestController
 @RequestMapping("/dict/data")
-public class SysDictDataController extends BaseController {
+public class SysDictDataController {
     @Autowired
-    private ISysDictDataService dictDataService;
+    private SysDictDataService dictDataService;
 
     @Autowired
-    private ISysDictTypeService dictTypeService;
+    private SysDictTypeService dictTypeService;
 
     @RequiresPermissions("system:dict:list")
     @GetMapping("/list")

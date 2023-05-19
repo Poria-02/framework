@@ -5,7 +5,6 @@ import cn.common.core.constant.UserConstants;
 import cn.common.core.exception.ServiceException;
 import cn.common.core.text.Convert;
 import cn.common.core.utils.SpringUtils;
-import cn.common.core.utils.StringUtils;
 import cn.common.security.utils.SecurityUtils;
 import cn.umps.api.domain.SysDept;
 import cn.umps.api.domain.SysRole;
@@ -13,7 +12,7 @@ import cn.umps.api.domain.SysUser;
 import cn.umps.biz.domain.vo.TreeSelect;
 import cn.umps.biz.mapper.SysDeptMapper;
 import cn.umps.biz.mapper.SysRoleMapper;
-import cn.umps.biz.service.ISysDeptService;
+import cn.umps.biz.service.SysDeptService;
 import com.ruoyi.common.datascope.annotation.DataScope;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -29,7 +28,7 @@ import java.util.stream.Collectors;
  * @author ruoyi
  */
 @Service
-public class SysDeptServiceImpl implements ISysDeptService {
+public class SysDeptServiceImpl implements SysDeptService {
     @Autowired
     private SysDeptMapper deptMapper;
 

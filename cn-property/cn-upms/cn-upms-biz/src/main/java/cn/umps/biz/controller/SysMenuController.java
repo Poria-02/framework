@@ -1,13 +1,12 @@
 package cn.umps.biz.controller;
 
 import cn.common.core.constant.UserConstants;
-import cn.common.core.utils.StringUtils;
 import cn.common.core.web.controller.BaseController;
 import cn.common.core.web.domain.AjaxResult;
 import cn.common.security.annotation.RequiresPermissions;
 import cn.common.security.utils.SecurityUtils;
 import cn.umps.biz.domain.SysMenu;
-import cn.umps.biz.service.ISysMenuService;
+import cn.umps.biz.service.SysMenuService;
 import com.ruoyi.common.log.annotation.Log;
 import com.ruoyi.common.log.enums.BusinessType;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,9 +22,9 @@ import java.util.List;
  */
 @RestController
 @RequestMapping("/menu")
-public class SysMenuController extends BaseController {
+public class SysMenuController{
     @Autowired
-    private ISysMenuService menuService;
+    private SysMenuService menuService;
 
     /**
      * 获取菜单列表

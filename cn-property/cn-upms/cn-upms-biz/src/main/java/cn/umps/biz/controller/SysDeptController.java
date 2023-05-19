@@ -1,17 +1,15 @@
 package cn.umps.biz.controller;
 
 import cn.common.core.constant.UserConstants;
-import cn.common.core.utils.StringUtils;
-import cn.common.core.web.controller.BaseController;
-import cn.common.core.web.domain.AjaxResult;
+import cn.common.core.utils.R;
 import cn.common.security.annotation.RequiresPermissions;
 import cn.common.security.utils.SecurityUtils;
 import cn.umps.api.domain.SysDept;
-import cn.umps.biz.service.ISysDeptService;
+import cn.umps.biz.service.SysDeptService;
 import com.ruoyi.common.log.annotation.Log;
 import com.ruoyi.common.log.enums.BusinessType;
+import lombok.AllArgsConstructor;
 import org.apache.commons.lang3.ArrayUtils;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
@@ -20,22 +18,22 @@ import java.util.List;
 /**
  * 部门信息
  *
- * @author ruoyi
  */
+@AllArgsConstructor
 @RestController
 @RequestMapping("/dept")
-public class SysDeptController extends BaseController {
-    @Autowired
-    private ISysDeptService deptService;
+public class SysDeptController{
+
+    private final SysDeptService deptService;
 
     /**
      * 获取部门列表
      */
     @RequiresPermissions("system:dept:list")
     @GetMapping("/list")
-    public AjaxResult list(SysDept dept) {
+    public R list(SysDept dept) {
         List<SysDept> depts = deptService.selectDeptList(dept);
-        return success(depts);
+        return R.ok(depts);
     }
 
     /**
