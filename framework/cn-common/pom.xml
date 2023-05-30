@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>cn.framework</groupId>
+        <artifactId>framework</artifactId>
+        <version>2022.8.1</version>
+    </parent>
+
+    <packaging>pom</packaging>
+    <artifactId>cn-common</artifactId>
+    <description>公共模块</description>
+
+
+    <modules>
+        <module>cn-common-bom</module>
+        <module>cn-common-core</module>
+        <module>cn-common-data</module>
+        <module>cn-common-feign</module>
+        <module>cn-common-security</module>
+        <module>cn-common-swagger</module>
+        <module>cn-common-gateway</module>
+        <module>cn-common-job</module>
+        <module>cn-common-log</module>
+        <module>cn-common-seata</module>
+    </modules>
+</project>

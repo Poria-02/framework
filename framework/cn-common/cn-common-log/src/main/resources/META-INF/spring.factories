@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+    cn.shanxincd.plat.common.log.LogAutoConfiguration
+org.springframework.context.ApplicationContextInitializer=\
+    cn.shanxincd.plat.common.log.init.ApplicationLoggerInitializer

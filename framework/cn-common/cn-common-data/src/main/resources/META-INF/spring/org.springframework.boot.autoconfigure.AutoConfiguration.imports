@@ -1,0 +1,12 @@
+cn.shanxincd.plat.common.data.cache.RedisCacheAutoConfiguration
+cn.shanxincd.plat.common.data.cache.RedisCacheManagerConfiguration
+cn.shanxincd.plat.common.data.cache.RedisMessageConfiguration
+cn.shanxincd.plat.common.data.mybatis.MybatisPlusConfiguration
+cn.shanxincd.plat.common.data.resolver.WebMvcConfig
+cn.shanxincd.plat.common.data.conver.ConverAspect
+cn.shanxincd.plat.common.data.conver.DefaultValueAspect
+cn.shanxincd.plat.common.data.conver.DictAspect
+cn.shanxincd.plat.common.data.conver.TagAspect
+cn.shanxincd.plat.common.data.conver.ConvertController
+cn.shanxincd.plat.common.data.mq.config.RedisMqProperties
+cn.shanxincd.plat.common.data.mq.config.RedisMqFactoryConfig

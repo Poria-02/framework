@@ -1,5 +1,0 @@
-WebMvcConfig
-TokenService
-PreAuthorizeAspect
-InnerAuthAspect
-GlobalExceptionHandler

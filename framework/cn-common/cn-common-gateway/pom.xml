@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://maven.apache.org/POM/4.0.0"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>cn.framework</groupId>
+		<artifactId>cn-common</artifactId>
+		<version>2022.8.1</version>
+	</parent>
+
+	<packaging>jar</packaging>
+	<description>网关</description>
+	<artifactId>cn-common-gateway</artifactId>
+
+	<dependencies>
+		<dependency>
+			<groupId>cn.framework</groupId>
+			<artifactId>cn-common-core</artifactId>
+		</dependency>
+		<!--网关 swagger 聚合依赖-->
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-gateway-server</artifactId>
+			<version>4.0.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-redis-reactive</artifactId>
+		</dependency>
+	</dependencies>
+</project>

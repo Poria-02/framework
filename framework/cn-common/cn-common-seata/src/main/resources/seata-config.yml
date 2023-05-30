@@ -1,0 +1,8 @@
+seata:
+  enabled: true
+  tx-service-group: unhm_tx_group # 事务群组（可以每个应用独立取名，也可以使用相同的名字）
+  service:
+    vgroup-mapping:
+      unhm_tx_group: default # TC 集群（必须与seata-server保持一致）
+    grouplist:
+      default: ${SEATA_SERVER:unhm-seata:8091}
