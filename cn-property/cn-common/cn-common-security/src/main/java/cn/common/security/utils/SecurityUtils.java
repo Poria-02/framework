@@ -1,11 +1,11 @@
 package cn.common.security.utils;
 
 
-
 import cn.common.core.constant.SecurityConstants;
 import cn.common.core.constant.TokenConstants;
 import cn.common.core.context.SecurityContextHolder;
 import cn.umps.api.model.LoginUser;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
 import javax.servlet.http.HttpServletRequest;

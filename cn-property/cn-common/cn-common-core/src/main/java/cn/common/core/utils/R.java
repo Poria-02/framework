@@ -1,9 +1,9 @@
 package cn.common.core.utils;
 
+
 import cn.common.core.constant.CommonConstants;
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.*;
 import lombok.experimental.Accessors;
 
@@ -11,26 +11,29 @@ import java.io.Serializable;
 
 /**
  * 响应信息主体
- *
  */
 @Builder
 @ToString
 @NoArgsConstructor
 @AllArgsConstructor
 @Accessors(chain = true)
-@Data
-@ApiModel(value = "响应信息主体")
+@Schema(description = "响应信息主体")
 public class R<T> implements Serializable {
     private static final long serialVersionUID = 1L;
 
-
-    @ApiModelProperty(value = "返回标记：成功标记=200，失败标记=500")
+    @Getter
+    @Setter
+    @Schema(description = "返回标记：成功标记=0，失败标记=1")
     private int code;
 
-    @ApiModelProperty(value = "返回信息")
+    @Getter
+    @Setter
+    @Schema(description = "返回信息")
     private String msg;
 
-    @ApiModelProperty(value = "数据")
+    @Getter
+    @Setter
+    @Schema(description = "数据")
     private T data;
 
     @JsonIgnore
@@ -81,6 +84,4 @@ public class R<T> implements Serializable {
         apiResult.setMsg(msg);
         return apiResult;
     }
-
-
 }

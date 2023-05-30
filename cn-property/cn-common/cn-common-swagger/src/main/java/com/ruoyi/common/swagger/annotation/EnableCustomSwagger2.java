@@ -6,6 +6,9 @@ import java.lang.annotation.Inherited;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
+
+import com.ruoyi.common.swagger.support.SwaggerProperties;
+import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Import;
 import com.ruoyi.common.swagger.config.SwaggerAutoConfiguration;
 
@@ -14,6 +17,7 @@ import com.ruoyi.common.swagger.config.SwaggerAutoConfiguration;
 @Documented
 @Inherited
 @Import({ SwaggerAutoConfiguration.class })
+@EnableConfigurationProperties(SwaggerProperties.class)
 public @interface EnableCustomSwagger2
 {
 

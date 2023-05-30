@@ -10,7 +10,6 @@
     </parent>
 
     <modules>
-        <module>cn-common-bom</module>
         <module>cn-common-log</module>
         <module>cn-common-core</module>
         <module>cn-common-redis</module>

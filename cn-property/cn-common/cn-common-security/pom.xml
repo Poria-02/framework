@@ -12,9 +12,7 @@
     <artifactId>cn-common-security</artifactId>
     <packaging>jar</packaging>
 
-    <description>
-        ruoyi-common-security安全模块
-    </description>
+    <description>cn-common-security安全模块</description>
 
     <dependencies>
 

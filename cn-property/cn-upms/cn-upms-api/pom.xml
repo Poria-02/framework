@@ -25,6 +25,18 @@
             <artifactId>cn-common-core</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-extension</artifactId>
+        </dependency>
+
+        <!--feign 注解依赖-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-openfeign-core</artifactId>
+            <version>4.0.0</version>
+            <optional>true</optional>
+        </dependency>
     </dependencies>
 
 </project>

@@ -12,7 +12,14 @@ import java.lang.annotation.*;
 @Documented
 public @interface Inner {
     /**
-     * 是否校验用户信息
+     * 是否AOP统一处理
+     * @return false, true
      */
-    boolean isUser() default true;
+    boolean value() default true;
+
+    /**
+     * 需要特殊判空的字段(预留)
+     * @return {}
+     */
+    String[] field() default {};
 }

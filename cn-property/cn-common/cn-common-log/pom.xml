@@ -13,13 +13,11 @@
     <artifactId>cn-common-log</artifactId>
     <packaging>jar</packaging>
 
-    <description>
-        ruoyi-common-log日志记录
-    </description>
+    <description>cn-common-log日志记录</description>
 
     <dependencies>
 		
-        <!-- RuoYi Common Security -->
+        <!--Common Security -->
         <dependency>
             <groupId>cn.framework</groupId>
             <artifactId>cn-common-security</artifactId>

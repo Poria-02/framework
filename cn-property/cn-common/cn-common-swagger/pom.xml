@@ -13,23 +13,14 @@
     <artifactId>cn-common-swagger</artifactId>
     <packaging>jar</packaging>
 	
-    <description>
-        ruoyi-common-swagger系统接口
-    </description>
+    <description>cn-common-swagger系统接口</description>
 
 	<dependencies>
-
-        <!-- SpringBoot Web -->
+        <!--接口文档-->
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-
-        <!-- Swagger -->
-        <dependency>
-            <groupId>io.springfox</groupId>
-            <artifactId>springfox-swagger2</artifactId>
-            <version>${swagger.fox.version}</version>
+            <groupId>org.springdoc</groupId>
+            <artifactId>springdoc-openapi-starter-webmvc-api</artifactId>
+            <version>2.0.0</version>
         </dependency>
 
 	</dependencies>

@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Maven: com.github.jsqlparser:jsqlparser:4.5">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../Maven/repository/com/github/jsqlparser/jsqlparser/4.5/jsqlparser-4.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../soft/maven/repository/com/github/jsqlparser/jsqlparser/4.5/jsqlparser-4.5.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$PROJECT_DIR$/../Maven/repository/com/github/jsqlparser/jsqlparser/4.5/jsqlparser-4.5-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../soft/maven/repository/com/github/jsqlparser/jsqlparser/4.5/jsqlparser-4.5-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$PROJECT_DIR$/../Maven/repository/com/github/jsqlparser/jsqlparser/4.5/jsqlparser-4.5-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../soft/maven/repository/com/github/jsqlparser/jsqlparser/4.5/jsqlparser-4.5-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

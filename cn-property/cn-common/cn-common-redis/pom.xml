@@ -13,9 +13,7 @@
     <artifactId>cn-common-redis</artifactId>
     <packaging>jar</packaging>
 
-    <description>
-        ruoyi-common-redis缓存服务
-    </description>
+    <description>cn-common-redis缓存服务</description>
 
     <dependencies>
 		

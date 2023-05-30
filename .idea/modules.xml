@@ -19,6 +19,9 @@
       <module fileurl="file://$PROJECT_DIR$/cn-property/cn-modules/cn-modules-file/cn-modules-file.iml" filepath="$PROJECT_DIR$/cn-property/cn-modules/cn-modules-file/cn-modules-file.iml" />
       <module fileurl="file://$PROJECT_DIR$/cn-property/cn-modules/cn-modules-job/cn-modules-job.iml" filepath="$PROJECT_DIR$/cn-property/cn-modules/cn-modules-job/cn-modules-job.iml" />
       <module fileurl="file://$PROJECT_DIR$/cn-property/cn-modules/cn-modules-system/cn-modules-system.iml" filepath="$PROJECT_DIR$/cn-property/cn-modules/cn-modules-system/cn-modules-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cn-property/cn-upms/cn-upms.iml" filepath="$PROJECT_DIR$/cn-property/cn-upms/cn-upms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cn-property/cn-upms/cn-upms-api/cn-upms-api.iml" filepath="$PROJECT_DIR$/cn-property/cn-upms/cn-upms-api/cn-upms-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cn-property/cn-upms/cn-upms-biz/cn-upms-biz.iml" filepath="$PROJECT_DIR$/cn-property/cn-upms/cn-upms-biz/cn-upms-biz.iml" />
       <module fileurl="file://$PROJECT_DIR$/cn-property/cn-visual/cn-visual.iml" filepath="$PROJECT_DIR$/cn-property/cn-visual/cn-visual.iml" />
       <module fileurl="file://$PROJECT_DIR$/cn-property/cn-visual/cn-visual-monitor/cn-visual-monitor.iml" filepath="$PROJECT_DIR$/cn-property/cn-visual/cn-visual-monitor/cn-visual-monitor.iml" />
       <module fileurl="file://$PROJECT_DIR$/cn-property/framework.iml" filepath="$PROJECT_DIR$/cn-property/framework.iml" />

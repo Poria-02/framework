@@ -25,6 +25,9 @@ import java.util.Map;
  * Feign 自动配置功能 From mica
  */
 public class CnFeignClientsRegistrar implements ImportBeanDefinitionRegistrar, BeanClassLoaderAware, EnvironmentAware {
+
+    private final static String BASE_URL = "http://127.0.0.1:${server.port}${server.servlet.context-path}";
+
     @Getter
     private Environment environment;
 

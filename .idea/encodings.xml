@@ -63,5 +63,6 @@
     <file url="file://$PROJECT_DIR$/cn-property/cn-visual/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cn-property/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cn-property/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../soft/maven/repository/org/springframework/boot/spring-boot-starter-parent/3.0.2/src/main/resources" charset="UTF-8" />
   </component>
 </project>
