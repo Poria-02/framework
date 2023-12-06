@@ -1,5 +1,0 @@
-cn.shanxincd.plat.common.security.service.PlatRedisOAuth2AuthorizationService
-cn.shanxincd.plat.common.security.service.PlatRedisOAuth2AuthorizationConsentService
-cn.shanxincd.plat.common.security.component.PlatSecurityInnerAspect
-cn.shanxincd.plat.common.security.component.PlatSecurityMessageSourceConfiguration
-cn.shanxincd.plat.common.security.service.PlatRemoteRegisteredClientRepository

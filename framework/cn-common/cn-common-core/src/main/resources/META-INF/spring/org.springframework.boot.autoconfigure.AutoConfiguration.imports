@@ -1,8 +1,0 @@
-cn.shanxincd.plat.common.core.config.TaskExecutorConfiguration
-cn.shanxincd.plat.common.core.config.JacksonConfiguration
-cn.shanxincd.plat.common.core.config.RedisTemplateConfiguration
-cn.shanxincd.plat.common.core.config.RestTemplateConfiguration
-cn.shanxincd.plat.common.core.util.SpringContextHolder
-cn.shanxincd.plat.common.core.config.WebMvcConfiguration
-cn.shanxincd.plat.common.core.requestlock.RequestLockAspect
-cn.shanxincd.plat.common.core.config.RedissonConfig

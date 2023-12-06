@@ -1,7 +1,0 @@
-#配置 feignclient 的全类名路径， 避免包名不规范无法扫描问题
-cn.shanxincd.ih.common.feign.IhFeignAutoConfiguration=\
-  cn.upms.biz.api.feign.RemoteDataScopeService,\
-  cn.upms.biz.api.feign.RemoteLogService,\
-  cn.shanxincd.ih.admin.api.feign.RemoteTenantService,\
-  cn.upms.biz.api.feign.RemoteTokenService,\
-  cn.upms.biz.api.feign.RemoteUserService
